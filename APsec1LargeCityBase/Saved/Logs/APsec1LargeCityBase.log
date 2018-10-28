@@ -1,4 +1,4 @@
-﻿Log file open, 10/28/18 11:40:26
+﻿Log file open, 10/28/18 11:41:59
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: APsec1LargeCityBase
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.289196
+LogStats: Stats thread started at 0.287539
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.118s to configure plugins.
+LogStreaming: Display: Took  0.109s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -150,587 +150,768 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.005s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.10.28-17.40.26:621][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.28-17.40.26:621][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.10.28-17.40.26:635][  0]LogHAL: Display: Platform has ~ 16 GB [17061810176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.10.28-17.40.26:635][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.10.28-17.40.26:635][  0]LogInit: Going up to parent DeviceProfile []
-[2018.10.28-17.40.26:636][  0]LogInit: Computer: MSI
-[2018.10.28-17.40.26:636][  0]LogInit: User: Shak
-[2018.10.28-17.40.26:636][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.10.28-17.40.26:636][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2018.10.28-17.40.26:636][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.10.28-17.40.26:636][  0]LogMemory: Platform Memory Stats for Windows
-[2018.10.28-17.40.26:636][  0]LogMemory: Process Physical Memory: 100.41 MB used, 100.41 MB peak
-[2018.10.28-17.40.26:636][  0]LogMemory: Process Virtual Memory: 90.86 MB used, 90.86 MB peak
-[2018.10.28-17.40.26:636][  0]LogMemory: Physical Memory: 10139.66 MB used,  6131.75 MB free, 16271.41 MB total
-[2018.10.28-17.40.26:636][  0]LogMemory: Virtual Memory: 4642.32 MB used,  6131.75 MB free, 134217728.00 MB total
-[2018.10.28-17.40.27:569][  0]LogInit: Using OS detected language (en-US).
-[2018.10.28-17.40.27:569][  0]LogInit: Using OS detected locale (en-US).
-[2018.10.28-17.40.27:570][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.10.28-17.40.27:991][  0]LogStreaming: Display: Took  0.421s to InitEngineTextLocalization.
-[2018.10.28-17.40.27:991][  0]LogInit: Setting process to per monitor DPI aware
-[2018.10.28-17.40.28:026][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.10.28-17.40.28:026][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.10.28-17.40.28:344][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.28-17.40.28:344][  0]LogD3D11RHI: D3D11 adapters:
-[2018.10.28-17.40.28:429][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
-[2018.10.28-17.40.28:429][  0]LogD3D11RHI:       6052/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.10.28-17.40.28:442][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.10.28-17.40.28:442][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.10.28-17.40.28:444][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.10.28-17.40.28:444][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.10.28-17.40.28:444][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.10.28-17.40.28:489][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.10.28-17.40.28:489][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
-[2018.10.28-17.40.28:489][  0]LogWindows: EnumDisplayDevices:
-[2018.10.28-17.40.28:489][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2018.10.28-17.40.28:490][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.10.28-17.40.28:490][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.10.28-17.40.28:490][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2018.10.28-17.40.28:491][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2018.10.28-17.40.28:491][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2018.10.28-17.40.28:491][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2018.10.28-17.40.28:491][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.10.28-17.40.28:491][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
-[2018.10.28-17.40.28:491][  0]LogD3D11RHI:   Driver Version: 416.34 (internal:25.21.14.1634, unified:416.34)
-[2018.10.28-17.40.28:491][  0]LogD3D11RHI:      Driver Date: 10-10-2018
-[2018.10.28-17.40.28:491][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2018.10.28-17.40.28:538][  0]LogD3D11RHI: Async texture creation enabled
-[2018.10.28-17.40.28:573][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.10.28-17.40.28:575][  0]LogShaderCompilers: Guid format shader working directory is -54 characters bigger than the processId version (../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Intermediate/Shaders/WorkingDirectory/2396/).
-[2018.10.28-17.40.28:575][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shak/AppData/Local/Temp/UnrealShaderWorkingDir/27A18A6F4D30C3D066518FAC7A767B03/'.
-[2018.10.28-17.40.28:879][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.10.28-17.40.28:892][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.10.28-17.40.28:906][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.10.28-17.40.28:920][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.10.28-17.40.28:935][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.10.28-17.40.28:950][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.10.28-17.40.28:963][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.10.28-17.40.28:977][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.10.28-17.40.28:984][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.10.28-17.40.29:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.28-17.40.29:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.28-17.40.29:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.28-17.40.29:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.28-17.40.29:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.28-17.40.29:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.28-17.40.29:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.28-17.40.29:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.28-17.40.29:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.28-17.40.29:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.28-17.40.29:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.28-17.40.29:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.28-17.40.29:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.28-17.40.29:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.28-17.40.29:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.28-17.40.29:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.28-17.40.29:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.28-17.40.29:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.28-17.40.29:068][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.10.28-17.40.29:130][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.28-17.40.29:130][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.28-17.40.29:159][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.28-17.40.29:159][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.28-17.40.29:172][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.10.28-17.40.29:184][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.10.28-17.40.29:196][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.10.28-17.40.29:211][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.10.28-17.40.29:219][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.10.28-17.40.29:219][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.10.28-17.40.29:288][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.10.28-17.40.29:288][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.10.28-17.40.29:288][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.10.28-17.40.30:102][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.10.28-17.40.30:159][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Shak/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.28-17.40.30:160][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Shak/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.10.28-17.40.30:160][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.10.28-17.40.30:160][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.10.28-17.40.30:160][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.10.28-17.40.30:160][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.10.28-17.40.30:172][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.10.28-17.40.30:184][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shak/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.10.28-17.40.30:184][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.10.28-17.40.30:184][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.10.28-17.40.30:201][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.10.28-17.40.30:202][  0]LogSlate: Using FreeType 2.6.0
-[2018.10.28-17.40.30:203][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.28-17.40.30:278][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
-[2018.10.28-17.40.30:619][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.28-17.40.30:782][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.10.28-17.40.30:786][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.10.28-17.40.30:786][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.10.28-17.40.30:786][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.10.28-17.40.30:786][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.10.28-17.40.30:804][  0]LogNetVersion: APsec1LargeCityBase 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1121110827)
-[2018.10.28-17.40.31:375][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.115478 seconds
-[2018.10.28-17.40.31:382][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.10.28-17.40.31:382][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.10.28-17.40.31:382][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.10.28-17.40.32:331][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.10.28-17.40.32:345][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.10.28-17.40.32:488][  0]SourceControl: Source control is disabled
-[2018.10.28-17.40.32:488][  0]SourceControl: Source control is disabled
-[2018.10.28-17.40.32:489][  0]SourceControl: Source control is disabled
-[2018.10.28-17.40.32:490][  0]SourceControl: Source control is disabled
-[2018.10.28-17.40.32:664][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.10.28-17.40.32:839][  0]LogOcInput: OculusInput pre-init called
-[2018.10.28-17.40.32:908][  0]LogEngine: Initializing Engine...
-[2018.10.28-17.40.32:910][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.28-17.40.32:911][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.28-17.40.32:911][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.28-17.40.32:911][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.28-17.40.32:911][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.28-17.40.33:145][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.10.28-17.40.33:158][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.10.28-17.40.33:212][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.10.28-17.40.33:307][  0]LogInit: FAudioDevice initialized.
-[2018.10.28-17.40.33:307][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.10.28-17.40.33:380][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/Shak/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.28-17.40.33:386][  0]LogInit: Texture streaming: Enabled
-[2018.10.28-17.40.33:403][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.10.28-17.40.33:418][  0]LogInit: Transaction tracking system initialized
-[2018.10.28-17.40.33:444][  0]BlueprintLog: New page: Editor Load
-[2018.10.28-17.40.33:545][  0]LocalizationService: Localization service is disabled
-[2018.10.28-17.40.33:888][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.10.28-17.40.33:888][  0]LogCook: Display: Mobile HDR setting 1
-[2018.10.28-17.40.33:888][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.10.28-17.40.33:888][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.28-17.40.33:888][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.28-17.40.33:888][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.28-17.40.33:888][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.28-17.40.34:043][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/' took 0.01s
-[2018.10.28-17.40.34:043][  0]SourceControl: Source control is disabled
-[2018.10.28-17.40.34:044][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.28-17.40.34:044][  0]LightingResults: New page: Lighting Build
-[2018.10.28-17.40.34:046][  0]MapCheck: New page: Map Check
-[2018.10.28-17.40.34:046][  0]LightingResults: New page: Lighting Build
-[2018.10.28-17.40.34:244][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.10.28-17.40.34:251][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.28-17.40.34:273][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.28-17.40.34:345][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71.331ms to complete.
-[2018.10.28-17.40.34:345][  0]LogFileHelpers: Loading map 'Template_Default' took 0.302
-[2018.10.28-17.40.34:443][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.28-17.40.34:450][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.28-17.40.34:458][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.28-17.40.34:466][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.28-17.40.34:472][  0]LogCollectionManager: Loaded 0 collections in 0.001709 seconds
-[2018.10.28-17.40.34:513][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Collections/' took 0.01s
-[2018.10.28-17.40.34:513][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Developers/Shak/Collections/' took 0.01s
-[2018.10.28-17.40.34:513][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Collections/' took 0.01s
-[2018.10.28-17.40.34:513][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.10.28-17.40.34:522][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2572 classes and 603 folders.
-[2018.10.28-17.40.34:528][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.10.28-17.40.34:571][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.10.28-17.40.34:579][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.10.28-17.40.34:640][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.10.28-17.40.34:642][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.10.28-17.40.34:649][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.10.28-17.40.34:737][  0]LogRenderer: Reallocating scene render targets to support 1300x568 Format 10 NumSamples 1 (Frame:1).
-[2018.10.28-17.40.34:893][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.10.28-17.40.34:893][  0]LogLoad: (Engine Initialization) Total time: 10.01 seconds
-[2018.10.28-17.40.34:893][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.10.28-17.40.34:937][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2018.10.28-17.40.34:978][  1]LogAssetRegistry: Asset discovery search completed in 4.7227 seconds
-[2018.10.28-17.40.34:980][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.10.28-17.40.34:980][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
-[2018.10.28-17.40.36:500][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.28-17.40.37:384][108]LogLinker: Warning: Can't find file '/Game/Woodblock/lambert1'
-[2018.10.28-17.40.37:384][108]LogLinker: Warning: Can't find file '/Game/Woodblock/lambert1'
-[2018.10.28-17.40.37:384][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/lambert1.lambert1'
-[2018.10.28-17.40.37:384][108]LogLinker: Warning: Can't find file '/Game/Woodblock/M_Black'
-[2018.10.28-17.40.37:384][108]LogLinker: Warning: Can't find file '/Game/Woodblock/M_Black'
-[2018.10.28-17.40.37:384][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/M_Black.M_Black'
-[2018.10.28-17.40.37:384][108]LogLinker: Warning: Can't find file '/Game/Woodblock/M_MasterWoodBlock_PGA'
-[2018.10.28-17.40.37:385][108]LogLinker: Warning: Can't find file '/Game/Woodblock/M_MasterWoodBlock_PGA'
-[2018.10.28-17.40.37:385][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/M_MasterWoodBlock_PGA.M_MasterWoodBlock_PGA'
-[2018.10.28-17.40.37:385][108]LogLinker: Warning: Can't find file '/Game/Woodblock/M_WoodBlock_Instance_1'
-[2018.10.28-17.40.37:385][108]LogLinker: Warning: Can't find file '/Game/Woodblock/M_WoodBlock_Instance_1'
-[2018.10.28-17.40.37:385][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/M_WoodBlock_Instance_1.M_WoodBlock_Instance_1'
-[2018.10.28-17.40.37:385][108]LogLinker: Warning: Can't find file '/Game/Woodblock/M_WoodBlock_Instance_2'
-[2018.10.28-17.40.37:385][108]LogLinker: Warning: Can't find file '/Game/Woodblock/M_WoodBlock_Instance_2'
-[2018.10.28-17.40.37:385][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/M_WoodBlock_Instance_2.M_WoodBlock_Instance_2'
-[2018.10.28-17.40.37:385][108]LogLinker: Warning: Can't find file '/Game/Woodblock/M_WoodBlock_Instance_3'
-[2018.10.28-17.40.37:385][108]LogLinker: Warning: Can't find file '/Game/Woodblock/M_WoodBlock_Instance_3'
-[2018.10.28-17.40.37:386][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/M_WoodBlock_Instance_3.M_WoodBlock_Instance_3'
-[2018.10.28-17.40.37:386][108]LogLinker: Warning: Can't find file '/Game/Woodblock/M_WoodBlock_Instance_4'
-[2018.10.28-17.40.37:386][108]LogLinker: Warning: Can't find file '/Game/Woodblock/M_WoodBlock_Instance_4'
-[2018.10.28-17.40.37:386][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/M_WoodBlock_Instance_4.M_WoodBlock_Instance_4'
-[2018.10.28-17.40.37:386][108]LogLinker: Warning: Can't find file '/Game/Woodblock/Shak_WoodBlock_1'
-[2018.10.28-17.40.37:386][108]LogLinker: Warning: Can't find file '/Game/Woodblock/Shak_WoodBlock_1'
-[2018.10.28-17.40.37:386][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/Shak_WoodBlock_1.Shak_WoodBlock_1'
-[2018.10.28-17.40.37:386][108]LogLinker: Warning: Can't find file '/Game/Woodblock/Shak_WoodBlock_3'
-[2018.10.28-17.40.37:386][108]LogLinker: Warning: Can't find file '/Game/Woodblock/Shak_WoodBlock_3'
-[2018.10.28-17.40.37:386][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/Shak_WoodBlock_3.Shak_WoodBlock_3'
-[2018.10.28-17.40.37:387][108]LogLinker: Warning: Can't find file '/Game/Woodblock/Shak_WoodBlock_2_REDONE'
-[2018.10.28-17.40.37:387][108]LogLinker: Warning: Can't find file '/Game/Woodblock/Shak_WoodBlock_2_REDONE'
-[2018.10.28-17.40.37:387][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/Shak_WoodBlock_2_REDONE.Shak_WoodBlock_2_REDONE'
-[2018.10.28-17.40.37:387][108]LogLinker: Warning: Can't find file '/Game/Woodblock/Shakti_Das_-_Car_UV_pCube7'
-[2018.10.28-17.40.37:387][108]LogLinker: Warning: Can't find file '/Game/Woodblock/Shakti_Das_-_Car_UV_pCube7'
-[2018.10.28-17.40.37:387][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/Shakti_Das_-_Car_UV_pCube7.Shakti_Das_-_Car_UV_pCube7'
-[2018.10.28-17.40.37:387][108]LogLinker: Warning: Can't find file '/Game/Woodblock/Shakti_Das_-_Car_UV_pCylinder2'
-[2018.10.28-17.40.37:387][108]LogLinker: Warning: Can't find file '/Game/Woodblock/Shakti_Das_-_Car_UV_pCylinder2'
-[2018.10.28-17.40.37:387][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/Shakti_Das_-_Car_UV_pCylinder2.Shakti_Das_-_Car_UV_pCylinder2'
-[2018.10.28-17.40.37:387][108]LogLinker: Warning: Can't find file '/Game/Woodblock/Shakti_Das_-_Car_UV_pCylinder7'
-[2018.10.28-17.40.37:388][108]LogLinker: Warning: Can't find file '/Game/Woodblock/Shakti_Das_-_Car_UV_pCylinder7'
-[2018.10.28-17.40.37:388][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/Shakti_Das_-_Car_UV_pCylinder7.Shakti_Das_-_Car_UV_pCylinder7'
-[2018.10.28-17.40.37:388][108]LogLinker: Warning: Can't find file '/Game/Woodblock/Shakti_Das_-_Car_UV_pCylinder8'
-[2018.10.28-17.40.37:388][108]LogLinker: Warning: Can't find file '/Game/Woodblock/Shakti_Das_-_Car_UV_pCylinder8'
-[2018.10.28-17.40.37:388][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/Shakti_Das_-_Car_UV_pCylinder8.Shakti_Das_-_Car_UV_pCylinder8'
-[2018.10.28-17.40.37:388][108]LogLinker: Warning: Can't find file '/Game/Woodblock/Shakti_Das_-_Car_UV_pCylinder9'
-[2018.10.28-17.40.37:388][108]LogLinker: Warning: Can't find file '/Game/Woodblock/Shakti_Das_-_Car_UV_pCylinder9'
-[2018.10.28-17.40.37:388][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/Shakti_Das_-_Car_UV_pCylinder9.Shakti_Das_-_Car_UV_pCylinder9'
-[2018.10.28-17.40.37:388][108]LogLinker: Warning: Can't find file '/Game/Woodblock/SpecificWoodTexture'
-[2018.10.28-17.40.37:389][108]LogLinker: Warning: Can't find file '/Game/Woodblock/SpecificWoodTexture'
-[2018.10.28-17.40.37:389][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/SpecificWoodTexture.SpecificWoodTexture'
-[2018.10.28-17.40.37:389][108]LogLinker: Warning: Can't find file '/Game/Woodblock/SpecificWoodTextureNormal'
-[2018.10.28-17.40.37:389][108]LogLinker: Warning: Can't find file '/Game/Woodblock/SpecificWoodTextureNormal'
-[2018.10.28-17.40.37:389][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/SpecificWoodTextureNormal.SpecificWoodTextureNormal'
-[2018.10.28-17.40.37:389][108]LogLinker: Warning: Can't find file '/Game/Woodblock/Woodblock_3_TextureMapPaint'
-[2018.10.28-17.40.37:389][108]LogLinker: Warning: Can't find file '/Game/Woodblock/Woodblock_3_TextureMapPaint'
-[2018.10.28-17.40.37:389][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/Woodblock_3_TextureMapPaint.Woodblock_3_TextureMapPaint'
-[2018.10.28-17.40.37:389][108]LogLinker: Warning: Can't find file '/Game/Woodblock/WoodTexture001'
-[2018.10.28-17.40.37:389][108]LogLinker: Warning: Can't find file '/Game/Woodblock/WoodTexture001'
-[2018.10.28-17.40.37:389][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/WoodTexture001.WoodTexture001'
-[2018.10.28-17.40.37:390][108]LogLinker: Warning: Can't find file '/Game/Woodblock/WoodTexture001_N'
-[2018.10.28-17.40.37:390][108]LogLinker: Warning: Can't find file '/Game/Woodblock/WoodTexture001_N'
-[2018.10.28-17.40.37:390][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/WoodTexture001_N.WoodTexture001_N'
-[2018.10.28-17.40.37:390][108]LogLinker: Warning: Can't find file '/Game/Woodblock/M_Woodblock'
-[2018.10.28-17.40.37:390][108]LogLinker: Warning: Can't find file '/Game/Woodblock/M_Woodblock'
-[2018.10.28-17.40.37:390][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/M_Woodblock.M_Woodblock'
-[2018.10.28-17.40.37:390][108]LogLinker: Warning: Can't find file '/Game/Woodblock/M_WoodBlock_PGA_Inst'
-[2018.10.28-17.40.37:390][108]LogLinker: Warning: Can't find file '/Game/Woodblock/M_WoodBlock_PGA_Inst'
-[2018.10.28-17.40.37:390][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/M_WoodBlock_PGA_Inst.M_WoodBlock_PGA_Inst'
-[2018.10.28-17.40.37:391][108]LogLinker: Warning: Can't find file '/Game/Woodblock/pasted__pCube4Mat'
-[2018.10.28-17.40.37:391][108]LogLinker: Warning: Can't find file '/Game/Woodblock/pasted__pCube4Mat'
-[2018.10.28-17.40.37:391][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/pasted__pCube4Mat.pasted__pCube4Mat'
-[2018.10.28-17.40.37:391][108]LogLinker: Warning: Can't find file '/Game/Woodblock/pCube3Mat'
-[2018.10.28-17.40.37:391][108]LogLinker: Warning: Can't find file '/Game/Woodblock/pCube3Mat'
-[2018.10.28-17.40.37:391][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/pCube3Mat.pCube3Mat'
-[2018.10.28-17.40.37:391][108]LogLinker: Warning: Can't find file '/Game/Woodblock/pCube5Mat'
-[2018.10.28-17.40.37:391][108]LogLinker: Warning: Can't find file '/Game/Woodblock/pCube5Mat'
-[2018.10.28-17.40.37:391][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/pCube5Mat.pCube5Mat'
-[2018.10.28-17.40.37:392][108]LogLinker: Warning: Can't find file '/Game/Woodblock/WoodRoad'
-[2018.10.28-17.40.37:392][108]LogLinker: Warning: Can't find file '/Game/Woodblock/WoodRoad'
-[2018.10.28-17.40.37:392][108]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Woodblock/WoodRoad.WoodRoad'
-[2018.10.28-17.41.00:886][517]LogUProjectInfo: Found projects:
-[2018.10.28-17.41.02:281][600]Cmd: CLOSE_SLATE_MAINFRAME
-[2018.10.28-17.41.02:376][600]LogSlate: Window 'Open Project' being destroyed
-[2018.10.28-17.41.02:383][600]LogSlate: Window 'APsec1LargeCityBase - Unreal Editor' being destroyed
-[2018.10.28-17.41.02:622][601]Cmd: QUIT_EDITOR
-[2018.10.28-17.41.02:643][601]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.10.28-17.41.02:663][601]LogExit: Preparing to exit.
-[2018.10.28-17.41.03:443][601]LogExit: Editor shut down
-[2018.10.28-17.41.03:443][601]LogExit: Transaction tracking system shut down
-[2018.10.28-17.41.03:824][601]LogExit: Object subsystem successfully closed.
-[2018.10.28-17.41.03:848][601]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.10.28-17.41.03:851][601]LogD3D11RHI: Shutdown
-[2018.10.28-17.41.03:851][601]LogD3D11RHI: CleanupD3DDevice
-[2018.10.28-17.41.03:852][601]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.10.28-17.41.03:880][601]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
-[2018.10.28-17.41.03:880][601]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
-[2018.10.28-17.41.03:880][601]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
-[2018.10.28-17.41.03:880][601]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
-[2018.10.28-17.41.03:880][601]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
-[2018.10.28-17.41.03:880][601]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (600)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module BspMode (582)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module SessionServices (532)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
-[2018.10.28-17.41.03:881][601]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
-[2018.10.28-17.41.03:882][601]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
-[2018.10.28-17.41.03:882][601]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
-[2018.10.28-17.41.03:882][601]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
-[2018.10.28-17.41.03:882][601]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
-[2018.10.28-17.41.03:882][601]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
-[2018.10.28-17.41.03:882][601]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
-[2018.10.28-17.41.03:882][601]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
-[2018.10.28-17.41.03:882][601]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
-[2018.10.28-17.41.03:882][601]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
-[2018.10.28-17.41.04:610][601]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
-[2018.10.28-17.41.04:610][601]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
-[2018.10.28-17.41.04:610][601]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
-[2018.10.28-17.41.04:610][601]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
-[2018.10.28-17.41.04:610][601]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
-[2018.10.28-17.41.04:610][601]LogModuleManager: Shutting down and abandoning module MergeActors (496)
-[2018.10.28-17.41.04:610][601]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
-[2018.10.28-17.41.04:610][601]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
-[2018.10.28-17.41.04:610][601]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
-[2018.10.28-17.41.04:610][601]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
-[2018.10.28-17.41.04:610][601]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
-[2018.10.28-17.41.04:610][601]LogModuleManager: Shutting down and abandoning module XmlParser (484)
-[2018.10.28-17.41.04:610][601]LogModuleManager: Shutting down and abandoning module Blutility (482)
-[2018.10.28-17.41.04:610][601]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
-[2018.10.28-17.41.04:611][601]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
-[2018.10.28-17.41.04:611][601]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
-[2018.10.28-17.41.04:611][601]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
-[2018.10.28-17.41.04:611][601]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
-[2018.10.28-17.41.04:611][601]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
-[2018.10.28-17.41.04:611][601]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
-[2018.10.28-17.41.04:611][601]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
-[2018.10.28-17.41.04:611][601]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
-[2018.10.28-17.41.04:665][601]LogModuleManager: Shutting down and abandoning module AutomationController (462)
-[2018.10.28-17.41.04:665][601]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
-[2018.10.28-17.41.04:665][601]LogModuleManager: Shutting down and abandoning module Layers (458)
-[2018.10.28-17.41.04:665][601]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
-[2018.10.28-17.41.04:665][601]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
-[2018.10.28-17.41.04:665][601]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
-[2018.10.28-17.41.04:665][601]LogModuleManager: Shutting down and abandoning module Persona (450)
-[2018.10.28-17.41.04:665][601]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
-[2018.10.28-17.41.04:665][601]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
-[2018.10.28-17.41.04:665][601]LogModuleManager: Shutting down and abandoning module Kismet (444)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module Toolbox (438)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module OutputLog (432)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module GammaUI (430)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module Documentation (428)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module MovieScene (424)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2018.10.28-17.41.04:666][601]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2018.10.28-17.41.04:667][601]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
-[2018.10.28-17.41.04:667][601]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
-[2018.10.28-17.41.04:905][601]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
-[2018.10.28-17.41.04:905][601]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
-[2018.10.28-17.41.04:905][601]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
-[2018.10.28-17.41.04:905][601]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
-[2018.10.28-17.41.04:905][601]LogModuleManager: Shutting down and abandoning module OculusInput (390)
-[2018.10.28-17.41.04:905][601]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
-[2018.10.28-17.41.04:905][601]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
-[2018.10.28-17.41.04:905][601]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
-[2018.10.28-17.41.04:905][601]LogModuleManager: Shutting down and abandoning module CableComponent (382)
-[2018.10.28-17.41.04:905][601]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
-[2018.10.28-17.41.04:905][601]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
-[2018.10.28-17.41.04:905][601]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
-[2018.10.28-17.41.04:905][601]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
-[2018.10.28-17.41.04:905][601]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
-[2018.10.28-17.41.04:906][601]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
-[2018.10.28-17.41.04:906][601]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
-[2018.10.28-17.41.04:906][601]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
-[2018.10.28-17.41.04:906][601]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
-[2018.10.28-17.41.04:910][601]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
-[2018.10.28-17.41.04:910][601]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
-[2018.10.28-17.41.04:910][601]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
-[2018.10.28-17.41.04:910][601]LogModuleManager: Shutting down and abandoning module BackChannel (356)
-[2018.10.28-17.41.04:910][601]LogModuleManager: Shutting down and abandoning module AppleVision (354)
-[2018.10.28-17.41.04:910][601]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
-[2018.10.28-17.41.04:910][601]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
-[2018.10.28-17.41.04:910][601]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
-[2018.10.28-17.41.04:911][601]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
-[2018.10.28-17.41.04:911][601]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
-[2018.10.28-17.41.04:911][601]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
-[2018.10.28-17.41.04:911][601]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
-[2018.10.28-17.41.04:911][601]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
-[2018.10.28-17.41.04:911][601]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
-[2018.10.28-17.41.04:911][601]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
-[2018.10.28-17.41.04:911][601]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
-[2018.10.28-17.41.04:911][601]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
-[2018.10.28-17.41.04:911][601]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
-[2018.10.28-17.41.04:911][601]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
-[2018.10.28-17.41.04:911][601]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module SourceControl (313)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2018.10.28-17.41.04:912][601]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2018.10.28-17.41.05:013][601]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2018.10.28-17.41.05:114][601]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2018.10.28-17.41.05:114][601]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2018.10.28-17.41.05:114][601]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2018.10.28-17.41.05:114][601]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2018.10.28-17.41.05:114][601]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2018.10.28-17.41.05:114][601]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2018.10.28-17.41.05:114][601]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2018.10.28-17.41.05:114][601]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2018.10.28-17.41.05:114][601]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2018.10.28-17.41.05:114][601]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2018.10.28-17.41.05:115][601]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2018.10.28-17.41.05:115][601]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2018.10.28-17.41.05:116][601]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2018.10.28-17.41.05:116][601]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2018.10.28-17.41.05:116][601]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2018.10.28-17.41.05:116][601]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2018.10.28-17.41.05:116][601]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2018.10.28-17.41.05:116][601]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2018.10.28-17.41.05:117][601]LogModuleManager: Shutting down and abandoning module Media (243)
-[2018.10.28-17.41.05:123][601]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2018.10.28-17.41.05:123][601]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2018.10.28-17.41.05:123][601]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2018.10.28-17.41.05:123][601]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2018.10.28-17.41.05:123][601]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2018.10.28-17.41.05:123][601]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2018.10.28-17.41.05:123][601]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2018.10.28-17.41.05:123][601]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2018.10.28-17.41.05:123][601]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2018.10.28-17.41.05:123][601]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2018.10.28-17.41.05:123][601]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2018.10.28-17.41.05:123][601]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2018.10.28-17.41.05:123][601]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2018.10.28-17.41.05:123][601]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2018.10.28-17.41.05:123][601]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2018.10.28-17.41.05:124][601]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2018.10.28-17.41.05:124][601]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2018.10.28-17.41.05:124][601]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2018.10.28-17.41.05:124][601]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2018.10.28-17.41.05:124][601]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2018.10.28-17.41.05:125][601]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2018.10.28-17.41.05:125][601]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2018.10.28-17.41.05:125][601]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2018.10.28-17.41.05:125][601]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2018.10.28-17.41.05:125][601]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2018.10.28-17.41.05:125][601]LogModuleManager: Shutting down and abandoning module Core (188)
-[2018.10.28-17.41.05:125][601]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2018.10.28-17.41.05:125][601]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2018.10.28-17.41.05:125][601]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2018.10.28-17.41.05:125][601]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2018.10.28-17.41.05:125][601]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2018.10.28-17.41.05:125][601]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2018.10.28-17.41.05:125][601]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2018.10.28-17.41.05:125][601]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2018.10.28-17.41.05:125][601]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2018.10.28-17.41.05:125][601]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2018.10.28-17.41.05:125][601]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2018.10.28-17.41.05:125][601]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2018.10.28-17.41.05:220][601]LogDerivedDataCache: Shutdown
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2018.10.28-17.41.05:220][601]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2018.10.28-17.41.05:221][601]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2018.10.28-17.41.05:221][601]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2018.10.28-17.41.05:221][601]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2018.10.28-17.41.05:221][601]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2018.10.28-17.41.05:227][601]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2018.10.28-17.41.05:227][601]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2018.10.28-17.41.05:227][601]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2018.10.28-17.41.05:227][601]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2018.10.28-17.41.05:227][601]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2018.10.28-17.41.05:228][601]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2018.10.28-17.41.05:228][601]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2018.10.28-17.41.05:228][601]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2018.10.28-17.41.05:228][601]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2018.10.28-17.41.05:228][601]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2018.10.28-17.41.05:228][601]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2018.10.28-17.41.05:228][601]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2018.10.28-17.41.05:228][601]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2018.10.28-17.41.05:228][601]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2018.10.28-17.41.05:228][601]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2018.10.28-17.41.05:228][601]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2018.10.28-17.41.05:228][601]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2018.10.28-17.41.05:228][601]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2018.10.28-17.41.05:229][601]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2018.10.28-17.41.05:229][601]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2018.10.28-17.41.05:238][601]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2018.10.28-17.41.05:238][601]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.10.28-17.41.05:238][601]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E500489-412B-C946-BE45-B1B28CEC42F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=08508f9d4a1c616a1893d5a718ab866c%7C1a70b28e24b641e78dbc16771d40c6fa%7Cbe565a12-f482-4351-a2d0-49d31e486086&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.10.28-17.41.05:242][601]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2018.10.28-17.41.05:243][601]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2018.10.28-17.41.05:243][601]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2018.10.28-17.41.05:243][601]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2018.10.28-17.41.05:243][601]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2018.10.28-17.41.05:243][601]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2018.10.28-17.41.05:243][601]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2018.10.28-17.41.05:243][601]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2018.10.28-17.41.05:243][601]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2018.10.28-17.41.05:243][601]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2018.10.28-17.41.05:243][601]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.10.28-17.41.05:243][601]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2018.10.28-17.41.05:243][601]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.10.28-17.41.05:243][601]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.10.28-17.41.05:243][601]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.10.28-17.41.05:243][601]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.10.28-17.41.05:243][601]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.10.28-17.41.05:243][601]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.10.28-17.41.05:243][601]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.10.28-17.41.05:244][601]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.10.28-17.41.05:244][601]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.10.28-17.41.05:244][601]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.10.28-17.41.05:244][601]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.10.28-17.41.05:244][601]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.10.28-17.41.05:244][601]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.10.28-17.41.05:244][601]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.10.28-17.41.05:244][601]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.10.28-17.41.05:244][601]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.10.28-17.41.05:244][601]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.10.28-17.41.05:244][601]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.10.28-17.41.05:251][601]LogExit: Exiting.
-[2018.10.28-17.41.05:260][601]Log file closed, 10/28/18 11:41:05
+[2018.10.28-17.42.00:013][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.28-17.42.00:013][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.28-17.42.00:025][  0]LogHAL: Display: Platform has ~ 16 GB [17061810176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.28-17.42.00:025][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.28-17.42.00:025][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.28-17.42.00:026][  0]LogInit: Computer: MSI
+[2018.10.28-17.42.00:026][  0]LogInit: User: Shak
+[2018.10.28-17.42.00:026][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.28-17.42.00:026][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2018.10.28-17.42.00:026][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.28-17.42.00:026][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.28-17.42.00:026][  0]LogMemory: Process Physical Memory: 100.62 MB used, 100.62 MB peak
+[2018.10.28-17.42.00:026][  0]LogMemory: Process Virtual Memory: 90.85 MB used, 90.85 MB peak
+[2018.10.28-17.42.00:026][  0]LogMemory: Physical Memory: 9950.80 MB used,  6320.61 MB free, 16271.41 MB total
+[2018.10.28-17.42.00:026][  0]LogMemory: Virtual Memory: 4642.32 MB used,  6320.61 MB free, 134217728.00 MB total
+[2018.10.28-17.42.00:980][  0]LogInit: Using OS detected language (en-US).
+[2018.10.28-17.42.00:980][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.28-17.42.00:980][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.28-17.42.01:346][  0]LogStreaming: Display: Took  0.366s to InitEngineTextLocalization.
+[2018.10.28-17.42.01:346][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.28-17.42.01:397][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.28-17.42.01:398][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.28-17.42.01:637][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.28-17.42.01:637][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.28-17.42.01:705][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.10.28-17.42.01:705][  0]LogD3D11RHI:       6052/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.28-17.42.01:715][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.10.28-17.42.01:715][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.28-17.42.01:718][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.28-17.42.01:718][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.28-17.42.01:718][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.28-17.42.01:751][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.28-17.42.01:752][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.28-17.42.01:752][  0]LogWindows: EnumDisplayDevices:
+[2018.10.28-17.42.01:752][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.10.28-17.42.01:752][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.28-17.42.01:752][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.28-17.42.01:753][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.10.28-17.42.01:753][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.10.28-17.42.01:753][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.10.28-17.42.01:753][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.10.28-17.42.01:753][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.10.28-17.42.01:753][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.10.28-17.42.01:753][  0]LogD3D11RHI:   Driver Version: 416.34 (internal:25.21.14.1634, unified:416.34)
+[2018.10.28-17.42.01:753][  0]LogD3D11RHI:      Driver Date: 10-10-2018
+[2018.10.28-17.42.01:753][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.10.28-17.42.01:805][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.28-17.42.01:836][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.28-17.42.01:837][  0]LogShaderCompilers: Guid format shader working directory is -54 characters bigger than the processId version (../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Intermediate/Shaders/WorkingDirectory/7148/).
+[2018.10.28-17.42.01:837][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shak/AppData/Local/Temp/UnrealShaderWorkingDir/E3BCFE4A4F02EBF1423F58B5EBFA7536/'.
+[2018.10.28-17.42.02:107][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.28-17.42.02:120][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.28-17.42.02:134][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.28-17.42.02:146][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.28-17.42.02:160][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.28-17.42.02:174][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.28-17.42.02:187][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.28-17.42.02:200][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.28-17.42.02:207][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.28-17.42.02:286][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-17.42.02:286][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-17.42.02:286][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-17.42.02:286][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-17.42.02:287][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-17.42.02:287][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-17.42.02:287][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-17.42.02:287][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-17.42.02:287][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-17.42.02:287][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-17.42.02:287][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-17.42.02:287][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-17.42.02:287][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-17.42.02:287][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-17.42.02:287][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-17.42.02:287][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-17.42.02:287][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-17.42.02:287][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-17.42.02:288][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.28-17.42.02:349][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.28-17.42.02:349][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.28-17.42.02:373][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.28-17.42.02:373][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.28-17.42.02:386][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.28-17.42.02:399][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.28-17.42.02:412][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.28-17.42.02:426][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.28-17.42.02:435][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.28-17.42.02:435][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.28-17.42.02:492][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.28-17.42.02:492][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.28-17.42.02:492][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.28-17.42.03:236][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.28-17.42.03:293][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Shak/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.28-17.42.03:293][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Shak/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.28-17.42.03:293][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.28-17.42.03:293][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.28-17.42.03:293][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.28-17.42.03:293][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.28-17.42.03:306][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.28-17.42.03:319][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shak/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.28-17.42.03:319][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.28-17.42.03:319][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.28-17.42.03:337][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.28-17.42.03:339][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.28-17.42.03:339][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.28-17.42.03:415][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2018.10.28-17.42.03:773][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.28-17.42.03:920][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.28-17.42.03:923][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.28-17.42.03:923][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.28-17.42.03:923][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.28-17.42.03:923][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.28-17.42.03:941][  0]LogNetVersion: APsec1LargeCityBase 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1121110827)
+[2018.10.28-17.42.04:509][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.119776 seconds
+[2018.10.28-17.42.04:515][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.28-17.42.04:515][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.28-17.42.04:515][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.28-17.42.05:506][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.28-17.42.05:519][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.28-17.42.05:673][  0]SourceControl: Source control is disabled
+[2018.10.28-17.42.05:673][  0]SourceControl: Source control is disabled
+[2018.10.28-17.42.05:675][  0]SourceControl: Source control is disabled
+[2018.10.28-17.42.05:676][  0]SourceControl: Source control is disabled
+[2018.10.28-17.42.05:848][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.28-17.42.06:028][  0]LogOcInput: OculusInput pre-init called
+[2018.10.28-17.42.06:091][  0]LogEngine: Initializing Engine...
+[2018.10.28-17.42.06:091][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.28-17.42.06:094][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.28-17.42.06:094][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.28-17.42.06:094][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.28-17.42.06:094][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.28-17.42.06:333][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.28-17.42.06:352][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.28-17.42.06:465][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.28-17.42.06:558][  0]LogInit: FAudioDevice initialized.
+[2018.10.28-17.42.06:558][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.28-17.42.06:634][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/Shak/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.28-17.42.06:637][  0]LogInit: Texture streaming: Enabled
+[2018.10.28-17.42.06:654][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.28-17.42.06:670][  0]LogInit: Transaction tracking system initialized
+[2018.10.28-17.42.06:691][  0]BlueprintLog: New page: Editor Load
+[2018.10.28-17.42.06:775][  0]LocalizationService: Localization service is disabled
+[2018.10.28-17.42.07:061][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.28-17.42.07:061][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.28-17.42.07:061][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.28-17.42.07:061][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.28-17.42.07:061][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.28-17.42.07:061][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.28-17.42.07:061][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.28-17.42.07:171][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/' took 0.01s
+[2018.10.28-17.42.07:171][  0]SourceControl: Source control is disabled
+[2018.10.28-17.42.07:171][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.28-17.42.07:172][  0]LightingResults: New page: Lighting Build
+[2018.10.28-17.42.07:174][  0]MapCheck: New page: Map Check
+[2018.10.28-17.42.07:174][  0]LightingResults: New page: Lighting Build
+[2018.10.28-17.42.07:377][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.10.28-17.42.07:385][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.28-17.42.07:411][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.28-17.42.07:483][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71.752ms to complete.
+[2018.10.28-17.42.07:483][  0]LogFileHelpers: Loading map 'Template_Default' took 0.312
+[2018.10.28-17.42.07:603][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-17.42.07:611][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-17.42.07:622][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-17.42.07:632][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-17.42.07:643][  0]LogCollectionManager: Loaded 0 collections in 0.002010 seconds
+[2018.10.28-17.42.07:685][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Collections/' took 0.01s
+[2018.10.28-17.42.07:686][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Developers/Shak/Collections/' took 0.01s
+[2018.10.28-17.42.07:686][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Collections/' took 0.01s
+[2018.10.28-17.42.07:686][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.28-17.42.07:701][  0]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 2572 classes and 603 folders.
+[2018.10.28-17.42.07:709][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.28-17.42.07:757][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.28-17.42.07:763][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.10.28-17.42.07:843][  0]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.28-17.42.07:846][  0]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.28-17.42.07:854][  0]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.28-17.42.07:938][  0]LogRenderer: Reallocating scene render targets to support 1300x568 Format 10 NumSamples 1 (Frame:1).
+[2018.10.28-17.42.08:098][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.28-17.42.08:098][  0]LogLoad: (Engine Initialization) Total time: 9.75 seconds
+[2018.10.28-17.42.08:098][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.28-17.42.08:139][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.10.28-17.42.08:194][  1]LogAssetRegistry: Asset discovery search completed in 4.8005 seconds
+[2018.10.28-17.42.08:197][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.28-17.42.08:197][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000121 seconds (updated 0 objects)
+[2018.10.28-17.42.14:012][345]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.42.20:170][711]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.28-17.42.20:179][711]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Woodblock/M_WoodBlock_Instance_3.M_WoodBlock_Instance_3
+[2018.10.28-17.42.20:604][711]LogRenderer: Reallocating scene render targets to support 1300x708 Format 10 NumSamples 1 (Frame:1).
+[2018.10.28-17.42.24:939][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.42.25:007][967]LogSlate: Window 'M_WoodBlock_Instance_3' being destroyed
+[2018.10.28-17.42.25:012][967]LogSlate: Window 'M_WoodBlock_Instance_3' being destroyed
+[2018.10.28-17.42.29:860][238]LogMetaData: Removing '/Game/Shakti_Das_Content/Woodblock/M_Woodblock.M_Woodblock' ref from Metadata '/Game/Woodblock/M_Woodblock.PackageMetaData'
+[2018.10.28-17.42.29:915][238]LogMetaData: Removing '/Game/Shakti_Das_Content/Woodblock/Shakti_Das_-_Car_UV_pCube7.Shakti_Das_-_Car_UV_pCube7' ref from Metadata '/Game/Woodblock/Shakti_Das_-_Car_UV_pCube7.PackageMetaData'
+[2018.10.28-17.42.29:922][238]LogMetaData: Removing '/Game/Shakti_Das_Content/Woodblock/Shakti_Das_-_Car_UV_pCylinder2.Shakti_Das_-_Car_UV_pCylinder2' ref from Metadata '/Game/Woodblock/Shakti_Das_-_Car_UV_pCylinder2.PackageMetaData'
+[2018.10.28-17.42.29:929][238]LogMetaData: Removing '/Game/Shakti_Das_Content/Woodblock/Shakti_Das_-_Car_UV_pCylinder7.Shakti_Das_-_Car_UV_pCylinder7' ref from Metadata '/Game/Woodblock/Shakti_Das_-_Car_UV_pCylinder7.PackageMetaData'
+[2018.10.28-17.42.29:936][238]LogMetaData: Removing '/Game/Shakti_Das_Content/Woodblock/Shakti_Das_-_Car_UV_pCylinder8.Shakti_Das_-_Car_UV_pCylinder8' ref from Metadata '/Game/Woodblock/Shakti_Das_-_Car_UV_pCylinder8.PackageMetaData'
+[2018.10.28-17.42.29:942][238]LogMetaData: Removing '/Game/Shakti_Das_Content/Woodblock/Shakti_Das_-_Car_UV_pCylinder9.Shakti_Das_-_Car_UV_pCylinder9' ref from Metadata '/Game/Woodblock/Shakti_Das_-_Car_UV_pCylinder9.PackageMetaData'
+[2018.10.28-17.42.30:043][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/M_WoodBlock_Instance_3D1B3C9824E6A02FF3223B5B78A80733E.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/M_WoodBlock_Instance_3.uasset'
+[2018.10.28-17.42.30:097][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Woodblock_3_TextureMapPaint4B0D58D54BE3951747F417A394A593E3.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/Woodblock_3_TextureMapPaint.uasset'
+[2018.10.28-17.42.30:262][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/SpecificWoodTextureNormalBB0BBB594393EEB804760B89C8B2715D.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/SpecificWoodTextureNormal.uasset'
+[2018.10.28-17.42.30:408][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/SpecificWoodTexture27ABF77347D8213708BEA29CB9E979A2.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/SpecificWoodTexture.uasset'
+[2018.10.28-17.42.30:471][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/M_MasterWoodBlock_PGA8638BE424098A2E978033689E4A8F9F0.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/M_MasterWoodBlock_PGA.uasset'
+[2018.10.28-17.42.30:648][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/WoodTexture001_NE3BBF23A400F025D5C7DA0A87F97C952.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/WoodTexture001_N.uasset'
+[2018.10.28-17.42.30:754][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/WoodTexture001C120FC1C431CD8DFAABE79A1152CAC42.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/WoodTexture001.uasset'
+[2018.10.28-17.42.30:779][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/M_Black3CA6512C4A4B74B87F7CB8B0A9A7347F.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/M_Black.uasset'
+[2018.10.28-17.42.30:839][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert1E9D46BA9439865523867C8AC6077250A.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/lambert1.uasset'
+[2018.10.28-17.42.30:899][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/M_Woodblock2F45057F42D04500B940138692105D97.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/M_Woodblock.uasset'
+[2018.10.28-17.42.30:952][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/M_WoodBlock_Instance_15227605049868853034EB4BBC095BABE.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/M_WoodBlock_Instance_1.uasset'
+[2018.10.28-17.42.31:018][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/M_WoodBlock_Instance_21211D95446B7F3A78ACB2DA01A28C499.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/M_WoodBlock_Instance_2.uasset'
+[2018.10.28-17.42.31:080][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/M_WoodBlock_Instance_4F7F3A359413C264551C9FCA3DBEE7B6E.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/M_WoodBlock_Instance_4.uasset'
+[2018.10.28-17.42.31:130][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/M_WoodBlock_PGA_Inst171D70CC4248D3B07772118B649CE705.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/M_WoodBlock_PGA_Inst.uasset'
+[2018.10.28-17.42.31:179][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/pasted__pCube4Mat5785547F43BC410DF8D323B055123BE9.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/pasted__pCube4Mat.uasset'
+[2018.10.28-17.42.31:229][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/pCube3Mat6AFDEEA542F8A8C769B425B3DEAD3123.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/pCube3Mat.uasset'
+[2018.10.28-17.42.31:280][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/pCube5Mat3B1D994D4ECA4EFC5C778A9DD3B9779C.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/pCube5Mat.uasset'
+[2018.10.28-17.42.31:331][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Shakti_Das_-_Car_UV_pCube7A84362914ECB5502BE4174A25F17226A.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/Shakti_Das_-_Car_UV_pCube7.uasset'
+[2018.10.28-17.42.31:382][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Shakti_Das_-_Car_UV_pCylinder26FF928D24783D85D93A44CAF11399D4B.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/Shakti_Das_-_Car_UV_pCylinder2.uasset'
+[2018.10.28-17.42.31:433][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Shakti_Das_-_Car_UV_pCylinder73B928C154C81188942393D8F13AD86BE.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/Shakti_Das_-_Car_UV_pCylinder7.uasset'
+[2018.10.28-17.42.31:484][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Shakti_Das_-_Car_UV_pCylinder8772136C24E04ACC388333B9BE892B1A1.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/Shakti_Das_-_Car_UV_pCylinder8.uasset'
+[2018.10.28-17.42.31:537][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Shakti_Das_-_Car_UV_pCylinder9BCE8507A4AE61937CAD2428F6BC35D1A.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/Shakti_Das_-_Car_UV_pCylinder9.uasset'
+[2018.10.28-17.42.31:586][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Shak_WoodBlock_104328D954F2AC501A61B9AAB73F7EAB4.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/Shak_WoodBlock_1.uasset'
+[2018.10.28-17.42.31:639][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Shak_WoodBlock_2_REDONE930495BB40C006DFAEAB8B8E6836C18D.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/Shak_WoodBlock_2_REDONE.uasset'
+[2018.10.28-17.42.31:689][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Shak_WoodBlock_384265B3F4AAB9152625842BC43786C2B.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/Shak_WoodBlock_3.uasset'
+[2018.10.28-17.42.31:711][238]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/WoodRoad60D433D048D80E7468C3A7802F6394FA.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock/WoodRoad.uasset'
+[2018.10.28-17.42.40:697][686]LogMetaData: Removing '/Game/Shakti_Das_Content/M_Woodblock.M_Woodblock' ref from Metadata '/Game/Shakti_Das_Content/Woodblock/M_Woodblock.PackageMetaData'
+[2018.10.28-17.42.40:747][686]LogMetaData: Removing '/Game/Shakti_Das_Content/Shakti_Das_-_Car_UV_pCube7.Shakti_Das_-_Car_UV_pCube7' ref from Metadata '/Game/Shakti_Das_Content/Woodblock/Shakti_Das_-_Car_UV_pCube7.PackageMetaData'
+[2018.10.28-17.42.40:751][686]LogMetaData: Removing '/Game/Shakti_Das_Content/Shakti_Das_-_Car_UV_pCylinder2.Shakti_Das_-_Car_UV_pCylinder2' ref from Metadata '/Game/Shakti_Das_Content/Woodblock/Shakti_Das_-_Car_UV_pCylinder2.PackageMetaData'
+[2018.10.28-17.42.40:755][686]LogMetaData: Removing '/Game/Shakti_Das_Content/Shakti_Das_-_Car_UV_pCylinder7.Shakti_Das_-_Car_UV_pCylinder7' ref from Metadata '/Game/Shakti_Das_Content/Woodblock/Shakti_Das_-_Car_UV_pCylinder7.PackageMetaData'
+[2018.10.28-17.42.40:759][686]LogMetaData: Removing '/Game/Shakti_Das_Content/Shakti_Das_-_Car_UV_pCylinder8.Shakti_Das_-_Car_UV_pCylinder8' ref from Metadata '/Game/Shakti_Das_Content/Woodblock/Shakti_Das_-_Car_UV_pCylinder8.PackageMetaData'
+[2018.10.28-17.42.40:764][686]LogMetaData: Removing '/Game/Shakti_Das_Content/Shakti_Das_-_Car_UV_pCylinder9.Shakti_Das_-_Car_UV_pCylinder9' ref from Metadata '/Game/Shakti_Das_Content/Woodblock/Shakti_Das_-_Car_UV_pCylinder9.PackageMetaData'
+[2018.10.28-17.42.40:859][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert1D2FDB48543062E6A669265AD4A36967A.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/lambert1.uasset'
+[2018.10.28-17.42.40:882][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/M_Black41CF561D45667F989DE60D8714419435.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/M_Black.uasset'
+[2018.10.28-17.42.40:942][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/M_MasterWoodBlock_PGA6145DE7E487095D695A095BCCB7A0AB0.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/M_MasterWoodBlock_PGA.uasset'
+[2018.10.28-17.42.40:992][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/M_WoodblockC9C6D81E42FCC698CA94E38DC1C4ACA3.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/M_Woodblock.uasset'
+[2018.10.28-17.42.41:048][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/M_WoodBlock_Instance_1EC3D40D34C76025C74DA468E15FC89AC.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/M_WoodBlock_Instance_1.uasset'
+[2018.10.28-17.42.41:101][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/M_WoodBlock_Instance_2EEC36B7D4EB2BD06DFA94AADE969D73D.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/M_WoodBlock_Instance_2.uasset'
+[2018.10.28-17.42.41:154][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/M_WoodBlock_Instance_31204390A42E4FE179B7959A581A17746.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/M_WoodBlock_Instance_3.uasset'
+[2018.10.28-17.42.41:205][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/M_WoodBlock_Instance_47862D1204140C708B18F2B8C8C6BD448.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/M_WoodBlock_Instance_4.uasset'
+[2018.10.28-17.42.41:266][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/M_WoodBlock_PGA_Inst889AC615415FF643898796B32AA5FC7B.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/M_WoodBlock_PGA_Inst.uasset'
+[2018.10.28-17.42.41:323][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/pasted__pCube4Mat050264444F70D74BEDE26AB743F14DF5.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/pasted__pCube4Mat.uasset'
+[2018.10.28-17.42.41:374][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/pCube3Mat5102641B458208943BEF8AB6826747CD.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/pCube3Mat.uasset'
+[2018.10.28-17.42.41:425][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/pCube5Mat85493EF74AA6F352F9145A88EAB4809D.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/pCube5Mat.uasset'
+[2018.10.28-17.42.41:476][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Shak_WoodBlock_13D90E30B43C104E57ABDA2B002731E63.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Shak_WoodBlock_1.uasset'
+[2018.10.28-17.42.41:528][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Shak_WoodBlock_3B7ED048F4F21D6DB00EABCB9FD39BD56.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Shak_WoodBlock_3.uasset'
+[2018.10.28-17.42.41:576][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Shak_WoodBlock_2_REDONE168161024E99FF0D61C9E89C3EA42F78.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Shak_WoodBlock_2_REDONE.uasset'
+[2018.10.28-17.42.41:626][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Shakti_Das_-_Car_UV_pCube794E0DF7B496BA085533DE9BBACAF0449.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Shakti_Das_-_Car_UV_pCube7.uasset'
+[2018.10.28-17.42.41:674][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Shakti_Das_-_Car_UV_pCylinder25AC6FF4545E580C83348DE8A176377B5.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Shakti_Das_-_Car_UV_pCylinder2.uasset'
+[2018.10.28-17.42.41:726][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Shakti_Das_-_Car_UV_pCylinder77934E4C04B66E830597EEB9186B36C72.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Shakti_Das_-_Car_UV_pCylinder7.uasset'
+[2018.10.28-17.42.41:783][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Shakti_Das_-_Car_UV_pCylinder8CAD08FA54895780039036F8C51FF296F.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Shakti_Das_-_Car_UV_pCylinder8.uasset'
+[2018.10.28-17.42.41:834][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Shakti_Das_-_Car_UV_pCylinder97E9F78534F5BAE6BCFB02E89EDE2DD1C.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Shakti_Das_-_Car_UV_pCylinder9.uasset'
+[2018.10.28-17.42.42:034][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/SpecificWoodTextureAF7980DA496E2A34640331A708A97121.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/SpecificWoodTexture.uasset'
+[2018.10.28-17.42.42:199][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/SpecificWoodTextureNormalAEC11AF148B3C78D458045AD3A8D1719.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/SpecificWoodTextureNormal.uasset'
+[2018.10.28-17.42.42:226][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/Woodblock_3_TextureMapPaintB7F5E2624E61CA5E70635692E831F9D8.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/Woodblock_3_TextureMapPaint.uasset'
+[2018.10.28-17.42.42:247][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/WoodRoad04BEA7724FD87C60FE0C1D87B7977793.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/WoodRoad.uasset'
+[2018.10.28-17.42.42:346][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/WoodTexture001D85D875E418C1EF1F3DFF086D797B6A3.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/WoodTexture001.uasset'
+[2018.10.28-17.42.42:507][686]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/WoodTexture001_N5226D9FB4D645EB803AFEDAF70DCC7D3.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/Shakti_Das_Content/WoodTexture001_N.uasset'
+[2018.10.28-17.42.45:725][793]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Shakti_Das_Content/M_Woodblock.M_Woodblock
+[2018.10.28-17.42.46:059][793]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.28-17.42.50:406][ 47]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.42.50:473][ 51]LogSlate: Window 'M_Woodblock' being destroyed
+[2018.10.28-17.42.50:478][ 51]LogSlate: Window 'M_Woodblock' being destroyed
+[2018.10.28-17.42.56:433][390]LogAIModule: Creating AISystem for world StreetSceneLarge_SD
+[2018.10.28-17.42.56:496][390]LogAssetEditorManager: Opening Asset editor for World /Game/StreetSceneLarge_SD.StreetSceneLarge_SD
+[2018.10.28-17.42.56:526][390]Cmd: MAP LOAD FILE="../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.28-17.42.56:526][390]LightingResults: New page: Lighting Build
+[2018.10.28-17.42.56:526][390]LoadErrors: New page: Loading map: StreetSceneLarge_SD.umap
+[2018.10.28-17.42.56:527][390]MapCheck: New page: Map Check
+[2018.10.28-17.42.56:527][390]LightingResults: New page: Lighting Build
+[2018.10.28-17.42.56:616][390]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.28-17.42.56:666][390]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.28-17.42.56:753][390]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 86.98ms to complete.
+[2018.10.28-17.42.56:754][390]LogFileHelpers: Loading map 'StreetSceneLarge_SD' took 0.229
+[2018.10.28-17.43.07:224][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.43.19:063][659]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.43.20:616][751]LogActorFactory: Actor Factory created Shakti_Das_-_Car_UV_pCube7
+[2018.10.28-17.43.20:618][751]LogActorFactory: Actor Factory created Shakti_Das_-_Car_UV_pCylinder2
+[2018.10.28-17.43.20:619][751]LogActorFactory: Actor Factory created Shakti_Das_-_Car_UV_pCylinder7
+[2018.10.28-17.43.20:619][751]LogActorFactory: Actor Factory created Shakti_Das_-_Car_UV_pCylinder8
+[2018.10.28-17.43.20:620][751]LogActorFactory: Actor Factory created Shakti_Das_-_Car_UV_pCylinder9
+[2018.10.28-17.43.21:296][791]LogActorFactory: Actor Factory created Shakti_Das_-_Car_UV_pCube7
+[2018.10.28-17.43.21:335][791]LogActorFactory: Actor Factory created Shakti_Das_-_Car_UV_pCylinder2
+[2018.10.28-17.43.21:351][791]LogActorFactory: Actor Factory created Shakti_Das_-_Car_UV_pCylinder7
+[2018.10.28-17.43.21:368][791]LogActorFactory: Actor Factory created Shakti_Das_-_Car_UV_pCylinder8
+[2018.10.28-17.43.21:384][791]LogActorFactory: Actor Factory created Shakti_Das_-_Car_UV_pCylinder9
+[2018.10.28-17.43.30:021][290]Cmd: TRANSACTION UNDO
+[2018.10.28-17.43.30:021][290]LogEditorTransaction: Undo Scale Actors
+[2018.10.28-17.43.31:499][377]Cmd: TRANSACTION UNDO
+[2018.10.28-17.43.31:499][377]LogEditorTransaction: Undo Scale Actors
+[2018.10.28-17.43.52:166][592]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.43.52:455][592]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_SDBB36D6734817280F6C29D7B0AF043B8D.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD.umap'
+[2018.10.28-17.43.52:610][592]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_SD_BuiltDataEFE650C742382CF9C783268A31B63290.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD_BuiltData.uasset'
+[2018.10.28-17.43.56:841][831]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.43.59:439][980]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.44.02:774][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.44.04:827][284]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.44.08:156][476]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.44.08:411][476]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_SD63840DA847DECB906723BEBA0E2D72C8.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD.umap'
+[2018.10.28-17.44.08:529][476]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_SD_BuiltData14F31FC34F089320BCE225A90FAA62E5.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD_BuiltData.uasset'
+[2018.10.28-17.44.20:406][146]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shakti_Das_-_Car_UV_pCube7)
+[2018.10.28-17.44.21:095][183]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.44.21:362][183]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_SD722235C44FBC75F70FD65881F37DDA7B.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD.umap'
+[2018.10.28-17.44.21:479][183]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_SD_BuiltData6CCD594146B02FEBF7D6E794820663E9.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD_BuiltData.uasset'
+[2018.10.28-17.44.29:984][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SidewalkCorner1)
+[2018.10.28-17.44.31:838][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shakti_Das_-_Car_UV_pCube7)
+[2018.10.28-17.44.35:114][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shakti_Das_-_Car_UV_pCylinder2)
+[2018.10.28-17.44.38:202][118]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shakti_Das_-_Car_UV_pCube7)
+[2018.10.28-17.44.38:789][142]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Shakti_Das_-_Car_UV_pCylinder8)
+[2018.10.28-17.44.40:668][248]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Shakti_Das_-_Car_UV_pCylinder9)
+[2018.10.28-17.44.43:657][402]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Shakti_Das_-_Car_UV_pCylinder2)
+[2018.10.28-17.44.44:609][455]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Shakti_Das_-_Car_UV_pCylinder7)
+[2018.10.28-17.44.46:026][532]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.44.46:299][532]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_SD2AD631ED4DC9427048B987A12342A14F.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD.umap'
+[2018.10.28-17.44.46:420][532]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_SD_BuiltDataF30A789740E06D28F4F12280B54CC1ED.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD_BuiltData.uasset'
+[2018.10.28-17.44.51:913][826]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase22)
+[2018.10.28-17.44.53:100][893]Cmd: TRANSACTION UNDO
+[2018.10.28-17.44.53:100][893]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.28-17.44.53:372][906]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.44.55:202][ 14]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.28-17.45.01:513][391]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.45.22:165][575]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.45.22:435][575]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_SDA84824584BAEC8F3E8CE25BE31B4EE9C.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD.umap'
+[2018.10.28-17.45.22:560][575]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_SD_BuiltDataA8F5788047B86D594A22978FFA6156D5.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD_BuiltData.uasset'
+[2018.10.28-17.45.33:357][167]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.45.33:643][167]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_SD3AE8672D4B2BD78202E033A03FF64ABF.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD.umap'
+[2018.10.28-17.45.33:757][167]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_SD_BuiltData52111AF44924D501BEC2D5823749D112.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD_BuiltData.uasset'
+[2018.10.28-17.45.41:015][581]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.45.43:297][717]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase5)
+[2018.10.28-17.45.43:757][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shakti_Das_-_Car_UV_pCube7)
+[2018.10.28-17.45.52:542][239]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.45.52:817][239]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_SDA2A2924741780E34BA7FA08AF4D14AFD.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD.umap'
+[2018.10.28-17.45.52:939][239]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_SD_BuiltData89A58E9648732D19F8DFF6A9F9FE7474.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD_BuiltData.uasset'
+[2018.10.28-17.45.58:696][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase47)
+[2018.10.28-17.45.59:570][584]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Shakti_Das_-_Car_UV_pCube7)
+[2018.10.28-17.46.01:171][668]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase45)
+[2018.10.28-17.46.01:644][685]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase40)
+[2018.10.28-17.46.01:977][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase50)
+[2018.10.28-17.46.02:259][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase43)
+[2018.10.28-17.46.08:545][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.46.19:868][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.46.39:322][871]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Shakti_Das_-_Car_UV_pCube7)
+[2018.10.28-17.46.49:130][395]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.28-17.46.49:580][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sidewalkBlock13)
+[2018.10.28-17.46.51:371][505]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.46.51:721][505]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_SD215146F1475690CBA1C08CAC6520B082.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD.umap'
+[2018.10.28-17.46.51:839][505]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_SD_BuiltData3E6937344ED331B5AD74C688FC56A328.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD_BuiltData.uasset'
+[2018.10.28-17.46.53:198][574]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Shakti_Das_-_Car_UV_pCube7)
+[2018.10.28-17.46.54:414][642]Cmd: EDIT COPY
+[2018.10.28-17.46.56:061][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.46.57:429][792]LogAIModule: Creating AISystem for world StreetSceneLarge
+[2018.10.28-17.46.57:445][792]LogAssetEditorManager: Opening Asset editor for World /Game/StreetSceneLarge.StreetSceneLarge
+[2018.10.28-17.46.57:476][792]Cmd: MAP LOAD FILE="../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.28-17.46.57:476][792]LightingResults: New page: Lighting Build
+[2018.10.28-17.46.57:477][792]LoadErrors: New page: Loading map: StreetSceneLarge.umap
+[2018.10.28-17.46.57:519][792]MapCheck: New page: Map Check
+[2018.10.28-17.46.57:519][792]LightingResults: New page: Lighting Build
+[2018.10.28-17.46.57:624][792]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.28-17.46.57:678][792]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.28-17.46.57:767][792]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 89.057ms to complete.
+[2018.10.28-17.46.57:767][792]LogFileHelpers: Loading map 'StreetSceneLarge' took 0.292
+[2018.10.28-17.46.58:991][859]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.28-17.46.59:792][905]Cmd: EDIT PASTE
+[2018.10.28-17.47.11:037][506]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.47.13:180][630]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.28-17.47.17:392][859]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (streetBlockBase186)
+[2018.10.28-17.47.17:429][859]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.47.20:836][ 41]Cmd: PIVOT SNAPPED
+[2018.10.28-17.47.27:925][433]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.47.55:681][ 77]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase63)
+[2018.10.28-17.47.58:400][232]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.47.59:503][232]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLargeE0BC89C546F80C310BBCB7BB6E5C09B3.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap'
+[2018.10.28-17.47.59:651][232]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_BuiltData2395D2E8456D4976DCCABF96769DD218.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset'
+[2018.10.28-17.48.00:966][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sideWalkBlock9)
+[2018.10.28-17.48.01:697][332]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SidewalkCorner5)
+[2018.10.28-17.48.02:577][381]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SidewalkCorner6)
+[2018.10.28-17.48.05:442][545]Cmd: TRANSACTION UNDO
+[2018.10.28-17.48.05:442][545]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.28-17.48.06:731][616]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (sideWalkBlock11)
+[2018.10.28-17.48.08:647][721]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (sidewalkBlock32)
+[2018.10.28-17.48.09:065][741]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (sideWalkBlock31)
+[2018.10.28-17.48.09:495][764]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (sideWalkBlock30)
+[2018.10.28-17.48.09:961][789]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (sideWalkBlock10)
+[2018.10.28-17.48.10:404][812]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (sideWalkBlock33)
+[2018.10.28-17.48.10:919][840]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (sideWalkBlock34)
+[2018.10.28-17.48.11:435][868]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (sideWalkBlock35)
+[2018.10.28-17.48.11:902][893]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (sideWalkBlock36)
+[2018.10.28-17.48.12:984][955]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SidewalkCorner9)
+[2018.10.28-17.48.13:846][  3]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.48.14:972][  3]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLargeDF4B1D924283BA62052177A405787701.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap'
+[2018.10.28-17.48.15:088][  3]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_BuiltData9748EEFB48353CC5475908B288026E1F.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset'
+[2018.10.28-17.48.16:129][ 61]Cmd: DELETE
+[2018.10.28-17.48.16:129][ 61]Cmd: ACTOR DELETE
+[2018.10.28-17.48.16:149][ 61]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-17.48.16:150][ 61]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-17.48.16:150][ 61]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-17.48.16:150][ 61]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-17.48.16:151][ 61]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-17.48.16:151][ 61]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-17.48.16:152][ 61]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-17.48.16:153][ 61]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-17.48.16:153][ 61]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-17.48.16:153][ 61]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-17.48.16:154][ 61]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-17.48.16:154][ 61]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-17.48.16:154][ 61]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-17.48.16:177][ 61]LogEditorActor: Deleted 13 Actors (0.048 secs)
+[2018.10.28-17.48.17:332][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (streetBlockBase197)
+[2018.10.28-17.48.20:408][284]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Shakti_Das_-_Car_UV_pCube7)
+[2018.10.28-17.48.23:471][449]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.48.27:473][684]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.48.29:999][821]Cmd: PIVOT SNAPPED
+[2018.10.28-17.48.33:190][992]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.48.35:565][119]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.28-17.48.38:681][300]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.48.39:795][300]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge4EC75D9449C4594B2F4205A69FA779FC.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap'
+[2018.10.28-17.48.39:921][300]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_BuiltDataBBE078D04C8D5A5EAA92619DE68F32AE.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset'
+[2018.10.28-17.51.00:482][721]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.51.00:637][728]LogLinker: Warning: Can't find file '/Game/StreetSceneLarge_ST_BuiltData'
+[2018.10.28-17.51.00:637][728]LogLinker: Warning: Can't find file for asset '/Game/StreetSceneLarge_ST_BuiltData' while loading ../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_ST.umap.
+[2018.10.28-17.51.00:637][728]LoadErrors: Error: /Game/StreetSceneLarge_ST : Can't find file for asset. /Game/StreetSceneLarge_ST_BuiltData
+[2018.10.28-17.51.00:641][728]LogLinker: Warning: Can't find file '/Game/StreetSceneLarge_ST_BuiltData'
+[2018.10.28-17.51.00:642][728]LogLinker: Warning: Can't find file for asset '/Game/StreetSceneLarge_ST_BuiltData' while loading ../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_ST.umap.
+[2018.10.28-17.51.00:741][728]LogLinker: Warning: Can't find file '/Game/StreetSceneLarge_ST_BuiltData'
+[2018.10.28-17.51.00:741][728]LoadErrors: Failed to load /Game/StreetSceneLarge_ST_BuiltData.StreetSceneLarge_ST_BuiltData Referenced by PersistentLevel
+[2018.10.28-17.51.00:741][728]LogLinker: Warning: Can't find file for asset '/Game/StreetSceneLarge_ST_BuiltData' while loading NULL.
+[2018.10.28-17.51.00:767][728]LogAIModule: Creating AISystem for world StreetSceneLarge_ST
+[2018.10.28-17.51.00:782][728]LogAssetEditorManager: Opening Asset editor for World /Game/StreetSceneLarge_ST.StreetSceneLarge_ST
+[2018.10.28-17.51.00:810][728]Cmd: MAP LOAD FILE="../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_ST.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.28-17.51.00:810][728]LightingResults: New page: Lighting Build
+[2018.10.28-17.51.00:810][728]LoadErrors: New page: Loading map: StreetSceneLarge_ST.umap
+[2018.10.28-17.51.00:818][728]MapCheck: New page: Map Check
+[2018.10.28-17.51.00:818][728]LightingResults: New page: Lighting Build
+[2018.10.28-17.51.00:917][728]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.28-17.51.00:968][728]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.28-17.51.01:059][728]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90.635ms to complete.
+[2018.10.28-17.51.01:060][728]LogFileHelpers: Loading map 'StreetSceneLarge_ST' took 0.252
+[2018.10.28-17.51.03:142][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.51.03:580][853]LogAIModule: Creating AISystem for world StreetSceneLarge
+[2018.10.28-17.51.03:599][853]LogAssetEditorManager: Opening Asset editor for World /Game/StreetSceneLarge.StreetSceneLarge
+[2018.10.28-17.51.03:627][853]Cmd: MAP LOAD FILE="../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.28-17.51.03:627][853]LightingResults: New page: Lighting Build
+[2018.10.28-17.51.03:627][853]LoadErrors: New page: Loading map: StreetSceneLarge.umap
+[2018.10.28-17.51.03:630][853]MapCheck: New page: Map Check
+[2018.10.28-17.51.03:630][853]LightingResults: New page: Lighting Build
+[2018.10.28-17.51.03:748][853]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.28-17.51.03:802][853]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.28-17.51.03:892][853]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 91.221ms to complete.
+[2018.10.28-17.51.03:893][853]LogFileHelpers: Loading map 'StreetSceneLarge' took 0.267
+[2018.10.28-17.51.28:677][332]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.51.29:810][332]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge77EDF4EA4694F615D33D96A94194EFF9.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap'
+[2018.10.28-17.51.29:957][332]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_BuiltDataFD5DA48A413864CC0887A5A2868DA768.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset'
+[2018.10.28-17.52.13:773][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.52.17:306][257]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.28-17.52.21:656][513]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.52.24:092][659]Cmd: TRANSACTION UNDO
+[2018.10.28-17.52.24:092][659]LogEditorTransaction: Undo Edit Z
+[2018.10.28-17.52.36:021][365]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.52.37:229][365]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLargeF6F830B14E6650B473DD7DB8BE6A18A3.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap'
+[2018.10.28-17.52.37:360][365]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_BuiltData4364D11144C7AD59B0BCE390801D8E52.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset'
+[2018.10.28-17.54.34:971][275]Cmd: DELETE
+[2018.10.28-17.54.34:971][275]Cmd: ACTOR DELETE
+[2018.10.28-17.54.34:988][275]LogEditorActor: Deleted Actor: Brush
+[2018.10.28-17.54.35:012][275]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2018.10.28-17.54.39:265][530]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.54.40:512][604]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.28-17.54.45:143][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.54.47:350][ 10]Cmd: TRANSACTION UNDO
+[2018.10.28-17.54.47:350][ 10]LogEditorTransaction: Undo Edit Step Height
+[2018.10.28-17.54.57:251][595]Cmd: TRANSACTION UNDO
+[2018.10.28-17.54.57:251][595]LogEditorTransaction: Undo Edit Num Steps
+[2018.10.28-17.55.01:446][843]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.55.03:844][986]Cmd: TRANSACTION UNDO
+[2018.10.28-17.55.03:844][986]LogEditorTransaction: Undo Edit Inner Radius
+[2018.10.28-17.55.13:480][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.55.31:487][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.55.44:601][397]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.55.45:899][474]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.28-17.55.56:331][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.56.02:432][451]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.56.04:507][576]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.28-17.56.05:903][658]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.56.06:845][715]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.28-17.56.12:731][ 66]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.56.14:925][197]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.56.16:023][197]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge7049640641EECD373B9F39AEBCFAA240.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap'
+[2018.10.28-17.56.16:152][197]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_BuiltData5A5C5C9946CC07D07D374DBDC236136D.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset'
+[2018.10.28-17.56.45:009][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.57.01:365][829]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.57.04:247][  1]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.28-17.57.21:019][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.58.01:653][353]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.58.11:697][916]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.58.13:408][ 19]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.28-17.58.21:352][482]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.58.31:478][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.58.36:506][379]Cmd: TRANSACTION UNDO
+[2018.10.28-17.58.36:506][379]LogEditorTransaction: Undo Edit Step Width
+[2018.10.28-17.58.42:163][711]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.59.30:352][506]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.59.31:479][506]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge27D9AF7E4CDE68E84BB38F8BFC74876A.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap'
+[2018.10.28-17.59.31:596][506]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_BuiltDataA956D60140E5A7FEF95BC1B1BE9906A7.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset'
+[2018.10.28-17.59.40:234][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-17.59.42:410][146]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.28-17.59.47:723][461]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-17.59.58:568][111]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.00.02:933][363]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.00.07:151][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.00.13:863][ 17]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.00.21:664][485]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush)
+[2018.10.28-18.00.23:952][621]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush6)
+[2018.10.28-18.00.33:026][164]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.00.42:876][747]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush)
+[2018.10.28-18.00.44:766][859]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush8)
+[2018.10.28-18.00.53:639][390]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush4)
+[2018.10.28-18.00.59:526][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.01.04:011][  3]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush7)
+[2018.10.28-18.01.12:921][504]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.01.15:754][673]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.01.16:870][735]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush10)
+[2018.10.28-18.01.25:398][216]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.01.31:574][587]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.01.38:557][  6]LogEditorViewport: Clicking Background
+[2018.10.28-18.01.39:407][ 57]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush10)
+[2018.10.28-18.01.47:377][529]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.01.51:206][757]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.51:206][757]LogEditorTransaction: Undo Brush Clip
+[2018.10.28-18.01.51:555][771]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.51:555][771]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.28-18.01.51:836][786]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.51:836][786]LogEditorTransaction: Undo Clicking Background
+[2018.10.28-18.01.52:064][796]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.52:064][796]LogEditorTransaction: Undo Select Brush Surface
+[2018.10.28-18.01.52:474][817]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.52:474][817]LogEditorTransaction: Undo Select Brush Surface
+[2018.10.28-18.01.52:780][833]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.52:781][833]LogEditorTransaction: Undo Select Brush Surface
+[2018.10.28-18.01.53:141][852]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.53:141][852]LogEditorTransaction: Undo Select Brush Surface
+[2018.10.28-18.01.53:465][869]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.53:465][869]LogEditorTransaction: Undo Select Brush Surface
+[2018.10.28-18.01.53:747][883]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.53:747][883]LogEditorTransaction: Undo Select Brush Surface
+[2018.10.28-18.01.54:072][900]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.54:072][900]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.28-18.01.54:364][914]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.54:364][914]LogEditorTransaction: Undo Select Brush Surface
+[2018.10.28-18.01.54:663][929]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.54:663][929]LogEditorTransaction: Undo Brush Clip
+[2018.10.28-18.01.54:681][929]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.BoxBrush5_15.BrushComponent0) Component already registered.
+[2018.10.28-18.01.55:397][969]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.55:397][969]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.28-18.01.55:762][989]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.55:762][989]LogEditorTransaction: Undo Modifier [Brush Clip]
+[2018.10.28-18.01.55:776][989]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.BoxBrush7.BrushComponent0) Component already registered.
+[2018.10.28-18.01.57:420][ 84]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.57:420][ 84]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.28-18.01.58:037][119]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.58:037][119]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.28-18.01.58:707][158]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.58:707][158]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.28-18.01.59:125][182]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.59:125][182]LogEditorTransaction: Undo Modifier [Brush Clip]
+[2018.10.28-18.01.59:138][182]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2018.10.28-18.01.59:139][182]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.BoxBrush7.BrushComponent0) Component already registered.
+[2018.10.28-18.01.59:715][213]Cmd: TRANSACTION UNDO
+[2018.10.28-18.01.59:715][213]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.28-18.02.00:227][242]Cmd: TRANSACTION UNDO
+[2018.10.28-18.02.00:227][242]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.28-18.02.00:796][275]Cmd: TRANSACTION UNDO
+[2018.10.28-18.02.00:796][275]LogEditorTransaction: Undo Modifier [Brush Clip]
+[2018.10.28-18.02.02:562][376]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.02.03:680][376]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLargeA2EBA1464D25003E28AA16BBC6AB273F.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap'
+[2018.10.28-18.02.03:804][376]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_BuiltData9161CAB846A5D6DD5A6240AA50C958AA.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset'
+[2018.10.28-18.02.17:674][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.02.24:609][605]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.02.37:336][358]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.02.39:168][465]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.02.44:723][789]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.03.01:146][741]Cmd: DELETE
+[2018.10.28-18.03.01:146][741]Cmd: ACTOR DELETE
+[2018.10.28-18.03.01:168][741]LogEditorActor: Deleted Actor: Brush
+[2018.10.28-18.03.01:210][741]LogEditorActor: Deleted 1 Actors (0.063 secs)
+[2018.10.28-18.03.01:998][787]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.03.03:097][787]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLargeCEEF0AE14BEA2395F28CF1AF78294750.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap'
+[2018.10.28-18.03.03:211][787]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_BuiltData8EBA718748AB82269AD03993FB968803.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset'
+[2018.10.28-18.03.33:912][621]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.03.34:999][621]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLargeC9FBBF4B4A75F679E35F10A3B32FA47C.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap'
+[2018.10.28-18.03.35:108][621]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_BuiltDataD3E77F8A4F18A794671A4DA7BEF4F09C.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset'
+[2018.10.28-18.03.59:050][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.04.04:966][391]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.04.11:887][799]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.04.25:554][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.04.34:884][161]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.04.45:541][778]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.04.49:952][ 43]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.05.03:913][871]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.05.24:828][122]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.05.27:896][306]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.05.28:998][306]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge2420630B44DF368164069FACB4D2EF9D.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap'
+[2018.10.28-18.05.29:114][306]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_BuiltData98E0A9EE470480F1A023299F49CC02DE.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset'
+[2018.10.28-18.05.31:021][417]Cmd: TRANSACTION UNDO
+[2018.10.28-18.05.31:021][417]LogEditorTransaction: Undo Marquee Select
+[2018.10.28-18.05.41:468][ 37]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush4)
+[2018.10.28-18.05.43:927][183]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush5)
+[2018.10.28-18.05.47:997][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.05.55:263][862]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush)
+[2018.10.28-18.05.55:952][902]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush5)
+[2018.10.28-18.06.03:787][366]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.06.09:222][690]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.06.23:191][523]Cmd: TRANSACTION UNDO
+[2018.10.28-18.06.23:191][523]LogEditorTransaction: Undo Modifier [Brush Clip]
+[2018.10.28-18.06.23:592][543]Cmd: TRANSACTION UNDO
+[2018.10.28-18.06.23:592][543]LogEditorTransaction: Undo Brush Clip
+[2018.10.28-18.06.25:504][649]Cmd: DELETE
+[2018.10.28-18.06.25:504][649]Cmd: ACTOR DELETE
+[2018.10.28-18.06.25:524][649]LogEditorActor: Deleted Actor: Brush
+[2018.10.28-18.06.25:565][649]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2018.10.28-18.06.26:945][731]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.06.28:948][851]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase391)
+[2018.10.28-18.06.30:030][910]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.06.31:826][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.06.37:099][322]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.06.38:466][403]Cmd: PIVOT SNAPPED
+[2018.10.28-18.06.41:141][561]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.06.45:665][832]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.06.47:806][961]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.06.48:473][  1]LogEditorViewport: Clicking Background
+[2018.10.28-18.06.49:890][ 86]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush5)
+[2018.10.28-18.06.51:191][163]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.07.10:686][324]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush4)
+[2018.10.28-18.07.21:234][951]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.07.26:922][290]Cmd: TRANSACTION UNDO
+[2018.10.28-18.07.26:922][290]LogEditorTransaction: Undo Brush Clip
+[2018.10.28-18.07.26:943][290]LogActorComponent: RegisterComponentWithWorld: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.BoxBrush4_26.BrushComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.10.28-18.07.27:659][326]Cmd: TRANSACTION UNDO
+[2018.10.28-18.07.27:659][326]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.28-18.07.28:149][353]Cmd: TRANSACTION UNDO
+[2018.10.28-18.07.28:149][353]LogEditorTransaction: Undo Brush Clip
+[2018.10.28-18.07.28:159][353]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2018.10.28-18.07.28:172][353]LogActorComponent: RegisterComponentWithWorld: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.BoxBrush6_25.BrushComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.10.28-18.07.33:255][651]Cmd: TRANSACTION UNDO
+[2018.10.28-18.07.33:255][651]LogEditorTransaction: Undo Move Actors
+[2018.10.28-18.07.34:364][711]Cmd: TRANSACTION UNDO
+[2018.10.28-18.07.34:364][711]LogEditorTransaction: Undo Brush Clip
+[2018.10.28-18.07.34:387][711]LogActorComponent: RegisterComponentWithWorld: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.BoxBrush5_23.BrushComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.10.28-18.07.35:841][795]Cmd: TRANSACTION REDO
+[2018.10.28-18.07.35:841][795]LogEditorTransaction: Redo Brush Clip
+[2018.10.28-18.07.35:863][795]LogActorComponent: RegisterComponentWithWorld: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.BoxBrush5.BrushComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.10.28-18.07.37:219][874]Cmd: TRANSACTION REDO
+[2018.10.28-18.07.37:220][874]LogEditorTransaction: Redo Move Actors
+[2018.10.28-18.07.38:103][923]Cmd: TRANSACTION UNDO
+[2018.10.28-18.07.38:103][923]LogEditorTransaction: Undo Move Actors
+[2018.10.28-18.07.39:994][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.07.42:468][181]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase397)
+[2018.10.28-18.07.44:117][272]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush4)
+[2018.10.28-18.07.46:625][421]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.07.51:576][709]Cmd: TRANSACTION UNDO
+[2018.10.28-18.07.51:576][709]LogEditorTransaction: Undo Modifier [Brush Clip]
+[2018.10.28-18.07.51:589][709]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2018.10.28-18.07.51:603][709]LogActorComponent: RegisterComponentWithWorld: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.BoxBrush4_28.BrushComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.10.28-18.07.59:456][162]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.08.02:999][365]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.28-18.08.04:077][425]Cmd: TRANSACTION UNDO
+[2018.10.28-18.08.04:077][425]LogEditorTransaction: Undo Select Brush Surface
+[2018.10.28-18.08.04:933][473]Cmd: TRANSACTION UNDO
+[2018.10.28-18.08.04:933][473]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.28-18.08.05:374][496]Cmd: TRANSACTION UNDO
+[2018.10.28-18.08.05:374][496]LogEditorTransaction: Undo Select Brush Surface
+[2018.10.28-18.08.05:764][516]Cmd: TRANSACTION UNDO
+[2018.10.28-18.08.05:764][516]LogEditorTransaction: Undo Select Brush Surface
+[2018.10.28-18.08.06:124][535]Cmd: TRANSACTION UNDO
+[2018.10.28-18.08.06:124][535]LogEditorTransaction: Undo Select Brush Surface
+[2018.10.28-18.08.06:435][551]Cmd: TRANSACTION UNDO
+[2018.10.28-18.08.06:435][551]LogEditorTransaction: Undo Select Brush Surface
+[2018.10.28-18.08.06:872][575]Cmd: TRANSACTION UNDO
+[2018.10.28-18.08.06:872][575]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.28-18.08.07:223][587]Cmd: TRANSACTION UNDO
+[2018.10.28-18.08.07:223][587]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.28-18.08.07:757][615]Cmd: TRANSACTION UNDO
+[2018.10.28-18.08.07:757][615]LogEditorTransaction: Undo Brush Clip
+[2018.10.28-18.08.36:294][321]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.08.40:181][483]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge7EA914294B6B1766D11AD1875779EFA6.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap'
+[2018.10.28-18.08.40:304][483]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_BuiltData69FC0DC64C3CBAAD95D1E4A67D841F13.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset'
+[2018.10.28-18.08.43:257][657]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.08.48:824][989]Cmd: TRANSACTION UNDO
+[2018.10.28-18.08.48:824][989]LogEditorTransaction: Undo Move Actors
+[2018.10.28-18.08.52:496][202]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.08.54:167][302]Cmd: PIVOT SNAPPED
+[2018.10.28-18.08.58:477][558]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.09.18:189][724]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.09.34:876][716]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.09.42:269][157]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.09.49:347][576]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.09.52:599][771]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.10.07:831][665]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.10.14:319][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.10.25:173][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.10.53:217][369]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.10.53:266][372]Cmd: MODE GRID=0
+[2018.10.28-18.10.55:026][476]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.10.58:097][655]Cmd: PIVOT SNAPPED
+[2018.10.28-18.11.18:682][886]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.11.20:999][955]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge580BA283436926315E67669D6387783D.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap'
+[2018.10.28-18.11.21:119][955]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_BuiltData928F899E4A3CD283250677BBB6000EC3.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset'
+[2018.10.28-18.11.23:026][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.11.27:497][337]LogEditorViewport: Clicking Background
+[2018.10.28-18.11.28:698][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.11.29:831][477]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush7)
+[2018.10.28-18.11.39:646][ 60]Cmd: TRANSACTION UNDO
+[2018.10.28-18.11.39:646][ 60]LogEditorTransaction: Undo Brush Clip
+[2018.10.28-18.11.39:657][ 60]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2018.10.28-18.11.39:677][ 60]LogActorComponent: RegisterComponentWithWorld: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.BoxBrush7_34.BrushComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.10.28-18.11.42:741][241]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.11.51:730][767]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.11.59:392][210]Cmd: DELETE
+[2018.10.28-18.11.59:392][210]Cmd: ACTOR DELETE
+[2018.10.28-18.11.59:413][210]LogEditorActor: Deleted Actor: Brush
+[2018.10.28-18.11.59:414][210]LogEditorActor: Deleted Actor: Brush
+[2018.10.28-18.11.59:414][210]LogEditorActor: Deleted Actor: Brush
+[2018.10.28-18.11.59:458][210]LogEditorActor: Deleted 3 Actors (0.065 secs)
+[2018.10.28-18.12.03:241][428]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.12.05:414][559]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.28-18.12.08:180][718]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.12.10:149][836]Cmd: PIVOT SNAPPED
+[2018.10.28-18.12.14:713][108]Cmd: TRANSACTION UNDO
+[2018.10.28-18.12.14:713][108]LogEditorTransaction: Undo Move Actors
+[2018.10.28-18.12.15:990][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.12.16:056][185]Cmd: MODE GRID=1
+[2018.10.28-18.12.19:190][371]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.12.21:157][484]Cmd: PIVOT SNAPPED
+[2018.10.28-18.12.26:816][822]Cmd: TRANSACTION UNDO
+[2018.10.28-18.12.26:817][822]LogEditorTransaction: Undo Move Actors
+[2018.10.28-18.12.26:939][825]Cmd: TRANSACTION UNDO
+[2018.10.28-18.12.26:939][825]LogEditorTransaction: Undo Actor Movement
+[2018.10.28-18.12.27:301][845]Cmd: TRANSACTION UNDO
+[2018.10.28-18.12.27:301][845]LogEditorTransaction: Undo Actor Movement
+[2018.10.28-18.12.27:659][865]Cmd: TRANSACTION UNDO
+[2018.10.28-18.12.27:659][865]LogEditorTransaction: Undo Move Actors
+[2018.10.28-18.12.30:342][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.12.32:198][127]Cmd: PIVOT SNAPPED
+[2018.10.28-18.12.37:396][434]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.12.39:832][579]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.12.40:920][579]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge8ABE15C44079DBB22F10F98086F0CB97.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap'
+[2018.10.28-18.12.41:035][579]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_BuiltDataF5E0F17A4A75E0FAEF9F2B9C5E901881.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset'
+[2018.10.28-18.12.45:762][859]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.12.50:236][128]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush)
+[2018.10.28-18.12.50:942][169]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush4)
+[2018.10.28-18.12.53:531][323]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush5)
+[2018.10.28-18.12.56:666][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.13.06:904][124]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.13.16:318][681]Cmd: TRANSACTION UNDO
+[2018.10.28-18.13.16:318][681]LogEditorTransaction: Undo Modifier [Brush Clip]
+[2018.10.28-18.13.16:335][681]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.BoxBrush_4.BrushComponent0) Component already registered.
+[2018.10.28-18.13.16:343][681]LogActorComponent: RegisterComponentWithWorld: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.BoxBrush5_37.BrushComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.10.28-18.13.31:729][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.13.39:023][ 31]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush7)
+[2018.10.28-18.14.00:579][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.14.06:273][656]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.14.09:458][846]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.14.21:071][543]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-18.14.27:324][907]Cmd: DELETE
+[2018.10.28-18.14.27:353][907]Cmd: ACTOR DELETE
+[2018.10.28-18.14.27:373][907]LogEditorActor: Deleted Actor: Brush
+[2018.10.28-18.14.27:413][907]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2018.10.28-18.14.33:496][268]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-18.14.34:600][268]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge295D9A5E4751E43888F094AC2638E77E.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap'
+[2018.10.28-18.14.34:724][268]LogSavePackage: Moving '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_BuiltData56C740F14D0077E76B9A78B59D26D9A0.tmp' to '../../../../../../../Users/Shak/Desktop/AssetPipelineMaster02/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset'
