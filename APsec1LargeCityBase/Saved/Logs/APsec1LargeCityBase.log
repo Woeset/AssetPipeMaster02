@@ -150,6 +150,7 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2018.10.28-22.35.40:133][  0]LogInit: Selected Device Profile: [Windows]
 [2018.10.28-22.35.40:133][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2018.10.28-22.35.40:143][  0]LogHAL: Display: Platform has ~ 16 GB [17031090176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
@@ -1645,3 +1646,1472 @@ LogInit: Object subsystem initialized
 [2018.10.28-22.44.00:433][ 32]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.10.28-22.44.00:437][ 32]LogExit: Exiting.
 [2018.10.28-22.44.00:446][ 32]Log file closed, 10/28/18 16:44:00
+=======
+[2018.10.28-20.46.46:933][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.28-20.46.46:934][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.28-20.46.46:988][  0]LogHAL: Display: Platform has ~ 8 GB [8505806848 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.28-20.46.46:989][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.28-20.46.46:990][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.28-20.46.47:002][  0]LogInit: Computer: MSI
+[2018.10.28-20.46.47:002][  0]LogInit: User: hayde
+[2018.10.28-20.46.47:002][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.28-20.46.47:002][  0]LogInit: High frequency timer resolution =2.742188 MHz
+[2018.10.28-20.46.47:003][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.10.28-20.46.47:003][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.28-20.46.47:003][  0]LogMemory: Process Physical Memory: 99.87 MB used, 99.87 MB peak
+[2018.10.28-20.46.47:003][  0]LogMemory: Process Virtual Memory: 91.11 MB used, 91.11 MB peak
+[2018.10.28-20.46.47:003][  0]LogMemory: Physical Memory: 5867.24 MB used,  2244.53 MB free, 8111.77 MB total
+[2018.10.28-20.46.47:003][  0]LogMemory: Virtual Memory: 4644.98 MB used,  2244.53 MB free, 134217728.00 MB total
+[2018.10.28-20.46.47:971][  0]LogInit: Using OS detected language (en-US).
+[2018.10.28-20.46.47:971][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.28-20.46.47:980][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.28-20.46.48:731][  0]LogStreaming: Display: Took  0.761s to InitEngineTextLocalization.
+[2018.10.28-20.46.48:732][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.28-20.46.48:976][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.28-20.46.48:976][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.28-20.46.53:591][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.28-20.46.53:592][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.28-20.46.53:727][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.10.28-20.46.53:727][  0]LogD3D11RHI:       4021/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.28-20.46.53:738][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.10.28-20.46.53:739][  0]LogD3D11RHI:       128/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.28-20.46.53:741][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.28-20.46.53:741][  0]LogD3D11RHI:       0/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.28-20.46.53:741][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.28-20.46.53:764][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.28-20.46.53:764][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2018.10.28-20.46.53:764][  0]LogWindows: EnumDisplayDevices:
+[2018.10.28-20.46.53:764][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.10.28-20.46.53:765][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.28-20.46.53:765][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.28-20.46.53:765][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.10.28-20.46.53:765][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.10.28-20.46.53:765][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.10.28-20.46.53:765][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.10.28-20.46.53:765][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2018.10.28-20.46.53:809][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.28-20.46.53:839][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.28-20.46.53:845][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Intermediate/Shaders/WorkingDirectory/15296/).
+[2018.10.28-20.46.53:846][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hayde/AppData/Local/Temp/UnrealShaderWorkingDir/CE59DC0F429858A0AB5A8C8288B14A4A/'.
+[2018.10.28-20.46.54:741][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.28-20.46.54:782][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.28-20.46.54:813][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.28-20.46.54:844][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.28-20.46.54:898][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.28-20.46.55:084][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.28-20.46.55:140][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.28-20.46.55:171][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.28-20.46.55:199][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.28-20.46.55:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-20.46.55:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-20.46.55:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-20.46.55:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-20.46.55:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-20.46.55:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-20.46.55:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-20.46.55:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-20.46.55:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-20.46.55:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-20.46.55:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-20.46.55:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-20.46.55:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-20.46.55:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-20.46.55:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-20.46.55:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-20.46.55:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-20.46.55:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-20.46.55:342][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.28-20.46.55:463][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.28-20.46.55:463][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.28-20.46.55:539][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.28-20.46.55:539][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.28-20.46.55:578][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.28-20.46.55:622][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.28-20.46.55:652][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.28-20.46.55:697][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.28-20.46.55:724][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.28-20.46.55:724][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.28-20.46.56:473][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.28-20.46.56:473][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.28-20.46.56:474][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.28-20.46.59:460][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.28-20.46.59:757][  0]LogDerivedDataCache: Loaded boot cache 0.30s 71MB C:/Users/hayde/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.28-20.46.59:758][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hayde/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.28-20.46.59:758][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.28-20.46.59:758][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.28-20.46.59:758][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.28-20.46.59:758][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.28-20.46.59:905][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.28-20.46.59:918][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hayde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.28-20.46.59:918][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.28-20.46.59:918][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.28-20.46.59:944][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.28-20.46.59:950][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.28-20.46.59:969][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.28-20.47.00:321][  0]LogAssetRegistry: FAssetRegistry took 0.0288 seconds to start up
+[2018.10.28-20.47.00:805][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.28-20.47.02:111][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.28-20.47.02:260][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.28-20.47.02:260][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.28-20.47.02:260][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.28-20.47.02:260][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.28-20.47.02:334][  0]LogNetVersion: APsec1LargeCityBase 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1121110827)
+[2018.10.28-20.47.03:727][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.135530 seconds
+[2018.10.28-20.47.03:736][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.28-20.47.03:736][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.28-20.47.03:736][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.28-20.47.08:760][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.28-20.47.08:803][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.28-20.47.09:596][  0]SourceControl: Source control is disabled
+[2018.10.28-20.47.09:596][  0]SourceControl: Source control is disabled
+[2018.10.28-20.47.09:710][  0]SourceControl: Source control is disabled
+[2018.10.28-20.47.09:733][  0]SourceControl: Source control is disabled
+[2018.10.28-20.47.10:843][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.28-20.47.11:181][  0]LogOcInput: OculusInput pre-init called
+[2018.10.28-20.47.11:428][  0]LogEngine: Initializing Engine...
+[2018.10.28-20.47.11:431][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.28-20.47.11:434][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.28-20.47.11:434][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.28-20.47.11:434][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.28-20.47.11:435][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.28-20.47.11:686][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.28-20.47.11:764][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.28-20.47.11:823][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.28-20.47.12:185][  0]LogInit: FAudioDevice initialized.
+[2018.10.28-20.47.12:187][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.28-20.47.12:258][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/hayde/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.28-20.47.12:271][  0]LogInit: Texture streaming: Enabled
+[2018.10.28-20.47.12:371][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.28-20.47.12:422][  0]LogInit: Transaction tracking system initialized
+[2018.10.28-20.47.12:576][  0]BlueprintLog: New page: Editor Load
+[2018.10.28-20.47.13:353][  0]LocalizationService: Localization service is disabled
+[2018.10.28-20.47.14:266][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.28-20.47.14:267][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.28-20.47.14:268][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.28-20.47.14:268][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.28-20.47.14:268][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.28-20.47.14:269][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.28-20.47.14:269][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.28-20.47.15:116][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/' took 0.02s
+[2018.10.28-20.47.15:171][  0]SourceControl: Source control is disabled
+[2018.10.28-20.47.15:173][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.28-20.47.15:175][  0]LightingResults: New page: Lighting Build
+[2018.10.28-20.47.15:189][  0]MapCheck: New page: Map Check
+[2018.10.28-20.47.15:189][  0]LightingResults: New page: Lighting Build
+[2018.10.28-20.47.15:515][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.10.28-20.47.15:549][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.28-20.47.15:581][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.28-20.47.15:671][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 89.863ms to complete.
+[2018.10.28-20.47.15:671][  0]LogFileHelpers: Loading map 'Template_Default' took 0.500
+[2018.10.28-20.47.15:927][  0]LogCollectionManager: Loaded 0 collections in 0.001669 seconds
+[2018.10.28-20.47.16:007][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Saved/Collections/' took 0.01s
+[2018.10.28-20.47.16:007][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/Developers/hayde/Collections/' took 0.01s
+[2018.10.28-20.47.16:007][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/Collections/' took 0.01s
+[2018.10.28-20.47.16:007][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.28-20.47.16:023][  0]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 2572 classes and 603 folders.
+[2018.10.28-20.47.16:046][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.28-20.47.16:552][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.28-20.47.16:621][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.10.28-20.47.16:793][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-20.47.16:809][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-20.47.16:819][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-20.47.16:828][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-20.47.16:865][  0]LogSlate: Took 0.006761 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.28-20.47.16:878][  0]LogSlate: Took 0.006637 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.28-20.47.16:884][  0]LogSlate: Took 0.005620 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.28-20.47.17:006][  0]LogRenderer: Reallocating scene render targets to support 1044x712 Format 10 NumSamples 1 (Frame:1).
+[2018.10.28-20.47.17:392][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.10.28-20.47.17:392][  0]LogLoad: (Engine Initialization) Total time: 42.48 seconds
+[2018.10.28-20.47.17:392][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.28-20.47.17:419][  0]Cmd: POLY SELECT ADJACENT SLANTS
+[2018.10.28-20.47.17:430][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.28-20.47.17:472][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.28-20.47.17:546][  1]LogAssetRegistry: Asset discovery search completed in 17.2491 seconds
+[2018.10.28-20.47.17:551][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.28-20.47.17:551][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000589 seconds (updated 0 objects)
+[2018.10.28-20.50.34:383][956]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-20.50.48:166][780]LogSlate: Took 0.006897 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.28-20.50.48:198][780]LogLinker: Warning: Can't find file '/Game/Maps/Andrew_Baldridge_Street_Level_BuiltData'
+[2018.10.28-20.50.48:198][780]LogLinker: Warning: Can't find file for asset '/Game/Maps/Andrew_Baldridge_Street_Level_BuiltData' while loading ../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/Maps/Andrew_Baldridge_Street_Level.umap.
+[2018.10.28-20.50.48:198][780]LoadErrors: Error: /Game/Maps/Andrew_Baldridge_Street_Level : Can't find file for asset. /Game/Maps/Andrew_Baldridge_Street_Level_BuiltData
+[2018.10.28-20.50.48:247][780]LogLinker: Warning: Can't find file '/Game/Maps/Andrew_Baldridge_Street_Level_BuiltData'
+[2018.10.28-20.50.48:247][780]LogLinker: Warning: Can't find file for asset '/Game/Maps/Andrew_Baldridge_Street_Level_BuiltData' while loading ../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/Maps/Andrew_Baldridge_Street_Level.umap.
+[2018.10.28-20.50.48:310][780]LogLinker: Warning: Can't find file '/Game/Maps/Andrew_Baldridge_Street_Level_BuiltData'
+[2018.10.28-20.50.48:311][780]LoadErrors: Failed to load /Game/Maps/Andrew_Baldridge_Street_Level_BuiltData.Andrew_Baldridge_Street_Level_BuiltData Referenced by PersistentLevel
+[2018.10.28-20.50.48:311][780]LogLinker: Warning: Can't find file for asset '/Game/Maps/Andrew_Baldridge_Street_Level_BuiltData' while loading NULL.
+[2018.10.28-20.50.48:330][780]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.10.28-20.50.48:430][780]LogTexture: Display: Building textures: streetLines001 (AutoDXT, 2048X2048)
+[2018.10.28-20.50.49:782][780]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.28-20.50.49:782][780]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.28-20.50.49:782][780]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.28-20.50.49:782][780]LogTexture: Display: Building textures: Wood_Desaturated_Rough (AutoDXT, 2048X2048)
+[2018.10.28-20.50.49:782][780]LogTexture: Display: Building textures: Wood_Desaturated_AO (AutoDXT, 2048X2048)
+[2018.10.28-20.50.49:782][780]LogTexture: Display: Building textures: Wood_Desaturated (AutoDXT, 2048X2048)
+[2018.10.28-20.50.49:782][780]LogTexture: Display: Building textures: Wood_Desaturated_Height (AutoDXT, 2048X2048)
+[2018.10.28-20.50.49:782][780]LogTexture: Display: Building textures: Wood_Desaturated_NML (BC5, 2048X2048)
+[2018.10.28-20.50.49:782][780]LogTexture: Display: Building textures: WoodTexture004 (AutoDXT, 2048X2048)
+[2018.10.28-20.50.49:782][780]LogTexture: Display: Building textures: N_WoodTexture001_AP (BGRA8, 2299X2299)
+[2018.10.28-20.50.54:050][780]LogMaterial: Display: Missing cached shader map for material M_MasterWoodBlock_AP, compiling. 
+[2018.10.28-20.50.54:124][780]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.10.28-20.50.54:133][780]LogStaticMesh: Building static mesh streetBlocks100X100X20...
+[2018.10.28-20.50.54:161][780]LogStaticMesh: Built static mesh [0.03s] /Game/StreetBlocks/streetBlocks100X100X20.streetBlocks100X100X20
+[2018.10.28-20.50.54:238][780]LogStaticMesh: Building static mesh Andrew_Balridge_Tank...
+[2018.10.28-20.50.54:421][780]LogStaticMesh: Built static mesh [0.18s] /Game/Andrew_Baldrige_Content/Tank/Andrew_Balridge_Tank.Andrew_Balridge_Tank
+[2018.10.28-20.50.54:450][780]LogStaticMesh: Building static mesh streetBlocks50X50X20...
+[2018.10.28-20.50.54:453][780]LogStaticMesh: Built static mesh [0.00s] /Game/StreetBlocks/streetBlocks50X50X20.streetBlocks50X50X20
+[2018.10.28-20.50.54:456][780]LogStaticMesh: Building static mesh streetBlocks100X50X30...
+[2018.10.28-20.50.54:463][780]LogStaticMesh: Built static mesh [0.01s] /Game/StreetBlocks/streetBlocks100X50X30.streetBlocks100X50X30
+[2018.10.28-20.50.54:467][780]LogStaticMesh: Building static mesh streetBlocks100X50X20...
+[2018.10.28-20.50.54:473][780]LogStaticMesh: Built static mesh [0.01s] /Game/StreetBlocks/streetBlocks100X50X20.streetBlocks100X50X20
+[2018.10.28-20.50.54:477][780]LogStaticMesh: Building static mesh streetBlocks100X100X30...
+[2018.10.28-20.50.54:480][780]LogStaticMesh: Built static mesh [0.00s] /Game/StreetBlocks/streetBlocks100X100X30.streetBlocks100X100X30
+[2018.10.28-20.50.54:485][780]LogStaticMesh: Building static mesh streetBlocks50RCorner...
+[2018.10.28-20.50.54:492][780]LogStaticMesh: Built static mesh [0.01s] /Game/StreetBlocks/streetBlocks50RCorner.streetBlocks50RCorner
+[2018.10.28-20.50.54:498][780]LogMaterial: Display: Missing cached shader map for material Wood_Master_Mtl, compiling. 
+[2018.10.28-20.50.54:520][780]LogAIModule: Creating AISystem for world Andrew_Baldridge_Street_Level
+[2018.10.28-20.50.54:534][780]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Andrew_Baldridge_Street_Level.Andrew_Baldridge_Street_Level
+[2018.10.28-20.50.54:567][780]Cmd: MAP LOAD FILE="../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/Maps/Andrew_Baldridge_Street_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.28-20.50.54:568][780]LightingResults: New page: Lighting Build
+[2018.10.28-20.50.54:569][780]LoadErrors: New page: Loading map: Andrew_Baldridge_Street_Level.umap
+[2018.10.28-20.50.54:571][780]MapCheck: New page: Map Check
+[2018.10.28-20.50.54:572][780]LightingResults: New page: Lighting Build
+[2018.10.28-20.50.54:620][780]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.28-20.50.54:685][780]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.28-20.50.54:795][780]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 108.702ms to complete.
+[2018.10.28-20.50.54:799][780]LogFileHelpers: Loading map 'Andrew_Baldridge_Street_Level' took 0.233
+[2018.10.28-20.50.55:202][797]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.10.28-20.50.58:204][976]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.10.28-20.50.58:623][  1]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.28-20.51.01:718][184]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.28-20.51.02:112][208]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.28-21.19.04:175][730]LogAssetTools: Warning: Failed to import 'C:\Users\hayde\Documents\AssetPipeMaster02\APsec1LargeCityBase\Saved\Backup\StreetSceneLarge_2018-10-28-12-31-12.umap'. Unknown extension 'umap'.
+[2018.10.28-21.43.58:721][689]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.10.28-21.43.58:721][689]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.10.28-21.43.58:721][689]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (G8, 1024X256)
+[2018.10.28-21.43.58:721][689]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (G8, 32X32)
+[2018.10.28-21.43.58:721][689]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.10.28-21.43.58:721][689]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.10.28-21.43.58:833][689]LogStaticMesh: Building static mesh PlaneCombined...
+[2018.10.28-21.43.59:975][689]LogTexture: Display: Building textures: SpecificWoodTexture (AutoDXT, 2048X2048)
+[2018.10.28-21.43.59:975][689]LogTexture: Display: Building textures: frontend-large (BGRA8, 398X265)
+[2018.10.28-21.43.59:975][689]LogTexture: Display: Building textures: SpecificWoodTextureNormal (BC5, 2048X2048)
+[2018.10.28-21.43.59:975][689]LogTexture: Display: Building textures: WoodTexture001 (AutoDXT, 2048X2048)
+[2018.10.28-21.43.59:975][689]LogTexture: Display: Building textures: M_Black (AutoDXT, 2048X2048)
+[2018.10.28-21.43.59:975][689]LogTexture: Display: Building textures: WoodTexture001_N (BC5, 2048X2048)
+[2018.10.28-21.43.59:975][689]LogStaticMesh: Built static mesh [1.14s] /Game/Plane/PlaneCombined.PlaneCombined
+[2018.10.28-21.44.00:012][689]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.10.28-21.44.00:078][689]LogMaterial: Display: Missing cached shader map for material M_WBchar_MACH, compiling. 
+[2018.10.28-21.44.00:133][689]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.28-21.44.00:133][689]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.28-21.44.00:133][689]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.28-21.44.00:133][689]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.28-21.44.00:150][689]LogStaticMesh: Building static mesh Shakti_Das_-_Car_UV_pCube7...
+[2018.10.28-21.44.01:202][689]LogStaticMesh: Built static mesh [1.07s] /Game/Shakti_Das_Content/Shakti_Das_-_Car_UV_pCube7.Shakti_Das_-_Car_UV_pCube7
+[2018.10.28-21.44.01:392][689]LogStaticMesh: Building static mesh SM_MERGED_tractorBase...
+[2018.10.28-21.44.01:948][689]LogStaticMesh: Built static mesh [0.56s] /Game/Tractor/SM_MERGED_tractorBase.SM_MERGED_tractorBase
+[2018.10.28-21.44.02:013][689]LogStaticMesh: Building static mesh Shakti_Das_-_Car_UV_pCylinder9...
+[2018.10.28-21.44.02:214][689]LogStaticMesh: Built static mesh [0.20s] /Game/Shakti_Das_Content/Shakti_Das_-_Car_UV_pCylinder9.Shakti_Das_-_Car_UV_pCylinder9
+[2018.10.28-21.44.03:274][689]LogMaterial: Display: Missing cached shader map for material M_MasterWoodBlock_PGA, compiling. 
+[2018.10.28-21.44.03:731][689]LogStaticMesh: Building static mesh MACHicAssign004WBsize...
+[2018.10.28-21.44.04:498][689]LogStaticMesh: Built static mesh [0.77s] /Game/Human4Size/MACHicAssign004WBsize.MACHicAssign004WBsize
+[2018.10.28-21.44.04:639][689]LogStaticMesh: Building static mesh Shakti_Das_-_Car_UV_pCylinder2...
+[2018.10.28-21.44.04:715][689]LogStaticMesh: Built static mesh [0.08s] /Game/Shakti_Das_Content/Shakti_Das_-_Car_UV_pCylinder2.Shakti_Das_-_Car_UV_pCylinder2
+[2018.10.28-21.44.04:837][689]LogStaticMesh: Building static mesh Shakti_Das_-_Car_UV_pCylinder7...
+[2018.10.28-21.44.04:951][689]LogStaticMesh: Built static mesh [0.11s] /Game/Shakti_Das_Content/Shakti_Das_-_Car_UV_pCylinder7.Shakti_Das_-_Car_UV_pCylinder7
+[2018.10.28-21.44.04:964][689]LogStaticMesh: Building static mesh Shakti_Das_-_Car_UV_pCylinder8...
+[2018.10.28-21.44.05:057][689]LogStaticMesh: Built static mesh [0.09s] /Game/Shakti_Das_Content/Shakti_Das_-_Car_UV_pCylinder8.Shakti_Das_-_Car_UV_pCylinder8
+[2018.10.28-21.44.05:167][689]LogStaticMesh: Building static mesh train...
+[2018.10.28-21.44.05:722][689]LogShaderCompilers: Display: Shaders left to compile 111
+[2018.10.28-21.44.05:722][689]LogShaderCompilers: Display: Shaders left to compile 101
+[2018.10.28-21.44.05:722][689]LogStaticMesh: Built static mesh [0.56s] /Game/Andrew_Radford_Content/Train/train.train
+[2018.10.28-21.44.05:774][689]LogMaterial: Display: Missing cached shader map for material phong1, compiling. 
+[2018.10.28-21.44.05:803][689]LogAIModule: Creating AISystem for world StreetSceneLarge
+[2018.10.28-21.44.05:929][689]LogAssetEditorManager: Opening Asset editor for World /Game/StreetSceneLarge.StreetSceneLarge
+[2018.10.28-21.44.06:008][689]Cmd: MAP LOAD FILE="../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.28-21.44.06:008][689]LightingResults: New page: Lighting Build
+[2018.10.28-21.44.06:010][689]LoadErrors: New page: Loading map: StreetSceneLarge.umap
+[2018.10.28-21.44.06:015][689]MapCheck: New page: Map Check
+[2018.10.28-21.44.06:015][689]LightingResults: New page: Lighting Build
+[2018.10.28-21.44.06:134][689]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2018.10.28-21.44.06:211][689]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.28-21.44.06:331][689]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 119.16ms to complete.
+[2018.10.28-21.44.06:335][689]LogFileHelpers: Loading map 'StreetSceneLarge' took 0.329
+[2018.10.28-21.44.07:165][708]LogShaderCompilers: Display: Shaders left to compile 113
+[2018.10.28-21.44.07:767][737]LogShaderCompilers: Display: Shaders left to compile 103
+[2018.10.28-21.44.09:274][826]LogShaderCompilers: Display: Shaders left to compile 93
+[2018.10.28-21.44.10:811][917]LogShaderCompilers: Display: Shaders left to compile 83
+[2018.10.28-21.44.11:332][948]LogShaderCompilers: Display: Shaders left to compile 73
+[2018.10.28-21.44.12:939][ 44]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.10.28-21.44.14:666][134]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.10.28-21.44.17:608][278]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.10.28-21.44.17:774][286]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.10.28-21.44.18:606][326]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.28-21.44.21:809][488]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.28-21.44.22:045][499]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.28-21.45.55:268][933]LogTexture: Display: Building textures: black (AutoDXT, 2048X2048)
+[2018.10.28-21.45.55:559][933]LogTexture: Display: Building textures: WoodTexture004Norm (BGRA8, 2299X2299)
+[2018.10.28-21.45.55:560][933]LogTexture: Display: Building textures: T_Wood_02 (AutoDXT, 2048X2048)
+[2018.10.28-21.45.55:679][933]LogMaterial: Display: Missing cached shader map for material initialShadingGroup, compiling. 
+[2018.10.28-21.45.55:726][933]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.28-21.45.55:726][933]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.28-21.45.55:726][933]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.28-21.45.55:726][933]LogStaticMesh: Building static mesh Car...
+[2018.10.28-21.45.55:961][933]LogStaticMesh: Built static mesh [0.24s] /Game/Christian_Roy_Content/Car.Car
+[2018.10.28-21.45.56:672][933]LogMaterial: Display: Missing cached shader map for material M_MasterWoodBlock_AP, compiling. 
+[2018.10.28-21.45.56:693][933]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.10.28-21.45.56:693][933]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.28-21.45.56:701][933]LogAIModule: Creating AISystem for world StreetSceneLarge_CIR
+[2018.10.28-21.45.56:717][933]LogAssetEditorManager: Opening Asset editor for World /Game/StreetSceneLarge_CIR.StreetSceneLarge_CIR
+[2018.10.28-21.45.56:752][933]Cmd: MAP LOAD FILE="../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_CIR.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.28-21.45.56:752][933]LightingResults: New page: Lighting Build
+[2018.10.28-21.45.56:752][933]LoadErrors: New page: Loading map: StreetSceneLarge_CIR.umap
+[2018.10.28-21.45.56:775][933]MapCheck: New page: Map Check
+[2018.10.28-21.45.56:776][933]LightingResults: New page: Lighting Build
+[2018.10.28-21.45.56:846][933]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.28-21.45.56:915][933]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.28-21.45.57:016][933]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 101.238ms to complete.
+[2018.10.28-21.45.57:016][933]LogFileHelpers: Loading map 'StreetSceneLarge_CIR' took 0.266
+[2018.10.28-21.45.59:310][ 68]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.28-21.46.00:444][136]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.28-21.46.04:800][393]LogLinker: Warning: Can't find file '/Game/StreetSceneLarge_SD_BuiltData'
+[2018.10.28-21.46.04:800][393]LogLinker: Warning: Can't find file for asset '/Game/StreetSceneLarge_SD_BuiltData' while loading ../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD.umap.
+[2018.10.28-21.46.04:800][393]LoadErrors: Error: /Game/StreetSceneLarge_SD : Can't find file for asset. /Game/StreetSceneLarge_SD_BuiltData
+[2018.10.28-21.46.04:804][393]LogLinker: Warning: Can't find file '/Game/StreetSceneLarge_SD_BuiltData'
+[2018.10.28-21.46.04:804][393]LogLinker: Warning: Can't find file for asset '/Game/StreetSceneLarge_SD_BuiltData' while loading ../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD.umap.
+[2018.10.28-21.46.04:849][393]LogLinker: Warning: Can't find file '/Game/StreetSceneLarge_SD_BuiltData'
+[2018.10.28-21.46.04:849][393]LoadErrors: Failed to load /Game/StreetSceneLarge_SD_BuiltData.StreetSceneLarge_SD_BuiltData Referenced by PersistentLevel
+[2018.10.28-21.46.04:850][393]LogLinker: Warning: Can't find file for asset '/Game/StreetSceneLarge_SD_BuiltData' while loading NULL.
+[2018.10.28-21.46.04:864][393]LogAIModule: Creating AISystem for world StreetSceneLarge_SD
+[2018.10.28-21.46.04:874][393]LogAssetEditorManager: Opening Asset editor for World /Game/StreetSceneLarge_SD.StreetSceneLarge_SD
+[2018.10.28-21.46.04:897][393]Cmd: MAP LOAD FILE="../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_SD.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.28-21.46.04:897][393]LightingResults: New page: Lighting Build
+[2018.10.28-21.46.04:897][393]LoadErrors: New page: Loading map: StreetSceneLarge_SD.umap
+[2018.10.28-21.46.04:900][393]MapCheck: New page: Map Check
+[2018.10.28-21.46.04:900][393]LightingResults: New page: Lighting Build
+[2018.10.28-21.46.05:038][393]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.28-21.46.05:101][393]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.28-21.46.05:178][393]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 75.777ms to complete.
+[2018.10.28-21.46.05:178][393]LogFileHelpers: Loading map 'StreetSceneLarge_SD' took 0.281
+[2018.10.28-21.46.09:438][637]LogAIModule: Creating AISystem for world StreetSceneLarge_YCF
+[2018.10.28-21.46.09:450][637]LogAssetEditorManager: Opening Asset editor for World /Game/StreetSceneLarge_YCF.StreetSceneLarge_YCF
+[2018.10.28-21.46.09:474][637]Cmd: MAP LOAD FILE="../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_YCF.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.28-21.46.09:474][637]LightingResults: New page: Lighting Build
+[2018.10.28-21.46.09:475][637]LoadErrors: New page: Loading map: StreetSceneLarge_YCF.umap
+[2018.10.28-21.46.09:477][637]MapCheck: New page: Map Check
+[2018.10.28-21.46.09:477][637]LightingResults: New page: Lighting Build
+[2018.10.28-21.46.09:521][637]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.28-21.46.09:572][637]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.28-21.46.09:649][637]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.836ms to complete.
+[2018.10.28-21.46.09:649][637]LogFileHelpers: Loading map 'StreetSceneLarge_YCF' took 0.175
+[2018.10.28-21.46.20:062][243]LogAIModule: Creating AISystem for world StreetSceneLarge
+[2018.10.28-21.46.20:084][243]LogAssetEditorManager: Opening Asset editor for World /Game/StreetSceneLarge.StreetSceneLarge
+[2018.10.28-21.46.20:112][243]Cmd: MAP LOAD FILE="../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.28-21.46.20:112][243]LightingResults: New page: Lighting Build
+[2018.10.28-21.46.20:112][243]LoadErrors: New page: Loading map: StreetSceneLarge.umap
+[2018.10.28-21.46.20:115][243]MapCheck: New page: Map Check
+[2018.10.28-21.46.20:115][243]LightingResults: New page: Lighting Build
+[2018.10.28-21.46.20:173][243]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.28-21.46.20:226][243]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.28-21.46.20:301][243]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 75.756ms to complete.
+[2018.10.28-21.46.20:303][243]LogFileHelpers: Loading map 'StreetSceneLarge' took 0.191
+[2018.10.28-21.57.48:247][376]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-21.58.57:369][963]Cmd: TRANSACTION UNDO
+[2018.10.28-21.58.57:370][963]LogEditorTransaction: Undo Move Actors
+[2018.10.28-21.58.57:456][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase108.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:457][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase73.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:457][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase76.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:458][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase72.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:460][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase85.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:462][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase116.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:462][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase79.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:463][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase119.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:464][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase49.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:464][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase46.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:465][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase52.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:465][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sideWalkBlock2.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:466][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase5.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:467][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockIntersect5.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:467][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase92.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:468][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sideWalkBlock54.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:469][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase96.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:470][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sideWalkBlock51.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:471][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase88.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:472][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.SidewalkCorner15.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:472][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sideWalkBlock88.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:473][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock91_242.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:474][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase188.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:475][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase206.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:477][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase199.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:478][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase196.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:478][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase140_279.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:479][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase153.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:480][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase94.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:480][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase157.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:481][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase91.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:483][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase177.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:485][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase166.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:485][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase99.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.58.57:486][963]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sideWalkBlock78.StaticMeshComponent0) Component already registered.
+[2018.10.28-21.59.12:105][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-21.59.19:362][246]Cmd: TRANSACTION UNDO
+[2018.10.28-21.59.19:362][246]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.28-21.59.44:069][708]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-22.00.04:824][917]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.28-22.00.08:439][131]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-22.00.45:542][251]Cmd: TRANSACTION UNDO
+[2018.10.28-22.00.45:542][251]LogEditorTransaction: Undo Move Actors
+[2018.10.28-22.00.45:706][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase401.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:707][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase403.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:709][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase407.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:709][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase413.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:710][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase222.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:711][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase383.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:712][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase393.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:712][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase387.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:714][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.SidewalkCorner26.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:714][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase437.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:715][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase240.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:717][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase423.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:718][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase417.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:719][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase431.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:721][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase190.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:722][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase196.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:723][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sideWalkBlock151.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:725][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase175.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:725][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock139.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:726][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock140.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:727][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase199.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:728][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase214.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:729][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase216.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:730][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase367.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:731][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock165.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:732][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase351.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:733][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase353.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:735][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock159.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.00.45:735][251]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase205.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.01.04:152][214]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.28-22.01.07:654][365]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-22.02.08:246][434]Cmd: TRANSACTION UNDO
+[2018.10.28-22.02.08:246][434]LogEditorTransaction: Undo Move Actors
+[2018.10.28-22.02.08:408][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase501.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:409][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase503.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:411][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase507.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:412][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase513.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:412][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase290.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:413][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase483.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:414][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase493.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:415][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase487.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:416][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.SidewalkCorner35.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:416][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase537.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:417][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase308.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:420][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase523.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:420][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase517.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:421][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase531.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:423][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sideWalkBlock204.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:424][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase264.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:425][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sideWalkBlock207.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:426][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase267.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:426][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.SidewalkCorner33.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:427][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock195.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:429][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase257.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:429][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock196.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:430][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase284.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:431][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sideWalkBlock216.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:432][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase286.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:434][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase453.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:434][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock209.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.08:435][434]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase277.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:325][475]Cmd: TRANSACTION UNDO
+[2018.10.28-22.02.09:325][475]LogEditorTransaction: Undo Move Actors
+[2018.10.28-22.02.09:406][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase274.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:407][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase457.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:407][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock215.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:407][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase448.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:409][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase271.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:410][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase471.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:410][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase286.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:412][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock217.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:412][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase282.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:413][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase248.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:414][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock197.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:415][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase257.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:415][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase243.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:416][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockIntersect16.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:417][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock221.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:418][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase441.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:418][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase446.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:420][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sideWalkBlock202.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:420][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sideWalkBlock204.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:421][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase305.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:422][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase531.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:423][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase302.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:424][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase521.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:424][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase533.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:424][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase307.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:426][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock247.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:426][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sideWalkBlock233.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:427][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sideWalkBlock237.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:428][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroupActor_8.GroupComponent) Component already registered.
+[2018.10.28-22.02.09:429][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase491.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:429][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock225.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:431][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase481.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:431][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase290.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:431][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase493.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:432][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase508.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:433][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase298.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:434][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase513.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:434][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase498.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.09:435][475]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase294.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.11:921][619]Cmd: TRANSACTION UNDO
+[2018.10.28-22.02.11:921][619]LogEditorTransaction: Undo Move Actors
+[2018.10.28-22.02.12:086][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase401.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:087][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase403.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:089][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase407.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:089][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase413.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:090][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase222.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:091][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase383.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:092][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase393.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:092][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase387.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:093][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.SidewalkCorner26.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:094][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase437.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:095][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase240.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:097][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase423.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:098][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase417.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:099][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase431.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:102][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase190.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:102][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase196.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:103][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sideWalkBlock151.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:105][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase175.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:105][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock139.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:107][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock140.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:108][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase199.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:108][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase214.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:109][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase216.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:111][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase367.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:112][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock165.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:113][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase351.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:113][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase353.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:115][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock159.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.12:115][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase205.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.36:294][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-22.02.41:700][252]Cmd: TRANSACTION UNDO
+[2018.10.28-22.02.41:700][252]LogEditorTransaction: Undo Move Actors
+[2018.10.28-22.02.41:782][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase274.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:784][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase457.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:784][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock215.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:784][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase448.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:785][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase271.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:786][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase471.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:787][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase286.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:788][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock217.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:789][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase282.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:789][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase248.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:791][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock197.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:791][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase257.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:791][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase243.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:792][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockIntersect16.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:792][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock221.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:793][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase441.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:793][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase446.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:794][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sideWalkBlock202.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:795][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sideWalkBlock204.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:796][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase305.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:797][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase531.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:798][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase302.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:798][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase521.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:798][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase533.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:799][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase307.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:800][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock247.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:801][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sideWalkBlock233.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:802][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sideWalkBlock237.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:802][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroupActor_12.GroupComponent) Component already registered.
+[2018.10.28-22.02.41:803][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase491.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:804][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.sidewalkBlock225.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:805][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase481.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:806][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase290.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:806][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase493.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:806][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase508.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:808][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase298.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:808][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase513.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:808][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.GroundBase498.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.41:810][252]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge.StreetSceneLarge:PersistentLevel.streetBlockBase294.StaticMeshComponent0) Component already registered.
+[2018.10.28-22.02.44:854][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-22.03.08:757][824]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase454)
+[2018.10.28-22.03.43:451][858]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-22.03.53:223][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-22.04.17:993][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-22.05.02:465][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase558)
+[2018.10.28-22.05.04:453][451]Cmd: DELETE
+[2018.10.28-22.05.04:453][451]Cmd: ACTOR DELETE
+[2018.10.28-22.05.04:591][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:592][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:593][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:593][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:594][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:594][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:594][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:595][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:595][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:596][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:596][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:597][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:597][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:598][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:599][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:599][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:600][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:600][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:600][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:601][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:601][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:602][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:602][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:603][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:603][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:603][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:604][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:604][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:605][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:605][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:605][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:606][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:606][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:606][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:607][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:607][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:608][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:608][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:608][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:609][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:610][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:610][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:611][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:611][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:611][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:612][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:612][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:612][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:613][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:614][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:614][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:615][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:615][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:615][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:616][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:616][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:617][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:617][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:618][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:618][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:618][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:619][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:619][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:619][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:620][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:620][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:621][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:621][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:621][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:622][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:622][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:622][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:623][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:623][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:624][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:624][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:624][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:624][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:625][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:625][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:626][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:626][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:627][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:627][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:627][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:628][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:628][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:628][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:629][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:629][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:629][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:630][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:630][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:631][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:631][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:632][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:632][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:632][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:632][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:633][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:633][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:633][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:634][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:634][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:634][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:635][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:635][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:635][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:635][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:636][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:636][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:636][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:637][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:637][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:637][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:638][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:638][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:638][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:638][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:639][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:639][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:639][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:639][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:640][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:640][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:640][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:640][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:641][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:641][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:641][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:642][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:642][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:642][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:642][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:642][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:643][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:643][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:643][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:643][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:644][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:644][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:644][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:644][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:644][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:645][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:645][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:645][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:646][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:646][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:646][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:646][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:646][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:647][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:647][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:647][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:647][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:647][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:648][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:648][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:648][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:648][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:648][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:649][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:649][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:649][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:649][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:650][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:650][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:650][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:650][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:650][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:650][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:651][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:651][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:651][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:651][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:652][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:652][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:652][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:652][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:652][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:653][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:653][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:653][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:653][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:653][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:654][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:654][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:654][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:654][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:654][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:654][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:655][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:655][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:655][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:655][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:655][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:655][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:655][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:656][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:656][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:656][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:656][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:656][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:656][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:656][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:656][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:656][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:657][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:657][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:657][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:657][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:657][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:657][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:657][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:657][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:658][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:658][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:658][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:658][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:658][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:658][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:658][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:658][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:658][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:659][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:659][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:659][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:659][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:659][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:659][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:659][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:659][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:659][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:659][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:659][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:659][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:660][451]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.04:787][451]LogEditorActor: Deleted 238 Actors (0.328 secs)
+[2018.10.28-22.05.06:210][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase448)
+[2018.10.28-22.05.06:689][556]Cmd: DELETE
+[2018.10.28-22.05.06:689][556]Cmd: ACTOR DELETE
+[2018.10.28-22.05.06:816][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:816][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:817][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:817][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:818][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:818][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:818][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:819][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:819][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:820][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:820][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:821][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:821][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:822][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:822][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:822][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:823][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:823][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:824][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:824][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:825][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:826][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:826][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:826][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:827][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:827][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:828][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:828][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:828][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:829][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:829][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:830][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:830][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:831][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:831][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:831][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:832][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:832][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:833][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:833][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:834][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:834][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:834][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:835][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:835][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:836][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:836][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:836][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:837][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:837][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:837][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:838][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:838][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:839][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:839][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:839][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:840][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:840][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:840][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:841][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:841][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:841][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:842][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:842][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:842][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:843][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:843][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:843][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:844][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:844][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:844][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:845][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:845][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:845][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:846][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:846][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:846][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:847][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:847][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:847][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:848][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:848][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:848][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:849][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:849][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:849][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:850][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:850][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:850][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:850][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:851][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:851][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:851][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:852][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:852][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:852][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:853][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:853][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:853][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:853][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:854][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:854][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:854][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:854][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:855][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:855][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:855][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:855][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:856][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:856][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:856][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:857][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:857][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:857][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:857][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:858][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:858][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:858][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:859][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:859][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:859][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:859][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:860][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:860][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:860][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:860][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:860][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:861][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:861][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:862][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:862][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:862][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:862][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:863][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:863][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:863][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:863][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:864][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:864][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:864][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:864][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:864][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:865][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:865][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:865][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:865][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:865][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:866][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:866][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:866][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:866][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:866][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:867][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:867][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:867][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:867][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:868][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:868][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:868][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:868][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:868][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:869][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:869][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:869][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:869][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:869][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:870][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:870][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:870][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:870][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:870][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:870][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:871][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:871][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:871][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:871][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:871][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:871][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:872][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:872][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:872][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:872][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:872][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:872][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:872][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:873][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:873][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:873][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:873][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:873][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:873][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:873][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:873][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:874][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:874][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:874][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:874][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:874][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:874][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:874][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:874][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:875][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:875][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:875][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:875][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:875][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:875][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:875][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:875][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:875][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:876][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:876][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:876][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:876][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:876][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:876][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:876][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:876][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:876][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:876][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:876][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:876][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:877][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:877][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:877][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:877][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:877][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:877][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:877][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:877][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:877][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:877][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:877][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:877][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:877][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:877][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:878][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:879][556]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.05.06:900][556]LogEditorActor: Deleted 238 Actors (0.210 secs)
+[2018.10.28-22.05.10:568][770]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-22.05.11:955][770]LogSavePackage: Moving '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLargeBAADE8914A09E2DBD1EF5BBD241924CB.tmp' to '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap'
+[2018.10.28-22.05.11:998][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StreetSceneLarge_BuiltData" FILE="../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset" SILENT=true
+[2018.10.28-22.05.12:114][770]LogSavePackage: Moving '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_BuiltData1A7F14804F2822241A860CA3BC514540.tmp' to '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset'
+[2018.10.28-22.06.06:083][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-22.08.46:914][417]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Dropbox\Dropbox\Public\Classes\Asset Pipeline\Wood Car.obj)
+[2018.10.28-22.08.46:967][417]LogFbx: Loading FBX Scene from D:\Dropbox\Dropbox\Public\Classes\Asset Pipeline\Wood Car.obj
+[2018.10.28-22.08.47:022][417]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.28-22.08.50:135][417]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.10.28-22.08.50:429][417]LogMaterial: Display: Missing cached shader map for material defaultMat, compiling. 
+[2018.10.28-22.08.50:453][417]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.28-22.08.50:453][417]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.28-22.08.50:453][417]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.28-22.08.50:453][417]LogFbx: Warning: Triangulating static mesh default
+[2018.10.28-22.08.50:620][417]LogStaticMesh: Building static mesh Wood_Car...
+[2018.10.28-22.08.50:770][417]LogStaticMesh: Built static mesh [0.15s] /Game/Hayden_Matthews_Content/Wood_Car.Wood_Car
+[2018.10.28-22.08.50:783][417]LogStaticMesh: Warning: Wood_Car has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2018.10.28-22.08.50:783][417]LogStaticMesh: Warning: Wood_Car has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.10.28-22.08.50:819][417]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.10.28-22.08.50:819][417]FBXImport: Warning: Wood_Car has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2018.10.28-22.08.50:819][417]FBXImport: Warning: Wood_Car has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.10.28-22.08.55:423][683]LogSlate: Window 'Message Log' being destroyed
+[2018.10.28-22.08.55:427][683]LogSlate: Window 'Message Log' being destroyed
+[2018.10.28-22.09.19:987][148]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-22.09.20:203][160]LogActorFactory: Actor Factory created Wood_Car
+[2018.10.28-22.09.21:985][266]LogActorFactory: Actor Factory created Wood_Car
+[2018.10.28-22.09.49:757][900]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-22.09.50:884][966]LogActorFactory: Actor Factory created MACHicAssign004WBsize
+[2018.10.28-22.09.52:736][ 75]LogActorFactory: Actor Factory created MACHicAssign004WBsize
+[2018.10.28-22.09.56:829][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wood_Car)
+[2018.10.28-22.10.13:233][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-22.10.29:757][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-22.10.53:596][499]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Dropbox\Dropbox\Public\Classes\Asset Pipeline\StainedWood_M.tga)
+[2018.10.28-22.10.53:653][499]LogTexture: Display: Building textures: StainedWood_M (AutoDXT, 2048X2048)
+[2018.10.28-22.10.59:357][553]LogMaterial: Display: Missing cached shader map for material StainedWood_M_Mat, compiling. 
+[2018.10.28-22.10.59:381][553]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.28-22.10.59:381][553]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.28-22.10.59:381][553]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.28-22.11.09:103][118]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-22.11.10:773][118]LogSavePackage: Moving '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge35C948E147A9BA4312CE7C9B59143950.tmp' to '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap'
+[2018.10.28-22.11.10:809][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StreetSceneLarge_BuiltData" FILE="../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset" SILENT=true
+[2018.10.28-22.11.10:894][118]LogSavePackage: Moving '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_BuiltData9AAF95294C5DDAD36DA25093CA2D8456.tmp' to '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset'
+[2018.10.28-22.11.11:877][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MACHicAssign004WBsize2)
+[2018.10.28-22.11.13:014][240]Cmd: DELETE
+[2018.10.28-22.11.13:014][240]Cmd: ACTOR DELETE
+[2018.10.28-22.11.13:038][240]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.28-22.11.13:059][240]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2018.10.28-22.11.19:182][607]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-22.11.20:704][607]LogSavePackage: Moving '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge01380CA94C8137B0C369219A476E1093.tmp' to '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge.umap'
+[2018.10.28-22.11.20:740][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StreetSceneLarge_BuiltData" FILE="../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset" SILENT=true
+[2018.10.28-22.11.20:823][607]LogSavePackage: Moving '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_BuiltData80606E4949CF00FD122EC8B01BFE0CFE.tmp' to '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_BuiltData.uasset'
+[2018.10.28-22.21.19:608][148]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StreetSceneLarge' took 0.038
+[2018.10.28-22.21.19:612][148]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hayden_Matthews_Content/defaultMat] ([1] browsable assets)...
+[2018.10.28-22.21.19:635][148]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Hayden_Matthews_Content/defaultMat.defaultMat]
+[2018.10.28-22.21.19:635][148]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hayden_Matthews_Content/defaultMat]
+[2018.10.28-22.21.19:655][148]LogSavePackage: Moving '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Saved/defaultMat_Auto1D59A4F7A4AD01B9C149CCF90F4026A64.tmp' to '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Saved/Autosaves/Game/Hayden_Matthews_Content/defaultMat_Auto1.uasset'
+[2018.10.28-22.21.19:656][148]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hayden_Matthews_Content/Wood_Car] ([1] browsable assets)...
+[2018.10.28-22.21.19:681][148]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Hayden_Matthews_Content/Wood_Car.Wood_Car]
+[2018.10.28-22.21.19:681][148]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hayden_Matthews_Content/Wood_Car]
+[2018.10.28-22.21.19:706][148]LogSavePackage: Moving '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Saved/Wood_Car_Auto12A00A2B148D6CBE4A2223A8730C0542F.tmp' to '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Saved/Autosaves/Game/Hayden_Matthews_Content/Wood_Car_Auto1.uasset'
+[2018.10.28-22.21.19:710][148]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Human4Size/StainedWood_M] ([1] browsable assets)...
+[2018.10.28-22.21.19:719][148]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Human4Size/StainedWood_M.StainedWood_M]
+[2018.10.28-22.21.19:719][148]OBJ SavePackage: Finished generating thumbnails for package [/Game/Human4Size/StainedWood_M]
+[2018.10.28-22.21.19:741][148]LogSavePackage: Moving '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Saved/StainedWood_M_Auto104E4E39A4AB71069B3B20CA4D8FA088E.tmp' to '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Saved/Autosaves/Game/Human4Size/StainedWood_M_Auto1.uasset'
+[2018.10.28-22.21.19:742][148]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Human4Size/StainedWood_M_Mat] ([1] browsable assets)...
+[2018.10.28-22.21.19:765][148]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Human4Size/StainedWood_M_Mat.StainedWood_M_Mat]
+[2018.10.28-22.21.19:766][148]OBJ SavePackage: Finished generating thumbnails for package [/Game/Human4Size/StainedWood_M_Mat]
+[2018.10.28-22.21.19:794][148]LogSavePackage: Moving '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Saved/StainedWood_M_Mat_Auto17ADA3FB2406BED11275C20B17597C619.tmp' to '../../../../../../Users/hayde/Documents/AssetPipeMaster02/APsec1LargeCityBase/Saved/Autosaves/Game/Human4Size/StainedWood_M_Mat_Auto1.uasset'
+[2018.10.28-22.21.19:795][148]LogFileHelpers: Auto-saving content packages took 0.184
+[2018.10.28-22.24.12:828][666]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-22.24.21:202][924]LogSlate: Window 'Save Content' being destroyed
+[2018.10.28-22.24.21:419][924]LogSlate: Window 'APsec1LargeCityBase - Unreal Editor' being destroyed
+[2018.10.28-22.24.21:847][925]Cmd: QUIT_EDITOR
+[2018.10.28-22.24.21:895][925]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.28-22.24.21:928][925]LogExit: Preparing to exit.
+[2018.10.28-22.24.23:220][925]LogExit: Editor shut down
+[2018.10.28-22.24.23:222][925]LogExit: Transaction tracking system shut down
+[2018.10.28-22.24.24:278][925]LogExit: Object subsystem successfully closed.
+[2018.10.28-22.24.24:311][925]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.10.28-22.24.24:332][925]LogD3D11RHI: Shutdown
+[2018.10.28-22.24.24:332][925]LogD3D11RHI: CleanupD3DDevice
+[2018.10.28-22.24.24:336][925]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.10.28-22.24.24:379][925]LogModuleManager: Shutting down and abandoning module MeshBuilder (614)
+[2018.10.28-22.24.24:379][925]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2018.10.28-22.24.24:379][925]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2018.10.28-22.24.24:379][925]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2018.10.28-22.24.24:465][925]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2018.10.28-22.24.24:465][925]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2018.10.28-22.24.24:465][925]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2018.10.28-22.24.24:466][925]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (600)
+[2018.10.28-22.24.24:466][925]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2018.10.28-22.24.24:466][925]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.10.28-22.24.24:466][925]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.10.28-22.24.24:468][925]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.10.28-22.24.24:468][925]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.10.28-22.24.24:468][925]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.10.28-22.24.24:468][925]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.10.28-22.24.24:468][925]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.10.28-22.24.24:468][925]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.10.28-22.24.24:468][925]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.10.28-22.24.24:468][925]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.10.28-22.24.24:468][925]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.10.28-22.24.24:468][925]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.10.28-22.24.24:468][925]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.10.28-22.24.24:469][925]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.10.28-22.24.24:469][925]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.10.28-22.24.24:470][925]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.10.28-22.24.24:470][925]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.10.28-22.24.24:471][925]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.10.28-22.24.24:471][925]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.10.28-22.24.24:471][925]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.10.28-22.24.24:472][925]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.10.28-22.24.24:472][925]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.10.28-22.24.24:472][925]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.10.28-22.24.24:472][925]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.10.28-22.24.24:472][925]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.10.28-22.24.24:472][925]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.10.28-22.24.24:472][925]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.10.28-22.24.24:472][925]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.10.28-22.24.24:472][925]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.10.28-22.24.24:472][925]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.10.28-22.24.24:472][925]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.10.28-22.24.24:472][925]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.10.28-22.24.24:472][925]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.10.28-22.24.24:472][925]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.10.28-22.24.24:472][925]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.10.28-22.24.24:472][925]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.10.28-22.24.24:473][925]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.10.28-22.24.24:473][925]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.10.28-22.24.24:474][925]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.10.28-22.24.24:475][925]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.10.28-22.24.24:475][925]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.10.28-22.24.24:475][925]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.10.28-22.24.24:476][925]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.10.28-22.24.24:476][925]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.10.28-22.24.24:476][925]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.10.28-22.24.25:122][925]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.10.28-22.24.25:123][925]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.10.28-22.24.25:123][925]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.10.28-22.24.25:123][925]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.10.28-22.24.25:123][925]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.10.28-22.24.25:125][925]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.10.28-22.24.25:126][925]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.10.28-22.24.25:127][925]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.10.28-22.24.25:128][925]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.10.28-22.24.25:128][925]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.10.28-22.24.25:128][925]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.10.28-22.24.25:128][925]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.10.28-22.24.25:129][925]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.10.28-22.24.25:129][925]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.10.28-22.24.25:129][925]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.10.28-22.24.25:129][925]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.10.28-22.24.25:130][925]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.10.28-22.24.25:130][925]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.10.28-22.24.25:131][925]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.10.28-22.24.25:132][925]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.10.28-22.24.25:132][925]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.10.28-22.24.25:133][925]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.10.28-22.24.25:189][925]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.10.28-22.24.25:190][925]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.10.28-22.24.25:191][925]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.10.28-22.24.25:193][925]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.10.28-22.24.25:193][925]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.10.28-22.24.25:193][925]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.10.28-22.24.25:194][925]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.10.28-22.24.25:196][925]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.10.28-22.24.25:196][925]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.10.28-22.24.25:196][925]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.10.28-22.24.25:198][925]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.10.28-22.24.25:201][925]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.10.28-22.24.25:201][925]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.10.28-22.24.25:201][925]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.10.28-22.24.25:202][925]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.10.28-22.24.25:203][925]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.10.28-22.24.25:203][925]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.10.28-22.24.25:204][925]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.10.28-22.24.25:204][925]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.10.28-22.24.25:204][925]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.10.28-22.24.25:204][925]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.10.28-22.24.25:205][925]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.10.28-22.24.25:205][925]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.10.28-22.24.25:205][925]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.10.28-22.24.25:205][925]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.10.28-22.24.25:205][925]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.10.28-22.24.25:205][925]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.10.28-22.24.25:205][925]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.10.28-22.24.25:207][925]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.10.28-22.24.25:207][925]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.10.28-22.24.25:207][925]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.10.28-22.24.25:207][925]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.10.28-22.24.25:373][925]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.10.28-22.24.25:375][925]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.10.28-22.24.25:375][925]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.10.28-22.24.25:375][925]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.10.28-22.24.25:376][925]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.10.28-22.24.25:376][925]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.10.28-22.24.25:376][925]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.10.28-22.24.25:376][925]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.10.28-22.24.25:376][925]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.10.28-22.24.25:376][925]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.10.28-22.24.25:376][925]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.10.28-22.24.25:376][925]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.10.28-22.24.25:377][925]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.10.28-22.24.25:377][925]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.10.28-22.24.25:378][925]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.10.28-22.24.25:378][925]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.10.28-22.24.25:378][925]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.10.28-22.24.25:378][925]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.10.28-22.24.25:388][925]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.10.28-22.24.25:388][925]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.10.28-22.24.25:388][925]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.10.28-22.24.25:389][925]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.10.28-22.24.25:389][925]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.10.28-22.24.25:389][925]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.10.28-22.24.25:389][925]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.10.28-22.24.25:389][925]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.10.28-22.24.25:390][925]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.10.28-22.24.25:390][925]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.10.28-22.24.25:390][925]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.10.28-22.24.25:390][925]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.10.28-22.24.25:391][925]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.10.28-22.24.25:392][925]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.10.28-22.24.25:395][925]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.10.28-22.24.25:395][925]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.10.28-22.24.25:396][925]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.10.28-22.24.25:396][925]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.10.28-22.24.25:397][925]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.10.28-22.24.25:397][925]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.10.28-22.24.25:397][925]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.10.28-22.24.25:397][925]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.10.28-22.24.25:397][925]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.10.28-22.24.25:398][925]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.10.28-22.24.25:400][925]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.10.28-22.24.25:401][925]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.10.28-22.24.25:402][925]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.10.28-22.24.25:402][925]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.10.28-22.24.25:402][925]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.10.28-22.24.25:402][925]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.10.28-22.24.25:402][925]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.10.28-22.24.25:404][925]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.10.28-22.24.25:404][925]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.10.28-22.24.25:404][925]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.10.28-22.24.25:404][925]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.10.28-22.24.25:405][925]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.10.28-22.24.25:405][925]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.10.28-22.24.25:405][925]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.10.28-22.24.25:405][925]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.10.28-22.24.25:406][925]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.10.28-22.24.25:406][925]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.10.28-22.24.25:507][925]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.10.28-22.24.25:607][925]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.10.28-22.24.25:607][925]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.10.28-22.24.25:608][925]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.10.28-22.24.25:608][925]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.10.28-22.24.25:608][925]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.10.28-22.24.25:608][925]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.10.28-22.24.25:609][925]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.10.28-22.24.25:613][925]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.10.28-22.24.25:614][925]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.10.28-22.24.25:614][925]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.10.28-22.24.25:615][925]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.10.28-22.24.25:616][925]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.10.28-22.24.25:622][925]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.10.28-22.24.25:622][925]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.10.28-22.24.25:622][925]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.10.28-22.24.25:622][925]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.10.28-22.24.25:623][925]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.10.28-22.24.25:624][925]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.10.28-22.24.25:629][925]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.10.28-22.24.25:637][925]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.10.28-22.24.25:637][925]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.10.28-22.24.25:637][925]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.10.28-22.24.25:638][925]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.10.28-22.24.25:638][925]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.10.28-22.24.25:638][925]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.10.28-22.24.25:638][925]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.10.28-22.24.25:639][925]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.10.28-22.24.25:639][925]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.10.28-22.24.25:639][925]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.10.28-22.24.25:642][925]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.10.28-22.24.25:642][925]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.10.28-22.24.25:643][925]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.10.28-22.24.25:644][925]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.10.28-22.24.25:644][925]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.10.28-22.24.25:646][925]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.10.28-22.24.25:649][925]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.10.28-22.24.25:649][925]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.10.28-22.24.25:651][925]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.10.28-22.24.25:651][925]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.10.28-22.24.25:657][925]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.10.28-22.24.25:658][925]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.10.28-22.24.25:658][925]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.10.28-22.24.25:658][925]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.10.28-22.24.25:658][925]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.10.28-22.24.25:658][925]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.10.28-22.24.25:658][925]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.10.28-22.24.25:658][925]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.10.28-22.24.25:658][925]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.10.28-22.24.25:659][925]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.10.28-22.24.25:659][925]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.10.28-22.24.25:659][925]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.10.28-22.24.25:660][925]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.10.28-22.24.25:661][925]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.10.28-22.24.25:661][925]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.10.28-22.24.25:662][925]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.10.28-22.24.25:662][925]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.10.28-22.24.25:664][925]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.10.28-22.24.25:702][925]LogDerivedDataCache: Shutdown
+[2018.10.28-22.24.25:702][925]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.10.28-22.24.25:703][925]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.10.28-22.24.25:704][925]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.10.28-22.24.25:704][925]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.10.28-22.24.25:705][925]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.10.28-22.24.25:705][925]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.10.28-22.24.25:705][925]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.10.28-22.24.25:706][925]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.10.28-22.24.25:706][925]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.10.28-22.24.25:706][925]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.10.28-22.24.25:706][925]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.10.28-22.24.25:707][925]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.10.28-22.24.25:707][925]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.10.28-22.24.25:707][925]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.10.28-22.24.25:707][925]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.10.28-22.24.25:707][925]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.10.28-22.24.25:708][925]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.10.28-22.24.25:708][925]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.10.28-22.24.25:708][925]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.10.28-22.24.25:708][925]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.10.28-22.24.25:708][925]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.10.28-22.24.25:709][925]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.10.28-22.24.25:709][925]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.10.28-22.24.25:726][925]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.10.28-22.24.25:726][925]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.10.28-22.24.25:734][925]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.10.28-22.24.25:734][925]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.10.28-22.24.25:791][925]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.10.28-22.24.25:791][925]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.10.28-22.24.25:791][925]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.10.28-22.24.25:791][925]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.10.28-22.24.25:791][925]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.10.28-22.24.25:792][925]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.10.28-22.24.25:792][925]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.10.28-22.24.25:792][925]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.10.28-22.24.25:792][925]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.10.28-22.24.25:792][925]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.10.28-22.24.25:792][925]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.10.28-22.24.25:792][925]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.10.28-22.24.25:792][925]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.10.28-22.24.25:792][925]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.10.28-22.24.25:793][925]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.10.28-22.24.25:793][925]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.10.28-22.24.25:793][925]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.10.28-22.24.25:793][925]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.10.28-22.24.25:795][925]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.10.28-22.24.25:796][925]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.10.28-22.24.25:823][925]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.10.28-22.24.25:823][925]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.10.28-22.24.25:823][925]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1F6B0467-4C88-C192-D1F3-0885EF566EB8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=256e65544505fa98595b83ab24ab0f91%7C7231390b95404eb09b61f6fe4c8e912f%7Ce0fc954a-f3bd-4430-86fb-2f3fe1167fc7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.10.28-22.24.25:855][925]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.10.28-22.24.25:859][925]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.10.28-22.24.25:859][925]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.10.28-22.24.25:859][925]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.10.28-22.24.25:859][925]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.10.28-22.24.25:859][925]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.10.28-22.24.25:859][925]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.10.28-22.24.25:859][925]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.10.28-22.24.25:859][925]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.10.28-22.24.25:859][925]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.10.28-22.24.25:860][925]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.10.28-22.24.25:860][925]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.10.28-22.24.25:860][925]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.10.28-22.24.25:862][925]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.10.28-22.24.25:862][925]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.10.28-22.24.25:864][925]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.10.28-22.24.25:864][925]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.10.28-22.24.25:864][925]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.10.28-22.24.25:864][925]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.10.28-22.24.25:865][925]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.10.28-22.24.25:866][925]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.10.28-22.24.25:866][925]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.10.28-22.24.25:866][925]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.10.28-22.24.25:866][925]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.10.28-22.24.25:866][925]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.10.28-22.24.25:866][925]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.10.28-22.24.25:867][925]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.10.28-22.24.25:867][925]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.10.28-22.24.25:867][925]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.10.28-22.24.25:867][925]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.10.28-22.24.25:879][925]LogExit: Exiting.
+[2018.10.28-22.24.25:936][925]Log file closed, 10/28/18 16:24:25
+>>>>>>> 9f7bc1fd40aef4298d6ac9a8eb1ce3bf5c360ac5
