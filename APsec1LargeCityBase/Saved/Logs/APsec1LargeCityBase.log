@@ -1087,3 +1087,94 @@ LogInit: Object subsystem initialized
 [2018.10.29-22.27.01:279][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert9SGFFC8534A4CCBA5A4168715914CA29210.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert9SG.uasset'
 [2018.10.29-22.27.04:293][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lin_Pan_content/truck_final" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/truck_final.uasset" SILENT=true
 [2018.10.29-22.27.04:341][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/truck_final9D7A25434DD3C7644917E3A4AD1B0266.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/truck_final.uasset'
+[2018.10.29-22.27.39:474][279]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-22.28.06:535][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.28.07:013][ 83]LogAIModule: Creating AISystem for world StreetSceneLarge_JJ
+[2018.10.29-22.28.07:025][ 83]LogAssetEditorManager: Opening Asset editor for World /Game/StreetSceneLarge_JJ.StreetSceneLarge_JJ
+[2018.10.29-22.28.08:232][ 83]LogSlate: Window 'Save Content' being destroyed
+[2018.10.29-22.28.09:035][ 83]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_Lin_Pan7F965B9449ED9ACC483871BD705AE34E.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_Lin_Pan.umap'
+[2018.10.29-22.28.09:091][ 83]LogFileHelpers: Saving map 'StreetSceneLarge_Lin_Pan' took 0.852
+[2018.10.29-22.28.09:093][ 83]Cmd: MAP LOAD FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_JJ.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.29-22.28.09:093][ 83]LightingResults: New page: Lighting Build
+[2018.10.29-22.28.09:093][ 83]LoadErrors: New page: Loading map: StreetSceneLarge_JJ.umap
+[2018.10.29-22.28.09:098][ 83]MapCheck: New page: Map Check
+[2018.10.29-22.28.09:098][ 83]LightingResults: New page: Lighting Build
+[2018.10.29-22.28.09:222][ 83]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.29-22.28.09:384][ 83]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.29-22.28.09:469][ 83]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 85.192ms to complete.
+[2018.10.29-22.28.09:471][ 83]LogFileHelpers: Loading map 'StreetSceneLarge_JJ' took 0.380
+[2018.10.29-22.28.18:782][160]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.28.19:173][176]LogAIModule: Creating AISystem for world StreetSceneLarge_Lin_Pan
+[2018.10.29-22.28.19:189][176]LogAssetEditorManager: Opening Asset editor for World /Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan
+[2018.10.29-22.28.19:279][176]Cmd: MAP LOAD FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_Lin_Pan.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.29-22.28.19:279][176]LightingResults: New page: Lighting Build
+[2018.10.29-22.28.19:280][176]LoadErrors: New page: Loading map: StreetSceneLarge_Lin_Pan.umap
+[2018.10.29-22.28.19:282][176]MapCheck: New page: Map Check
+[2018.10.29-22.28.19:283][176]LightingResults: New page: Lighting Build
+[2018.10.29-22.28.19:440][176]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.29-22.28.19:607][176]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.29-22.28.19:691][176]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.394ms to complete.
+[2018.10.29-22.28.19:693][176]LogFileHelpers: Loading map 'StreetSceneLarge_Lin_Pan' took 0.415
+[2018.10.29-22.29.57:744][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SidewalkCorner10)
+[2018.10.29-22.29.59:749][982]LogEditorViewport: Clicking Background
+[2018.10.29-22.30.17:294][788]Cmd: EDIT COPY
+[2018.10.29-22.30.22:151][286]Cmd: EDIT COPY
+[2018.10.29-22.30.23:045][376]Cmd: EDIT PASTE
+[2018.10.29-22.30.28:137][883]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (sidewalkBlock51)
+[2018.10.29-22.30.28:190][883]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-22.30.29:538][ 30]LogEditorViewport: Clicking Background
+[2018.10.29-22.30.43:344][459]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.30.46:908][814]LogEditorViewport: Clicking Background
+[2018.10.29-22.30.47:897][930]Cmd: TRANSACTION UNDO
+[2018.10.29-22.30.47:897][930]LogEditorTransaction: Undo Clicking Background
+[2018.10.29-22.30.48:281][954]Cmd: TRANSACTION UNDO
+[2018.10.29-22.30.48:281][954]LogEditorTransaction: Undo Set Rotation
+[2018.10.29-22.30.49:139][ 36]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (streetBlockBase48)
+[2018.10.29-22.30.49:192][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-22.30.53:498][446]LogEditorViewport: Clicking Background
+[2018.10.29-22.30.54:020][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase101)
+[2018.10.29-22.30.55:027][598]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.30.59:427][ 39]LogEditorViewport: Clicking Background
+[2018.10.29-22.30.59:785][ 79]Cmd: TRANSACTION UNDO
+[2018.10.29-22.30.59:785][ 79]LogEditorTransaction: Undo Clicking Background
+[2018.10.29-22.31.00:090][ 96]Cmd: TRANSACTION UNDO
+[2018.10.29-22.31.00:090][ 96]LogEditorTransaction: Undo Set Rotation
+[2018.10.29-22.31.05:159][598]Cmd: TRANSACTION UNDO
+[2018.10.29-22.31.05:159][598]LogEditorTransaction: Undo Rotate Actors
+[2018.10.29-22.31.05:172][598]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase98.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.31.05:173][598]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroupActor_0.GroupComponent) Component already registered.
+[2018.10.29-22.31.21:759][254]LogEditorViewport: Clicking Background
+[2018.10.29-22.31.23:043][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase101)
+[2018.10.29-22.31.26:353][720]LogEditorViewport: Clicking Background
+[2018.10.29-22.31.30:457][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sideWalkBlock62)
+[2018.10.29-22.31.42:158][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (streetBlockBase001)
+[2018.10.29-22.31.46:359][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SidewalkCorner2)
+[2018.10.29-22.31.49:553][ 40]Cmd: EDIT COPY
+[2018.10.29-22.31.49:892][ 77]Cmd: EDIT PASTE
+[2018.10.29-22.32.05:138][717]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.29-22.32.15:717][872]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.29-22.32.32:835][717]LogEditorViewport: Clicking Background
+[2018.10.29-22.32.33:399][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sideWalkBlock64)
+[2018.10.29-22.32.37:315][197]Cmd: DELETE
+[2018.10.29-22.32.37:315][197]Cmd: ACTOR DELETE
+[2018.10.29-22.32.37:329][197]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.32.37:449][197]LogEditorActor: Deleted 1 Actors (0.134 secs)
+[2018.10.29-22.32.40:478][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (streetBlockBase36)
+[2018.10.29-22.32.46:113][144]Cmd: EDIT COPY
+[2018.10.29-22.32.46:542][192]Cmd: EDIT PASTE
+[2018.10.29-22.32.56:726][286]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.29-22.33.07:747][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (streetBlockIntersect3)
+[2018.10.29-22.33.15:490][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase109)
+[2018.10.29-22.33.39:529][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (streetBlockBase49)
+[2018.10.29-22.33.39:713][447]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.29-22.33.48:734][415]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase109)
+[2018.10.29-22.33.53:720][919]LogEditorViewport: Clicking Background
+[2018.10.29-22.34.00:064][602]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (GroundBase103)
+[2018.10.29-22.34.00:119][602]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-22.34.04:002][791]LogEditorViewport: Clicking Background
+[2018.10.29-22.34.06:467][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (truck_final)
+[2018.10.29-22.35.03:564][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase107)
+[2018.10.29-22.35.05:055][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase003)
+[2018.10.29-22.35.06:088][387]LogEditorViewport: Clicking Background
+[2018.10.29-22.35.08:363][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.35.09:268][659]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_Lin_Pan193E6144468D74F48080F8B6AD0B0C91.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_Lin_Pan.umap'
