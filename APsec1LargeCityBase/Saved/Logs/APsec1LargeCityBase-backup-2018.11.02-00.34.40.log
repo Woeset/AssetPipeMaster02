@@ -1,0 +1,1180 @@
+﻿Log file open, 10/29/18 16:15:55
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: APsec1LargeCityBase
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.418325
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.173s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: AMD FX(tm)-8350 Eight-Core Processor           , GPU: AMD Radeon (TM) R9 390 Series
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Program Files (x86)/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.005s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.29-22.15.57:130][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.29-22.15.57:130][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.29-22.15.57:159][  0]LogHAL: Display: Platform has ~ 16 GB [17071759360 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.29-22.15.57:159][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.29-22.15.57:159][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.29-22.15.57:165][  0]LogInit: Computer: DESKTOP-VIIBOLF
+[2018.10.29-22.15.57:166][  0]LogInit: User: lpan1
+[2018.10.29-22.15.57:166][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.29-22.15.57:166][  0]LogInit: High frequency timer resolution =3.919413 MHz
+[2018.10.29-22.15.57:166][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.29-22.15.57:166][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.29-22.15.57:166][  0]LogMemory: Process Physical Memory: 100.06 MB used, 100.06 MB peak
+[2018.10.29-22.15.57:166][  0]LogMemory: Process Virtual Memory: 91.04 MB used, 91.04 MB peak
+[2018.10.29-22.15.57:166][  0]LogMemory: Physical Memory: 6646.86 MB used,  9634.04 MB free, 16280.90 MB total
+[2018.10.29-22.15.57:166][  0]LogMemory: Virtual Memory: 4645.11 MB used,  9634.04 MB free, 134217728.00 MB total
+[2018.10.29-22.15.57:383][  0]LogInit: Using OS detected language (en-US).
+[2018.10.29-22.15.57:383][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.29-22.15.57:384][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.29-22.15.57:970][  0]LogStreaming: Display: Took  0.587s to InitEngineTextLocalization.
+[2018.10.29-22.15.57:971][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.29-22.15.58:109][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.29-22.15.58:109][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.29-22.16.01:424][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.29-22.16.01:424][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.29-22.16.01:463][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
+[2018.10.29-22.16.01:464][  0]LogD3D11RHI:       8168/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2018.10.29-22.16.01:466][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.29-22.16.01:466][  0]LogD3D11RHI:       0/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.29-22.16.01:466][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.29-22.16.01:478][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.29-22.16.01:478][  0]LogD3D11RHI:     GPU DeviceId: 0x67b1 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.29-22.16.01:478][  0]LogWindows: EnumDisplayDevices:
+[2018.10.29-22.16.01:478][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
+[2018.10.29-22.16.01:479][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
+[2018.10.29-22.16.01:479][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.10.29-22.16.01:479][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.10.29-22.16.01:480][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.10.29-22.16.01:480][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.10.29-22.16.01:481][  0]LogWindows:    6. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.10.29-22.16.01:481][  0]LogWindows:    7. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.10.29-22.16.01:482][  0]LogWindows:    8. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.10.29-22.16.01:482][  0]LogWindows:    9. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.10.29-22.16.01:483][  0]LogWindows:    10. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.10.29-22.16.01:483][  0]LogWindows:    11. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.10.29-22.16.01:484][  0]LogWindows:    12. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.10.29-22.16.01:484][  0]LogWindows:    13. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.10.29-22.16.01:484][  0]LogWindows:    14. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.10.29-22.16.01:485][  0]LogWindows:    15. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.10.29-22.16.01:485][  0]LogWindows: DebugString: FoundDriverCount:16 
+[2018.10.29-22.16.01:485][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
+[2018.10.29-22.16.01:485][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.6.1 (internal:24.20.11021.1000, unified:24.20.11021.1000)
+[2018.10.29-22.16.01:485][  0]LogD3D11RHI:      Driver Date: 6-7-2018
+[2018.10.29-22.16.01:485][  0]LogRHI: Texture pool is 5717 MB (70% of 8168 MB)
+[2018.10.29-22.16.01:688][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.29-22.16.01:701][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.10.29-22.16.01:703][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Intermediate/Shaders/WorkingDirectory/19216/).
+[2018.10.29-22.16.01:703][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lpan1/AppData/Local/Temp/UnrealShaderWorkingDir/03F429B04310FF357556058FA5D16588/'.
+[2018.10.29-22.16.02:327][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.29-22.16.02:364][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.29-22.16.02:400][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.29-22.16.02:439][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.29-22.16.02:484][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.29-22.16.02:521][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.29-22.16.02:559][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.29-22.16.02:596][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.29-22.16.02:620][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.29-22.16.02:790][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-22.16.02:790][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-22.16.02:790][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-22.16.02:790][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-22.16.02:790][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-22.16.02:790][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-22.16.02:790][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-22.16.02:790][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-22.16.02:790][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-22.16.02:790][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-22.16.02:790][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-22.16.02:790][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-22.16.02:790][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-22.16.02:790][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-22.16.02:790][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-22.16.02:790][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-22.16.02:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-22.16.02:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-22.16.02:808][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.29-22.16.02:943][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.29-22.16.02:943][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.29-22.16.02:993][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.29-22.16.02:993][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.29-22.16.03:030][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.29-22.16.03:065][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.29-22.16.03:100][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.29-22.16.03:146][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.29-22.16.03:176][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.29-22.16.03:177][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.29-22.16.03:577][  0]LogXGEController: Cleaning working directory: C:/Users/lpan1/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.29-22.16.03:577][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.29-22.16.03:577][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.29-22.16.03:578][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.29-22.16.06:535][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.29-22.16.06:651][  0]LogDerivedDataCache: Loaded boot cache 0.12s 71MB C:/Users/lpan1/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.29-22.16.06:652][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lpan1/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.29-22.16.06:652][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.29-22.16.06:652][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.29-22.16.06:652][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.29-22.16.06:652][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.29-22.16.06:676][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.29-22.16.06:688][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lpan1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.29-22.16.06:688][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.29-22.16.06:688][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.29-22.16.06:721][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.29-22.16.06:723][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.29-22.16.06:745][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.29-22.16.07:023][  0]LogAssetRegistry: FAssetRegistry took 0.0326 seconds to start up
+[2018.10.29-22.16.07:624][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.29-22.16.07:988][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.29-22.16.08:027][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.29-22.16.08:028][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.29-22.16.08:028][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.29-22.16.08:028][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.29-22.16.08:087][  0]LogNetVersion: APsec1LargeCityBase 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1121110827)
+[2018.10.29-22.16.08:916][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.160135 seconds
+[2018.10.29-22.16.08:929][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.29-22.16.08:929][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.29-22.16.08:929][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.29-22.16.12:890][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.29-22.16.12:920][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.29-22.16.13:409][  0]SourceControl: Source control is disabled
+[2018.10.29-22.16.13:409][  0]SourceControl: Source control is disabled
+[2018.10.29-22.16.13:428][  0]SourceControl: Source control is disabled
+[2018.10.29-22.16.13:445][  0]SourceControl: Source control is disabled
+[2018.10.29-22.16.14:244][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.29-22.16.14:572][  0]LogOcInput: OculusInput pre-init called
+[2018.10.29-22.16.14:743][  0]LogEngine: Initializing Engine...
+[2018.10.29-22.16.14:744][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.29-22.16.14:747][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.29-22.16.14:747][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.29-22.16.14:747][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.29-22.16.14:747][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.29-22.16.15:078][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.29-22.16.15:110][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.29-22.16.15:166][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.29-22.16.15:238][  0]LogInit: FAudioDevice initialized.
+[2018.10.29-22.16.15:238][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.29-22.16.15:376][  0]LogDerivedDataCache: Saved boot cache 0.14s 71MB C:/Users/lpan1/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.29-22.16.15:392][  0]LogInit: Texture streaming: Enabled
+[2018.10.29-22.16.15:469][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.29-22.16.15:501][  0]LogInit: Transaction tracking system initialized
+[2018.10.29-22.16.15:599][  0]BlueprintLog: New page: Editor Load
+[2018.10.29-22.16.16:020][  0]LocalizationService: Localization service is disabled
+[2018.10.29-22.16.16:617][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.29-22.16.16:617][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.29-22.16.16:617][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.29-22.16.16:617][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.29-22.16.16:617][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.29-22.16.16:617][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.29-22.16.16:617][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.29-22.16.17:239][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/' took 0.02s
+[2018.10.29-22.16.17:239][  0]SourceControl: Source control is disabled
+[2018.10.29-22.16.17:239][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.29-22.16.17:240][  0]LightingResults: New page: Lighting Build
+[2018.10.29-22.16.17:255][  0]MapCheck: New page: Map Check
+[2018.10.29-22.16.17:255][  0]LightingResults: New page: Lighting Build
+[2018.10.29-22.16.17:642][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.10.29-22.16.17:650][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.29-22.16.17:742][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.29-22.16.17:821][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.825ms to complete.
+[2018.10.29-22.16.17:821][  0]LogFileHelpers: Loading map 'Template_Default' took 0.582
+[2018.10.29-22.16.18:048][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.29-22.16.18:063][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.29-22.16.18:076][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.29-22.16.18:089][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.29-22.16.18:116][  0]LogCollectionManager: Loaded 0 collections in 0.001123 seconds
+[2018.10.29-22.16.18:188][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/Collections/' took 0.01s
+[2018.10.29-22.16.18:188][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Developers/lpan1/Collections/' took 0.01s
+[2018.10.29-22.16.18:188][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Collections/' took 0.01s
+[2018.10.29-22.16.18:188][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.29-22.16.18:205][  0]LogContentBrowser: Native class hierarchy populated in 0.0168 seconds. Added 2572 classes and 603 folders.
+[2018.10.29-22.16.18:212][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.29-22.16.18:620][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.29-22.16.18:640][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.10.29-22.16.18:666][  0]LogSlate: Took 0.005452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.29-22.16.18:674][  0]LogSlate: Took 0.005641 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.29-22.16.18:689][  0]LogSlate: Took 0.006560 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.29-22.16.18:810][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.10.29-22.16.19:017][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.29-22.16.19:017][  0]LogLoad: (Engine Initialization) Total time: 26.19 seconds
+[2018.10.29-22.16.19:017][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.29-22.16.19:050][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.29-22.16.19:103][  0]LogSlate: Took 0.005786 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.29-22.16.19:196][  3]LogAssetRegistry: Asset discovery search completed in 12.1967 seconds
+[2018.10.29-22.16.19:198][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.29-22.16.19:198][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2018.10.29-22.16.21:701][292]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.16.30:002][302]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.29-22.16.30:026][302]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/lpan1/Desktop/AP/truck_final.obj)
+[2018.10.29-22.16.30:047][302]LogFbx: Loading FBX Scene from C:/Users/lpan1/Desktop/AP/truck_final.obj
+[2018.10.29-22.16.30:240][302]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.29-22.16.31:766][302]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.10.29-22.16.31:995][302]LogLinker: Can't find file '/Game/13b4b68224d187a94620cba134de8b1c'
+[2018.10.29-22.16.31:995][302]LogLinker: Can't find file '/Game/13b4b68224d187a94620cba134de8b1c'
+[2018.10.29-22.16.32:109][302]LogTexture: Display: Building textures: 13b4b68224d187a94620cba134de8b1c (BGRA8, 1463X1600)
+[2018.10.29-22.16.32:223][302]LogMaterial: Display: Missing cached shader map for material lambert14SG, compiling. 
+[2018.10.29-22.16.32:309][302]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.29-22.16.32:309][302]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.29-22.16.32:309][302]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.29-22.16.32:415][302]LogTexture: Display: Building textures: 13b4b68224d187a94620cba134de8b1c (BGRA8, 1463X1600)
+[2018.10.29-22.16.32:526][302]LogMaterial: Display: Missing cached shader map for material lambert9SG, compiling. 
+[2018.10.29-22.16.32:641][302]LogTexture: Display: Building textures: 13b4b68224d187a94620cba134de8b1c (BGRA8, 1463X1600)
+[2018.10.29-22.16.32:754][302]LogMaterial: Display: Missing cached shader map for material lambert10SG, compiling. 
+[2018.10.29-22.16.32:856][302]LogTexture: Display: Building textures: 13b4b68224d187a94620cba134de8b1c (BGRA8, 1463X1600)
+[2018.10.29-22.16.32:967][302]LogMaterial: Display: Missing cached shader map for material lambert5SG, compiling. 
+[2018.10.29-22.16.33:076][302]LogTexture: Display: Building textures: 13b4b68224d187a94620cba134de8b1c (BGRA8, 1463X1600)
+[2018.10.29-22.16.33:201][302]LogMaterial: Display: Missing cached shader map for material lambert4SG, compiling. 
+[2018.10.29-22.16.33:227][302]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.10.29-22.16.33:319][302]LogTexture: Display: Building textures: 13b4b68224d187a94620cba134de8b1c (BGRA8, 1463X1600)
+[2018.10.29-22.16.33:421][302]LogMaterial: Display: Missing cached shader map for material lambert16SG, compiling. 
+[2018.10.29-22.16.33:534][302]LogTexture: Display: Building textures: 13b4b68224d187a94620cba134de8b1c (BGRA8, 1463X1600)
+[2018.10.29-22.16.33:641][302]LogMaterial: Display: Missing cached shader map for material lambert11SG, compiling. 
+[2018.10.29-22.16.33:754][302]LogTexture: Display: Building textures: 13b4b68224d187a94620cba134de8b1c (BGRA8, 1463X1600)
+[2018.10.29-22.16.33:866][302]LogMaterial: Display: Missing cached shader map for material lambert12SG, compiling. 
+[2018.10.29-22.16.33:982][302]LogTexture: Display: Building textures: 13b4b68224d187a94620cba134de8b1c (BGRA8, 1463X1600)
+[2018.10.29-22.16.34:101][302]LogMaterial: Display: Missing cached shader map for material lambert13SG, compiling. 
+[2018.10.29-22.16.34:226][302]LogTexture: Display: Building textures: 13b4b68224d187a94620cba134de8b1c (BGRA8, 1463X1600)
+[2018.10.29-22.16.34:355][302]LogMaterial: Display: Missing cached shader map for material lambert21SG, compiling. 
+[2018.10.29-22.16.34:482][302]LogTexture: Display: Building textures: 13b4b68224d187a94620cba134de8b1c (BGRA8, 1463X1600)
+[2018.10.29-22.16.34:610][302]LogMaterial: Display: Missing cached shader map for material lambert18SG, compiling. 
+[2018.10.29-22.16.34:737][302]LogTexture: Display: Building textures: 13b4b68224d187a94620cba134de8b1c (BGRA8, 1463X1600)
+[2018.10.29-22.16.34:876][302]LogMaterial: Display: Missing cached shader map for material lambert22SG, compiling. 
+[2018.10.29-22.16.35:003][302]LogTexture: Display: Building textures: 13b4b68224d187a94620cba134de8b1c (BGRA8, 1463X1600)
+[2018.10.29-22.16.35:127][302]LogShaderCompilers: Display: Shaders left to compile 232
+[2018.10.29-22.16.35:146][302]LogMaterial: Display: Missing cached shader map for material lambert19SG, compiling. 
+[2018.10.29-22.16.35:270][302]LogTexture: Display: Building textures: 13b4b68224d187a94620cba134de8b1c (BGRA8, 1463X1600)
+[2018.10.29-22.16.35:375][302]LogMaterial: Display: Missing cached shader map for material lambert15SG, compiling. 
+[2018.10.29-22.16.35:509][302]LogTexture: Display: Building textures: 13b4b68224d187a94620cba134de8b1c (BGRA8, 1463X1600)
+[2018.10.29-22.16.35:632][302]LogMaterial: Display: Missing cached shader map for material lambert20SG, compiling. 
+[2018.10.29-22.16.35:654][302]LogFbx: Warning: Triangulating static mesh polySurface9
+[2018.10.29-22.16.36:728][302]LogStaticMesh: Building static mesh truck_final...
+[2018.10.29-22.16.37:074][302]LogStaticMesh: Built static mesh [0.35s] /Game/truck_final.truck_final
+[2018.10.29-22.16.37:095][302]LogStaticMesh: Warning: truck_final has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2018.10.29-22.16.37:096][302]LogStaticMesh: Warning: truck_final has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.10.29-22.16.37:220][302]FBXImport: Warning: truck_final has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2018.10.29-22.16.37:220][302]FBXImport: Warning: truck_final has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.10.29-22.16.38:087][331]LogShaderCompilers: Display: Shaders left to compile 288
+[2018.10.29-22.16.38:632][365]LogShaderCompilers: Display: Shaders left to compile 278
+[2018.10.29-22.16.40:478][540]LogShaderCompilers: Display: Shaders left to compile 268
+[2018.10.29-22.16.41:059][596]LogSlate: Window 'Message Log' being destroyed
+[2018.10.29-22.16.41:066][596]LogSlate: Window 'Message Log' being destroyed
+[2018.10.29-22.16.41:503][640]LogShaderCompilers: Display: Shaders left to compile 258
+[2018.10.29-22.16.41:613][648]LogShaderCompilers: Display: Shaders left to compile 248
+[2018.10.29-22.16.44:188][818]LogShaderCompilers: Display: Shaders left to compile 238
+[2018.10.29-22.16.45:311][891]LogShaderCompilers: Display: Shaders left to compile 228
+[2018.10.29-22.16.46:320][959]LogShaderCompilers: Display: Shaders left to compile 218
+[2018.10.29-22.16.46:347][961]LogShaderCompilers: Display: Shaders left to compile 208
+[2018.10.29-22.16.50:231][218]LogShaderCompilers: Display: Shaders left to compile 198
+[2018.10.29-22.16.51:487][303]LogShaderCompilers: Display: Shaders left to compile 188
+[2018.10.29-22.16.52:776][389]LogShaderCompilers: Display: Shaders left to compile 178
+[2018.10.29-22.16.53:201][419]LogShaderCompilers: Display: Shaders left to compile 168
+[2018.10.29-22.16.53:832][462]LogShaderCompilers: Display: Shaders left to compile 158
+[2018.10.29-22.16.56:696][655]LogShaderCompilers: Display: Shaders left to compile 148
+[2018.10.29-22.16.57:675][688]LogShaderCompilers: Display: Shaders left to compile 138
+[2018.10.29-22.16.58:150][737]LogShaderCompilers: Display: Shaders left to compile 128
+[2018.10.29-22.16.59:765][867]LogShaderCompilers: Display: Shaders left to compile 118
+[2018.10.29-22.17.01:564][ 21]LogShaderCompilers: Display: Shaders left to compile 108
+[2018.10.29-22.17.01:720][ 32]LogShaderCompilers: Display: Shaders left to compile 98
+[2018.10.29-22.17.04:705][231]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.10.29-22.17.06:612][407]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.10.29-22.17.06:703][417]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.10.29-22.17.07:061][447]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.10.29-22.17.07:422][478]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.10.29-22.17.09:723][691]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.10.29-22.17.11:128][834]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.10.29-22.17.12:477][960]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.29-22.17.12:620][970]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.29-22.17.33:746][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lin_Pan_content/truck_final" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/truck_final.uasset" SILENT=true
+[2018.10.29-22.17.33:834][906]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/truck_final654B3E544A5E7B3DF3DE149B7FA6AC85.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/truck_final.uasset'
+[2018.10.29-22.17.49:860][280]LogLinker: Warning: Can't find file '/Game/StreetSceneLarge_ST_BuiltData'
+[2018.10.29-22.17.49:860][280]LogLinker: Warning: Can't find file for asset '/Game/StreetSceneLarge_ST_BuiltData' while loading C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_ST.umap.
+[2018.10.29-22.17.49:860][280]LoadErrors: Error: /Game/StreetSceneLarge_ST : Can't find file for asset. /Game/StreetSceneLarge_ST_BuiltData
+[2018.10.29-22.17.49:894][280]LogLinker: Warning: Can't find file '/Game/StreetSceneLarge_ST_BuiltData'
+[2018.10.29-22.17.49:894][280]LogLinker: Warning: Can't find file for asset '/Game/StreetSceneLarge_ST_BuiltData' while loading C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_ST.umap.
+[2018.10.29-22.17.50:042][280]LogLinker: Warning: Can't find file '/Game/StreetSceneLarge_ST_BuiltData'
+[2018.10.29-22.17.50:042][280]LoadErrors: Failed to load /Game/StreetSceneLarge_ST_BuiltData.StreetSceneLarge_ST_BuiltData Referenced by PersistentLevel
+[2018.10.29-22.17.50:042][280]LogLinker: Warning: Can't find file for asset '/Game/StreetSceneLarge_ST_BuiltData' while loading NULL.
+[2018.10.29-22.17.50:272][280]LogAIModule: Creating AISystem for world StreetSceneLarge_ST
+[2018.10.29-22.17.50:308][280]LogAssetEditorManager: Opening Asset editor for World /Game/StreetSceneLarge_ST.StreetSceneLarge_ST
+[2018.10.29-22.17.53:628][280]LogSlate: Window 'Save Content' being destroyed
+[2018.10.29-22.17.54:015][280]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/13b4b68224d187a94620cba134de8b1c6766DEE34388360DB3485B957A4A8861.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/13b4b68224d187a94620cba134de8b1c.uasset'
+[2018.10.29-22.17.54:036][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert10SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert10SG.uasset" SILENT=true
+[2018.10.29-22.17.54:057][280]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert10SG1E5206A44F4E16F63152F8BC33BF297A.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert10SG.uasset'
+[2018.10.29-22.17.54:079][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert11SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert11SG.uasset" SILENT=true
+[2018.10.29-22.17.54:102][280]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert11SGC0BA564A4F1C6D93F577A790DAC9D88A.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert11SG.uasset'
+[2018.10.29-22.17.54:124][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert12SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert12SG.uasset" SILENT=true
+[2018.10.29-22.17.54:146][280]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert12SGABD96806421BF84535A95581602B9750.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert12SG.uasset'
+[2018.10.29-22.17.54:167][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert13SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert13SG.uasset" SILENT=true
+[2018.10.29-22.17.54:189][280]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert13SG281004E941FF76DC8B97C0B5DAED42C5.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert13SG.uasset'
+[2018.10.29-22.17.54:214][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert14SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert14SG.uasset" SILENT=true
+[2018.10.29-22.17.54:238][280]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert14SGCBCC86BA4DFB93B54B4765A3C6C204C4.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert14SG.uasset'
+[2018.10.29-22.17.54:259][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert15SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert15SG.uasset" SILENT=true
+[2018.10.29-22.17.54:280][280]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert15SG08B6618F4001306BE741C7B764694E21.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert15SG.uasset'
+[2018.10.29-22.17.54:303][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert16SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert16SG.uasset" SILENT=true
+[2018.10.29-22.17.54:324][280]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert16SG2FB35E09499F26332A10D9B307DF3B0A.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert16SG.uasset'
+[2018.10.29-22.17.54:347][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert18SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert18SG.uasset" SILENT=true
+[2018.10.29-22.17.54:368][280]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert18SG46C6D3D54E8EC33E541443A47DE26EE1.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert18SG.uasset'
+[2018.10.29-22.17.54:392][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert19SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert19SG.uasset" SILENT=true
+[2018.10.29-22.17.54:419][280]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert19SG6A2CB1894E0918BC4DF85F970365541F.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert19SG.uasset'
+[2018.10.29-22.17.54:440][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert20SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert20SG.uasset" SILENT=true
+[2018.10.29-22.17.54:463][280]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert20SG91E8CD7548EC7215CA1C7BA3652A8DD0.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert20SG.uasset'
+[2018.10.29-22.17.54:485][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert21SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert21SG.uasset" SILENT=true
+[2018.10.29-22.17.54:507][280]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert21SGED573445410FDA2EB405C298EB267048.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert21SG.uasset'
+[2018.10.29-22.17.54:530][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert22SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert22SG.uasset" SILENT=true
+[2018.10.29-22.17.54:552][280]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert22SG0F37E3C645ABC1D132B98B84C76018B7.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert22SG.uasset'
+[2018.10.29-22.17.54:573][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert4SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert4SG.uasset" SILENT=true
+[2018.10.29-22.17.54:596][280]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert4SG13BAFB754950E8BD0191D1B54110295D.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert4SG.uasset'
+[2018.10.29-22.17.54:619][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert5SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert5SG.uasset" SILENT=true
+[2018.10.29-22.17.54:641][280]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert5SG238CC9E14D0DF319EBB0C19892E0C072.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert5SG.uasset'
+[2018.10.29-22.17.54:664][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert9SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert9SG.uasset" SILENT=true
+[2018.10.29-22.17.54:685][280]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert9SG1C8CBD3F4EFEFA03B9A91E8B92ABBAFE.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/lambert9SG.uasset'
+[2018.10.29-22.17.54:690][280]Cmd: MAP LOAD FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_ST.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.29-22.17.54:691][280]LightingResults: New page: Lighting Build
+[2018.10.29-22.17.54:691][280]LoadErrors: New page: Loading map: StreetSceneLarge_ST.umap
+[2018.10.29-22.17.54:692][280]MapCheck: New page: Map Check
+[2018.10.29-22.17.54:692][280]LightingResults: New page: Lighting Build
+[2018.10.29-22.17.54:809][280]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.29-22.17.54:967][280]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.29-22.17.55:048][280]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 80.418ms to complete.
+[2018.10.29-22.17.55:051][280]LogFileHelpers: Loading map 'StreetSceneLarge_ST' took 0.362
+[2018.10.29-22.17.59:409][772]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase100)
+[2018.10.29-22.18.03:893][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.18.20:867][903]LogAIModule: Creating AISystem for world StreetSceneLarge_Lin_Pan
+[2018.10.29-22.18.23:125][ 13]LogAssetEditorManager: Opening Asset editor for World /Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan
+[2018.10.29-22.18.24:846][ 13]LogSlate: Window 'Save Content' being destroyed
+[2018.10.29-22.18.25:838][ 13]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_Lin_PanE755669748487B6E71F4AC9A586B855C.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_Lin_Pan.umap'
+[2018.10.29-22.18.25:863][ 13]LogFileHelpers: Saving map 'StreetSceneLarge_Lin_Pan' took 1.008
+[2018.10.29-22.18.25:867][ 13]Cmd: MAP LOAD FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_Lin_Pan.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.29-22.18.25:867][ 13]LightingResults: New page: Lighting Build
+[2018.10.29-22.18.25:868][ 13]LoadErrors: New page: Loading map: StreetSceneLarge_Lin_Pan.umap
+[2018.10.29-22.18.26:017][ 13]MapCheck: New page: Map Check
+[2018.10.29-22.18.26:017][ 13]LightingResults: New page: Lighting Build
+[2018.10.29-22.18.26:180][ 13]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.29-22.18.26:350][ 13]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.29-22.18.26:429][ 13]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.963ms to complete.
+[2018.10.29-22.18.26:430][ 13]LogFileHelpers: Loading map 'StreetSceneLarge_Lin_Pan' took 0.565
+[2018.10.29-22.18.28:069][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase171)
+[2018.10.29-22.18.29:252][257]Cmd: DELETE
+[2018.10.29-22.18.29:252][257]Cmd: ACTOR DELETE
+[2018.10.29-22.18.29:425][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:428][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:429][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:430][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:431][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:431][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:432][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:433][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:434][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:435][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:436][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:436][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:437][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:438][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:439][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:440][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:440][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:441][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:442][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:443][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:444][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:444][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:445][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:446][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:447][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:448][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:448][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:449][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:450][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:451][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:451][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:452][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:453][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:453][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:454][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:455][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:456][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:456][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:457][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:458][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:459][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:459][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:460][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:461][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:461][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:462][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:463][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:464][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:464][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:465][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:466][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:466][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:467][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:468][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:468][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:469][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:470][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:470][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:471][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:472][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:472][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:473][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:474][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:474][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:475][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:476][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:476][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:477][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:477][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:478][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:479][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:479][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:480][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:481][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:481][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:482][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:482][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:483][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:484][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:484][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:485][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:486][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:486][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:487][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:488][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:488][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:489][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:490][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:490][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:491][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:492][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:492][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:493][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:493][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:494][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:495][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:495][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:496][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:496][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:497][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:497][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:498][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:498][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:499][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:499][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:500][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:500][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:501][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:501][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:502][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:502][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:503][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:503][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:504][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:505][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:506][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:506][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:507][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:507][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:508][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:508][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:509][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:509][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:510][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:510][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:511][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:511][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:512][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:512][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:513][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:513][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:514][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:514][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:514][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:515][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:515][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:516][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:516][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:516][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:517][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:517][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:518][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:518][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:518][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:519][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:519][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:519][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:520][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:520][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:521][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:521][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:521][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:522][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:522][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:522][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:523][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:523][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:523][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:524][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:524][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:524][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:525][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:525][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:526][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:526][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:526][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:526][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:527][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:527][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:527][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:528][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:528][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:528][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:529][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:529][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:529][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:529][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:530][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:530][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:530][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:531][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:531][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:531][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:531][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:532][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:532][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:532][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:532][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:533][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:533][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:533][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:533][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:534][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:534][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:534][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:534][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:535][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:535][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:535][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:535][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:535][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:536][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:536][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:536][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:536][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:536][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:537][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:537][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:537][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:537][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:537][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:538][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:538][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:538][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:538][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:538][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:538][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:538][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:539][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:539][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:539][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:539][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:539][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:539][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:540][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:540][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:540][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:540][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:540][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:540][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:540][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:540][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:540][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:541][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:541][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:541][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:541][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:541][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:541][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:541][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:541][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:541][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:541][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:542][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:542][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:542][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:542][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:542][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:542][257]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.29:612][257]LogEditorActor: Deleted 249 Actors (0.360 secs)
+[2018.10.29-22.18.30:499][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PlaneCombined)
+[2018.10.29-22.18.31:040][393]Cmd: DELETE
+[2018.10.29-22.18.31:040][393]Cmd: ACTOR DELETE
+[2018.10.29-22.18.31:048][393]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.18.31:152][393]LogEditorActor: Deleted 1 Actors (0.111 secs)
+[2018.10.29-22.18.43:194][796]Cmd: EDIT PASTE
+[2018.10.29-22.19.05:938][978]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.29-22.19.07:655][139]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase118)
+[2018.10.29-22.19.15:246][555]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.29-22.19.15:803][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (streetBlockBase104)
+[2018.10.29-22.19.16:932][665]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (streetBlockBase105)
+[2018.10.29-22.19.17:005][665]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-22.19.24:640][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase126)
+[2018.10.29-22.19.26:082][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sideWalkBlock81)
+[2018.10.29-22.19.31:949][800]Cmd: DELETE
+[2018.10.29-22.19.31:949][800]Cmd: ACTOR DELETE
+[2018.10.29-22.19.31:963][800]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.32:089][800]LogEditorActor: Deleted 1 Actors (0.139 secs)
+[2018.10.29-22.19.32:719][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase180)
+[2018.10.29-22.19.33:394][934]Cmd: DELETE
+[2018.10.29-22.19.33:394][934]Cmd: ACTOR DELETE
+[2018.10.29-22.19.33:406][934]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.33:467][934]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2018.10.29-22.19.34:197][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase162)
+[2018.10.29-22.19.34:471][ 39]Cmd: DELETE
+[2018.10.29-22.19.34:471][ 39]Cmd: ACTOR DELETE
+[2018.10.29-22.19.34:483][ 39]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.34:561][ 39]LogEditorActor: Deleted 1 Actors (0.090 secs)
+[2018.10.29-22.19.34:993][ 89]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (streetBlockBase104)
+[2018.10.29-22.19.35:505][134]Cmd: DELETE
+[2018.10.29-22.19.35:505][134]Cmd: ACTOR DELETE
+[2018.10.29-22.19.35:517][134]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.35:640][134]LogEditorActor: Deleted 1 Actors (0.136 secs)
+[2018.10.29-22.19.36:220][201]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SidewalkCorner14)
+[2018.10.29-22.19.37:396][312]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.29-22.19.38:045][371]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SidewalkCorner14)
+[2018.10.29-22.19.38:331][391]Cmd: DELETE
+[2018.10.29-22.19.38:331][391]Cmd: ACTOR DELETE
+[2018.10.29-22.19.38:343][391]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.38:465][391]LogEditorActor: Deleted 1 Actors (0.134 secs)
+[2018.10.29-22.19.39:788][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sidewalkBlock77)
+[2018.10.29-22.19.40:060][567]Cmd: DELETE
+[2018.10.29-22.19.40:060][567]Cmd: ACTOR DELETE
+[2018.10.29-22.19.40:072][567]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.40:160][567]LogEditorActor: Deleted 1 Actors (0.100 secs)
+[2018.10.29-22.19.40:754][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sidewalkBlock75)
+[2018.10.29-22.19.40:878][641]Cmd: DELETE
+[2018.10.29-22.19.40:878][641]Cmd: ACTOR DELETE
+[2018.10.29-22.19.40:890][641]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.41:001][641]LogEditorActor: Deleted 1 Actors (0.123 secs)
+[2018.10.29-22.19.41:417][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase153)
+[2018.10.29-22.19.41:721][712]Cmd: DELETE
+[2018.10.29-22.19.41:721][712]Cmd: ACTOR DELETE
+[2018.10.29-22.19.41:733][712]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.41:839][712]LogEditorActor: Deleted 1 Actors (0.118 secs)
+[2018.10.29-22.19.42:434][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase144)
+[2018.10.29-22.19.42:618][791]Cmd: DELETE
+[2018.10.29-22.19.42:618][791]Cmd: ACTOR DELETE
+[2018.10.29-22.19.42:630][791]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.42:736][791]LogEditorActor: Deleted 1 Actors (0.117 secs)
+[2018.10.29-22.19.43:169][841]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sidewalkBlock73)
+[2018.10.29-22.19.43:356][852]Cmd: DELETE
+[2018.10.29-22.19.43:356][852]Cmd: ACTOR DELETE
+[2018.10.29-22.19.43:369][852]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.43:451][852]LogEditorActor: Deleted 1 Actors (0.095 secs)
+[2018.10.29-22.19.43:962][911]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sidewalkBlock71)
+[2018.10.29-22.19.44:191][927]Cmd: DELETE
+[2018.10.29-22.19.44:191][927]Cmd: ACTOR DELETE
+[2018.10.29-22.19.44:204][927]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.44:325][927]LogEditorActor: Deleted 1 Actors (0.133 secs)
+[2018.10.29-22.19.44:733][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase126)
+[2018.10.29-22.19.44:919][985]Cmd: DELETE
+[2018.10.29-22.19.44:919][985]Cmd: ACTOR DELETE
+[2018.10.29-22.19.44:930][985]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.44:999][985]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2018.10.29-22.19.45:524][ 46]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase135)
+[2018.10.29-22.19.45:751][ 61]Cmd: DELETE
+[2018.10.29-22.19.45:751][ 61]Cmd: ACTOR DELETE
+[2018.10.29-22.19.45:762][ 61]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.45:876][ 61]LogEditorActor: Deleted 1 Actors (0.125 secs)
+[2018.10.29-22.19.46:285][107]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sidewalkBlock69)
+[2018.10.29-22.19.46:503][121]Cmd: DELETE
+[2018.10.29-22.19.46:503][121]Cmd: ACTOR DELETE
+[2018.10.29-22.19.46:516][121]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.46:603][121]LogEditorActor: Deleted 1 Actors (0.099 secs)
+[2018.10.29-22.19.46:928][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sidewalkBlock67)
+[2018.10.29-22.19.47:079][167]Cmd: DELETE
+[2018.10.29-22.19.47:079][167]Cmd: ACTOR DELETE
+[2018.10.29-22.19.47:091][167]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.47:215][167]LogEditorActor: Deleted 1 Actors (0.136 secs)
+[2018.10.29-22.19.47:566][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase117)
+[2018.10.29-22.19.47:660][208]Cmd: DELETE
+[2018.10.29-22.19.47:660][208]Cmd: ACTOR DELETE
+[2018.10.29-22.19.47:672][208]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.47:771][208]LogEditorActor: Deleted 1 Actors (0.111 secs)
+[2018.10.29-22.19.48:153][252]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase102)
+[2018.10.29-22.19.48:317][261]Cmd: DELETE
+[2018.10.29-22.19.48:317][261]Cmd: ACTOR DELETE
+[2018.10.29-22.19.48:329][261]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.48:428][261]LogEditorActor: Deleted 1 Actors (0.111 secs)
+[2018.10.29-22.19.48:807][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sidewalkBlock59)
+[2018.10.29-22.19.48:964][312]Cmd: DELETE
+[2018.10.29-22.19.48:965][312]Cmd: ACTOR DELETE
+[2018.10.29-22.19.48:976][312]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.49:061][312]LogEditorActor: Deleted 1 Actors (0.097 secs)
+[2018.10.29-22.19.49:429][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sidewalkBlock46)
+[2018.10.29-22.19.49:641][368]Cmd: DELETE
+[2018.10.29-22.19.49:642][368]Cmd: ACTOR DELETE
+[2018.10.29-22.19.49:653][368]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.49:756][368]LogEditorActor: Deleted 1 Actors (0.114 secs)
+[2018.10.29-22.19.50:115][409]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase90)
+[2018.10.29-22.19.50:197][410]Cmd: DELETE
+[2018.10.29-22.19.50:197][410]Cmd: ACTOR DELETE
+[2018.10.29-22.19.50:210][410]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.19.50:298][410]LogEditorActor: Deleted 1 Actors (0.101 secs)
+[2018.10.29-22.19.51:354][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sideWalkBlock48)
+[2018.10.29-22.19.55:615][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase169)
+[2018.10.29-22.20.40:697][376]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.29-22.20.41:848][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sidewalkBlock74)
+[2018.10.29-22.20.43:582][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sidewalkBlock76)
+[2018.10.29-22.20.53:702][558]Cmd: EDIT COPY
+[2018.10.29-22.20.54:410][626]Cmd: EDIT PASTE
+[2018.10.29-22.20.59:350][100]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.29-22.21.00:449][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sidewalkBlock46)
+[2018.10.29-22.21.00:749][222]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.29-22.21.14:988][615]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.29-22.21.25:074][652]Cmd: DUPLICATE
+[2018.10.29-22.21.25:074][652]Cmd: ACTOR DUPLICATE
+[2018.10.29-22.21.37:982][992]Cmd: DELETE
+[2018.10.29-22.21.37:982][992]Cmd: ACTOR DELETE
+[2018.10.29-22.21.38:005][992]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2018.10.29-22.21.38:005][992]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.21.38:005][992]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.21.38:006][992]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.21.38:006][992]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.21.38:007][992]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.21.38:007][992]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.21.38:008][992]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.21.38:008][992]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.21.38:009][992]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.21.38:135][992]LogEditorActor: Deleted 10 Actors (0.152 secs)
+[2018.10.29-22.21.39:015][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sidewalkBlock77)
+[2018.10.29-22.21.41:869][360]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.29-22.21.42:914][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sidewalkBlock77)
+[2018.10.29-22.23.00:499][ 83]Cmd: TRANSACTION UNDO
+[2018.10.29-22.23.00:499][ 83]LogEditorTransaction: Undo Move Actors
+[2018.10.29-22.23.00:589][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase92_38.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:590][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase104_53.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:591][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase47_13.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:592][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sidewalkBlock59_190.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:593][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase66_34.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:594][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sideWalkBlock2_22.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:595][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sideWalkBlock48_24.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:596][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase175_149.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:598][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase88_98.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:598][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase129.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:611][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase136_102.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:612][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase82_76.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:614][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase86_91.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:615][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase120_83.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:615][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase76_63.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:615][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sidewalkBlock72_105.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:616][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase149.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:617][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase91_106.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:618][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase96_117.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:619][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase182_161.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:622][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sideWalkBlock85_173.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:622][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.SidewalkCorner18.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:623][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase189_168.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:623][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase103_154.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:623][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase68_42.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:624][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase81_71.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:625][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase56_20.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:626][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase58_25.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:627][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase178_152.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:629][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase163_134.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:630][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase98_130.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.00:630][ 83]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase169_140.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.06:712][674]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (GroundBase110)
+[2018.10.29-22.23.06:765][674]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-22.23.11:448][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase139)
+[2018.10.29-22.23.17:599][732]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.29-22.23.18:380][803]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.29-22.23.21:307][110]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.29-22.23.24:421][439]Cmd: TRANSACTION UNDO
+[2018.10.29-22.23.24:421][439]LogEditorTransaction: Undo Move Actors
+[2018.10.29-22.23.24:513][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase46_12.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:516][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sidewalkBlock61_60.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:517][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase108_61.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:517][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase70_47.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:518][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase60_27.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:519][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase48_15.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:521][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.SidewalkCorner10_8.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:523][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase133_96.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:525][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase62_29.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:525][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase88_98.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:526][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sidewalkBlock70.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:527][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase141.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:528][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase83_77.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:531][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sidewalkBlock69_192.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:531][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase120_83.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:532][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase123_86.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:533][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sideWalkBlock87_175.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:535][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.SidewalkCorner15_180.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:536][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase91_106.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:537][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sidewalkBlock72_105.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:538][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sidewalkBlock92.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:538][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase171_146.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:540][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase184_163.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:542][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sidewalkBlock77_196.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:545][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase164_135.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:546][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase68_42.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:546][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase81_71.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:547][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase156_122.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:548][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase154_120.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:549][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase152_113.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.24:549][439]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase170_141.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.23.26:312][612]Cmd: TRANSACTION UNDO
+[2018.10.29-22.23.26:312][612]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.29-22.23.29:419][928]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.23.44:747][529]LogEditorViewport: Clicking Background
+[2018.10.29-22.23.45:892][653]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.29-22.24.04:956][665]Cmd: TRANSACTION UNDO
+[2018.10.29-22.24.04:956][665]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.29-22.24.05:226][678]Cmd: TRANSACTION UNDO
+[2018.10.29-22.24.05:226][678]LogEditorTransaction: Undo Clicking Background
+[2018.10.29-22.24.05:951][735]Cmd: TRANSACTION UNDO
+[2018.10.29-22.24.05:951][735]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.29-22.24.06:360][777]Cmd: TRANSACTION UNDO
+[2018.10.29-22.24.06:360][777]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.29-22.24.07:317][880]Cmd: TRANSACTION UNDO
+[2018.10.29-22.24.07:317][880]LogEditorTransaction: Undo Regroup Ctrl+G
+[2018.10.29-22.24.07:412][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase92_38.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:413][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sidewalkBlock45_10.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:414][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sidewalkBlock63_66.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:415][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sidewalkBlock58_46.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:417][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase60_27.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:421][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockIntersect5_6.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:421][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.SidewalkCorner10_8.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:422][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase143_104.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:423][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase134_97.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:424][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase128.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:425][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase89_99.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:428][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase82_76.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:431][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase124_87.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:432][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase125_88.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:434][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sideWalkBlock84_172.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:434][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sideWalkBlock87_175.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:435][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase149.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:437][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sidewalkBlock86_174.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:437][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sidewalkBlock93.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:438][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sidewalkBlock91.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:440][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase187_166.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:442][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockIntersect3_4.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:443][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockIntersect4_5.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:444][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sidewalkBlock76_128.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:445][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase44_3.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:445][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.streetBlockBase62_29.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:447][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase156_122.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:451][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.sidewalkBlock97.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.07:451][880]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase170_141.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.24.09:218][ 67]Cmd: TRANSACTION UNDO
+[2018.10.29-22.24.09:218][ 67]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2018.10.29-22.24.11:171][273]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.29-22.24.12:623][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.24.13:181][477]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.29-22.24.18:788][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (streetBlockBase105)
+[2018.10.29-22.24.27:979][959]Cmd: DELETE
+[2018.10.29-22.24.27:979][959]Cmd: ACTOR DELETE
+[2018.10.29-22.24.27:998][959]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2018.10.29-22.24.27:998][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.24.27:999][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.24.27:999][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.24.27:999][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.24.28:113][959]LogEditorActor: Deleted 5 Actors (0.133 secs)
+[2018.10.29-22.24.57:321][392]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (GroundBase138)
+[2018.10.29-22.24.57:373][392]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-22.25.02:314][670]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.29-22.25.09:424][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (streetBlockBase42)
+[2018.10.29-22.25.09:464][ 90]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.10.29-22.25.10:766][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sidewalkBlock75)
+[2018.10.29-22.25.11:560][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (streetBlockBase42)
+[2018.10.29-22.25.14:116][471]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (GroundBase145)
+[2018.10.29-22.25.14:168][471]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-22.25.17:251][640]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (sidewalkBlock70)
+[2018.10.29-22.25.17:302][640]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-22.25.19:759][772]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase140)
+[2018.10.29-22.25.22:344][921]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (GroundBase156)
+[2018.10.29-22.25.22:397][921]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-22.25.23:171][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (streetBlockBase97)
+[2018.10.29-22.25.23:725][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (streetBlockBase42)
+[2018.10.29-22.25.28:354][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SidewalkCorner8)
+[2018.10.29-22.25.33:957][965]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (sidewalkBlock76)
+[2018.10.29-22.25.34:007][965]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-22.25.38:155][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (streetBlockBase91)
+[2018.10.29-22.25.38:741][202]LogEditorViewport: Clicking Background
+[2018.10.29-22.25.39:350][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase164)
+[2018.10.29-22.25.43:033][471]LogEditorViewport: Clicking Background
+[2018.10.29-22.25.49:152][990]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.25.50:440][129]LogActorFactory: Actor Factory created truck_final
+[2018.10.29-22.25.51:027][198]LogActorFactory: Actor Factory created truck_final
+[2018.10.29-22.25.57:330][870]LogSlate: Took 0.020078 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.29-22.26.10:896][402]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.26.22:210][463]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.26.25:385][784]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (truck_final)
+[2018.10.29-22.26.35:432][908]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.26.40:855][390]LogEditorViewport: Clicking Background
+[2018.10.29-22.26.48:852][330]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.27.00:548][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/13b4b68224d187a94620cba134de8b1cFE8F6FBC42839DAA810E169D38ABB05B.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/13b4b68224d187a94620cba134de8b1c.uasset'
+[2018.10.29-22.27.00:578][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lin_Pan_content/lambert10SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert10SG.uasset" SILENT=true
+[2018.10.29-22.27.00:600][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert10SG89F535FB4CF28CBBAFEC51982580691C.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert10SG.uasset'
+[2018.10.29-22.27.00:626][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lin_Pan_content/lambert11SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert11SG.uasset" SILENT=true
+[2018.10.29-22.27.00:650][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert11SG4714F5DF4B65DB5B636867980E72A2C0.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert11SG.uasset'
+[2018.10.29-22.27.00:675][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lin_Pan_content/lambert12SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert12SG.uasset" SILENT=true
+[2018.10.29-22.27.00:698][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert12SG99AAC3ED4D4292F695ADC99F14197C82.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert12SG.uasset'
+[2018.10.29-22.27.00:723][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lin_Pan_content/lambert13SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert13SG.uasset" SILENT=true
+[2018.10.29-22.27.00:745][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert13SGC56DBDF1406FB4054670D1BDE3CF955C.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert13SG.uasset'
+[2018.10.29-22.27.00:770][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lin_Pan_content/lambert14SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert14SG.uasset" SILENT=true
+[2018.10.29-22.27.00:792][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert14SG3F9D29044C3E55EA2DD3999E6DD7C926.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert14SG.uasset'
+[2018.10.29-22.27.00:818][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lin_Pan_content/lambert15SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert15SG.uasset" SILENT=true
+[2018.10.29-22.27.00:840][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert15SG50628E484DB093878071118603BDCA0A.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert15SG.uasset'
+[2018.10.29-22.27.00:865][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lin_Pan_content/lambert16SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert16SG.uasset" SILENT=true
+[2018.10.29-22.27.00:887][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert16SGB217318745878F048E83E483A1C1BBF5.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert16SG.uasset'
+[2018.10.29-22.27.00:913][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lin_Pan_content/lambert18SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert18SG.uasset" SILENT=true
+[2018.10.29-22.27.00:935][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert18SG3F48E65C46FBFED362CEEBA2D767C107.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert18SG.uasset'
+[2018.10.29-22.27.00:960][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lin_Pan_content/lambert19SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert19SG.uasset" SILENT=true
+[2018.10.29-22.27.00:982][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert19SGC4D9A3DE4958A3415C0843980B36DA5A.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert19SG.uasset'
+[2018.10.29-22.27.01:007][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lin_Pan_content/lambert20SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert20SG.uasset" SILENT=true
+[2018.10.29-22.27.01:034][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert20SG5EF4DA8B4E093205652381BCE3ABA9B7.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert20SG.uasset'
+[2018.10.29-22.27.01:060][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lin_Pan_content/lambert21SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert21SG.uasset" SILENT=true
+[2018.10.29-22.27.01:083][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert21SG4E274503402302447D6E73B0B00EEFDE.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert21SG.uasset'
+[2018.10.29-22.27.01:109][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lin_Pan_content/lambert22SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert22SG.uasset" SILENT=true
+[2018.10.29-22.27.01:132][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert22SG1B2C7752400C062FECB81BADFC0ACBE0.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert22SG.uasset'
+[2018.10.29-22.27.01:157][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lin_Pan_content/lambert4SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert4SG.uasset" SILENT=true
+[2018.10.29-22.27.01:180][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert4SGD3E4ABD64AA99B6AAF3092A877715BFE.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert4SG.uasset'
+[2018.10.29-22.27.01:205][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lin_Pan_content/lambert5SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert5SG.uasset" SILENT=true
+[2018.10.29-22.27.01:229][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert5SG1C914D99430951117B530C8CB4C2E3A7.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert5SG.uasset'
+[2018.10.29-22.27.01:255][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lin_Pan_content/lambert9SG" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert9SG.uasset" SILENT=true
+[2018.10.29-22.27.01:279][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/lambert9SGFFC8534A4CCBA5A4168715914CA29210.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/lambert9SG.uasset'
+[2018.10.29-22.27.04:293][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lin_Pan_content/truck_final" FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/truck_final.uasset" SILENT=true
+[2018.10.29-22.27.04:341][473]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/truck_final9D7A25434DD3C7644917E3A4AD1B0266.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/Lin_Pan_content/truck_final.uasset'
+[2018.10.29-22.27.39:474][279]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-22.28.06:535][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.28.07:013][ 83]LogAIModule: Creating AISystem for world StreetSceneLarge_JJ
+[2018.10.29-22.28.07:025][ 83]LogAssetEditorManager: Opening Asset editor for World /Game/StreetSceneLarge_JJ.StreetSceneLarge_JJ
+[2018.10.29-22.28.08:232][ 83]LogSlate: Window 'Save Content' being destroyed
+[2018.10.29-22.28.09:035][ 83]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_Lin_Pan7F965B9449ED9ACC483871BD705AE34E.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_Lin_Pan.umap'
+[2018.10.29-22.28.09:091][ 83]LogFileHelpers: Saving map 'StreetSceneLarge_Lin_Pan' took 0.852
+[2018.10.29-22.28.09:093][ 83]Cmd: MAP LOAD FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_JJ.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.29-22.28.09:093][ 83]LightingResults: New page: Lighting Build
+[2018.10.29-22.28.09:093][ 83]LoadErrors: New page: Loading map: StreetSceneLarge_JJ.umap
+[2018.10.29-22.28.09:098][ 83]MapCheck: New page: Map Check
+[2018.10.29-22.28.09:098][ 83]LightingResults: New page: Lighting Build
+[2018.10.29-22.28.09:222][ 83]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.29-22.28.09:384][ 83]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.29-22.28.09:469][ 83]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 85.192ms to complete.
+[2018.10.29-22.28.09:471][ 83]LogFileHelpers: Loading map 'StreetSceneLarge_JJ' took 0.380
+[2018.10.29-22.28.18:782][160]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.28.19:173][176]LogAIModule: Creating AISystem for world StreetSceneLarge_Lin_Pan
+[2018.10.29-22.28.19:189][176]LogAssetEditorManager: Opening Asset editor for World /Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan
+[2018.10.29-22.28.19:279][176]Cmd: MAP LOAD FILE="C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_Lin_Pan.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.29-22.28.19:279][176]LightingResults: New page: Lighting Build
+[2018.10.29-22.28.19:280][176]LoadErrors: New page: Loading map: StreetSceneLarge_Lin_Pan.umap
+[2018.10.29-22.28.19:282][176]MapCheck: New page: Map Check
+[2018.10.29-22.28.19:283][176]LightingResults: New page: Lighting Build
+[2018.10.29-22.28.19:440][176]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.29-22.28.19:607][176]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.29-22.28.19:691][176]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.394ms to complete.
+[2018.10.29-22.28.19:693][176]LogFileHelpers: Loading map 'StreetSceneLarge_Lin_Pan' took 0.415
+[2018.10.29-22.29.57:744][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SidewalkCorner10)
+[2018.10.29-22.29.59:749][982]LogEditorViewport: Clicking Background
+[2018.10.29-22.30.17:294][788]Cmd: EDIT COPY
+[2018.10.29-22.30.22:151][286]Cmd: EDIT COPY
+[2018.10.29-22.30.23:045][376]Cmd: EDIT PASTE
+[2018.10.29-22.30.28:137][883]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (sidewalkBlock51)
+[2018.10.29-22.30.28:190][883]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-22.30.29:538][ 30]LogEditorViewport: Clicking Background
+[2018.10.29-22.30.43:344][459]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.30.46:908][814]LogEditorViewport: Clicking Background
+[2018.10.29-22.30.47:897][930]Cmd: TRANSACTION UNDO
+[2018.10.29-22.30.47:897][930]LogEditorTransaction: Undo Clicking Background
+[2018.10.29-22.30.48:281][954]Cmd: TRANSACTION UNDO
+[2018.10.29-22.30.48:281][954]LogEditorTransaction: Undo Set Rotation
+[2018.10.29-22.30.49:139][ 36]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (streetBlockBase48)
+[2018.10.29-22.30.49:192][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-22.30.53:498][446]LogEditorViewport: Clicking Background
+[2018.10.29-22.30.54:020][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase101)
+[2018.10.29-22.30.55:027][598]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.30.59:427][ 39]LogEditorViewport: Clicking Background
+[2018.10.29-22.30.59:785][ 79]Cmd: TRANSACTION UNDO
+[2018.10.29-22.30.59:785][ 79]LogEditorTransaction: Undo Clicking Background
+[2018.10.29-22.31.00:090][ 96]Cmd: TRANSACTION UNDO
+[2018.10.29-22.31.00:090][ 96]LogEditorTransaction: Undo Set Rotation
+[2018.10.29-22.31.05:159][598]Cmd: TRANSACTION UNDO
+[2018.10.29-22.31.05:159][598]LogEditorTransaction: Undo Rotate Actors
+[2018.10.29-22.31.05:172][598]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroundBase98.StaticMeshComponent0) Component already registered.
+[2018.10.29-22.31.05:173][598]LogActorComponent: ~FComponentReregisterContext: (/Game/StreetSceneLarge_Lin_Pan.StreetSceneLarge_Lin_Pan:PersistentLevel.GroupActor_0.GroupComponent) Component already registered.
+[2018.10.29-22.31.21:759][254]LogEditorViewport: Clicking Background
+[2018.10.29-22.31.23:043][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase101)
+[2018.10.29-22.31.26:353][720]LogEditorViewport: Clicking Background
+[2018.10.29-22.31.30:457][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sideWalkBlock62)
+[2018.10.29-22.31.42:158][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (streetBlockBase001)
+[2018.10.29-22.31.46:359][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SidewalkCorner2)
+[2018.10.29-22.31.49:553][ 40]Cmd: EDIT COPY
+[2018.10.29-22.31.49:892][ 77]Cmd: EDIT PASTE
+[2018.10.29-22.32.05:138][717]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.29-22.32.15:717][872]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.29-22.32.32:835][717]LogEditorViewport: Clicking Background
+[2018.10.29-22.32.33:399][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sideWalkBlock64)
+[2018.10.29-22.32.37:315][197]Cmd: DELETE
+[2018.10.29-22.32.37:315][197]Cmd: ACTOR DELETE
+[2018.10.29-22.32.37:329][197]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.29-22.32.37:449][197]LogEditorActor: Deleted 1 Actors (0.134 secs)
+[2018.10.29-22.32.40:478][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (streetBlockBase36)
+[2018.10.29-22.32.46:113][144]Cmd: EDIT COPY
+[2018.10.29-22.32.46:542][192]Cmd: EDIT PASTE
+[2018.10.29-22.32.56:726][286]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.29-22.33.07:747][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (streetBlockIntersect3)
+[2018.10.29-22.33.15:490][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase109)
+[2018.10.29-22.33.39:529][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (streetBlockBase49)
+[2018.10.29-22.33.39:713][447]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.29-22.33.48:734][415]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase109)
+[2018.10.29-22.33.53:720][919]LogEditorViewport: Clicking Background
+[2018.10.29-22.34.00:064][602]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (GroundBase103)
+[2018.10.29-22.34.00:119][602]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-22.34.04:002][791]LogEditorViewport: Clicking Background
+[2018.10.29-22.34.06:467][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (truck_final)
+[2018.10.29-22.35.03:564][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase107)
+[2018.10.29-22.35.05:055][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GroundBase003)
+[2018.10.29-22.35.06:088][387]LogEditorViewport: Clicking Background
+[2018.10.29-22.35.08:363][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-22.35.09:268][659]LogSavePackage: Moving 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Saved/StreetSceneLarge_Lin_Pan193E6144468D74F48080F8B6AD0B0C91.tmp' to 'C:/Users/lpan1/OneDrive/文档/GitHub/AssetPipeMaster02/APsec1LargeCityBase/Content/StreetSceneLarge_Lin_Pan.umap'
